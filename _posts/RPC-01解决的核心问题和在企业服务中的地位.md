@@ -1,6 +1,7 @@
 ---
 title: RPC_01.解决的核心问题和在企业服务中的地位
 date: 2018-09-03 16:10:42
+categories: RPC
 tags: RPC
 cover_img:
 feature_img:
@@ -8,7 +9,7 @@ description: RPC (Remote Procedure Call)即远程过程调用，是分布式系�
 keywords: RPC
 ---
 
-转载自: 掘金，深入理解RPC: [基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004/section/5af56a3c5188254267261e03)
+> 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)
 
 ### RPC问题
 随着企业 IT 服务的不断发展，单台服务器逐渐无法承受用户日益增长的请求压力时，就需要多台服务器联合起来构成「服务集群」共同对外提供服务。同时业务服务会随着产品需求的增多越来越肿，架构上必须进行服务拆分，一个完整的大型服务会被打散成很多很多独立的小服务，每个小服务会由独立的进程去管理来对外提供服务，这就是「微服务」。

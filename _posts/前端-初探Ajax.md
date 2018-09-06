@@ -1,6 +1,7 @@
 title: 初探Ajax
 date: 2016-04-16 12:01:27
-tags: AJAX
+categories: 前端
+tags: Ajax
 
 ---
 
