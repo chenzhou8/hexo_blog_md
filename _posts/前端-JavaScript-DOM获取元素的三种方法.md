@@ -1,7 +1,7 @@
 title: JavaScript DOM获取元素的三种方法
 date: 2016-02-01 18:29
 categories: 前端
-tags: Javascript
+tags: JavaScript
 
 ---
 

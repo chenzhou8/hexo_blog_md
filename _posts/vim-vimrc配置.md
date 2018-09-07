@@ -1,7 +1,7 @@
 title: 我的vim配置(.vimrc)
 date: 2016-05-15 12:45:33
 categories: vim
-tags: vim配置
+tags: vim
 
 ---
 

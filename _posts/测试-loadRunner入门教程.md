@@ -1,7 +1,7 @@
 title: loadRunner入门教程
 date: 2016-05-31 20:59:13
 categoriges: 软件测试
-tags: loadRunner
+tags: LoadRunner
 ---
 
 测试环境： Windows 7 使用前请关闭电脑管家、安全卫士等安全软件

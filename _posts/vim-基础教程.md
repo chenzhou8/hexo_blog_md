@@ -1,7 +1,7 @@
 title: vim教程-基础
 date: 2017-05-19 06:55:45
 categories: vim
-tags: vim-教程
+tags: vim
 ---
 
 ### 1. 简介
