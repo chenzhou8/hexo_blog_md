@@ -1,7 +1,8 @@
 ---
 title: leetcode-239.滑动窗口最大值 
 date: 2017-06-23 10:07:37
-tags: 堆
+tags: leetcode
+categories: leetcode
 ---
 
 # 描述

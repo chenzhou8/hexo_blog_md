@@ -1,7 +1,7 @@
 title: Linux-sed命令
 date: 2017-06-06 22:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ## 语法

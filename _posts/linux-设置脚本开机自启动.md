@@ -1,7 +1,8 @@
 ---
 title: Linux-设置脚本开机自启动
 date: 2018-08-16 20:09:14
-tags:
+tags: Linux
+categories: Linux
 ---
 
 ### 设置自启动

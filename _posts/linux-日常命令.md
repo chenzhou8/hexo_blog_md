@@ -1,7 +1,8 @@
 ---
 title: linux-日常命令
 date: 2018-04-23 23:03:50
-tags: linux
+tags: Linux
+categories: Linux
 ---
 
 ### tree

@@ -1,7 +1,8 @@
 ---
 title: mysql-联合索引的命中规则
 date: 2018-08-10 11:23:37
-tags: mysql
+tags: MySql
+categories: MySql
 ---
 
 ## 联合索引优点

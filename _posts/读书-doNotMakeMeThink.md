@@ -1,7 +1,7 @@
-title: 《Ｄon't make me think》－读书笔记
+title: 《Don't make me think》－读书笔记
 date: 2015-12-07 23:10:08
 categories: 读书笔记
-tags: [网站设计, 转载]
+tags: 经验
 
 ---
 

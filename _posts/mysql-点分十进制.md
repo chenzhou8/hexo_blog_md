@@ -1,7 +1,7 @@
 title: mysql-点分十进制
 date: 2017-02-19 14:37:12
-categories: MySQL 
-tags: MySQL
+categories: MySql
+tags: MySql
 
 ---
 

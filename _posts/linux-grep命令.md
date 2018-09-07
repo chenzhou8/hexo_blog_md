@@ -1,7 +1,7 @@
 title: Linux-grep命令
 date: 2017-07-16 22:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ## 语法

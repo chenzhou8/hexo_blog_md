@@ -2,6 +2,7 @@
 title: linux-上传公钥至服务器实现免密码登录
 date: 2018-08-06 11:14:41
 tags: Linux
+categories: Linux
 ---
 
 # 在客户端生成秘钥

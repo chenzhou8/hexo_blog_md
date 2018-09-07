@@ -1,7 +1,7 @@
 title: Linux-杀死进程
 date: 2016-07-06 22:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ### 用ps命令查看进程

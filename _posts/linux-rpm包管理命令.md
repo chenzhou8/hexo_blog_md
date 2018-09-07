@@ -1,7 +1,7 @@
 title: Linux-rpm包管理命令
 date: 2017-06-16 22:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ## 简介

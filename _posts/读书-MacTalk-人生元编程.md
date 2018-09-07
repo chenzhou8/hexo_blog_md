@@ -1,7 +1,7 @@
 title: 《MacTalk——人生元编程》-读书笔记
 date: 2015-12-02 17:32:08
 categories: 读书笔记
-tags: [随笔文集]
+tags: 随笔文集
 
 ---
 

@@ -1,7 +1,7 @@
 title: Linux-awk命令
 date: 2017-07-29 14:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ## 简介

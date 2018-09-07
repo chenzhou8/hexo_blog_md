@@ -1,7 +1,7 @@
 title: Linux-ifconfig命令
 date: 2017-05-26 22:06:39
-categories: linux
-tags: linux
+categories: Linux
+tags: Linux
 ---
 
 ## Linux系统的网络配置基本

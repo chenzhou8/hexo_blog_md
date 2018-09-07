@@ -1,7 +1,7 @@
-title: MySQL学习1-linux下基本操作
+title: mysql-linux下基本操作
 date: 2016-07-13 00:08:18
-categories: MySQL
-tags: MySQL
+categories: MySql
+tags: MySql
 ---
 
 ### 打开终端，进入root
