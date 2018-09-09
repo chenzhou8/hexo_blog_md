@@ -1,7 +1,9 @@
 ---
 title: leetcode-各位数加法，求个位数
 date: 2018-07-09 11:30:15
-tags: 数据结构、算法
+tags: leetcode
+categories: leetcode
+description: 把一个数的各个位相加，结果得到的数在相加，如此反复，直到结果为一位数。 求这个一位数是多少
 ---
 
 

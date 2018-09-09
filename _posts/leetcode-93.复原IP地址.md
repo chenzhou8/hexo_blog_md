@@ -1,7 +1,9 @@
 ---
 title: leetcode-复原IP地址
 date: 2018-07-09 11:26:14
-tags: 字符串, 回溯
+tags: leetcode
+categories: leetcode
+description: 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
 ---
 
 # 题目
