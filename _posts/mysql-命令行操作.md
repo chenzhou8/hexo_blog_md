@@ -1,7 +1,7 @@
 title: mysql-linux下基本操作
 date: 2016-07-13 00:08:18
-categories: MySql
-tags: MySql
+categories: MySQL
+tags: MySQL
 ---
 
 ### 打开终端，进入root

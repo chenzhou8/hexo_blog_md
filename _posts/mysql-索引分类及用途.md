@@ -1,8 +1,8 @@
 ---
 title: mysql-索引分类及用途
 date: 2018-08-10 11:47:57
-tags: MySql
-categories: MySql
+tags: MySQL
+categories: MySQL
 ---
 
 ## 索引分类

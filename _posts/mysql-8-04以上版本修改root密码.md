@@ -1,8 +1,8 @@
 ---
 title: mysql-8.04以上版本修改root密码
 date: 2018-08-08 12:16:24
-tags: MySql
-categories: MySql
+tags: MySQL
+categories: MySQL
 ---
 
 # 忘记root密码

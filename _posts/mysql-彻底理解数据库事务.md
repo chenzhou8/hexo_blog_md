@@ -1,12 +1,12 @@
 ---
 title: mysql-彻底理解数据库事务
 date: 2018-09-09 18:26:41
-tags: MySql
+tags: MySQL
 cover_img:
 feature_img:
 description: 事务(Transaction)，一般是指要做的或所做的事情。在计算机术语中是指访问并可能更新数据库中各种数据项的一个程序执行单元(unit)。在计算机术语中，事务通常就是指数据库事务。
-keywords: MySql
-categories: MySql
+keywords: MySQL
+categories: MySQL
 ---
 
 > 转载自: Hollis，[彻底理解数据库事务](http://www.hollischuang.com/archives/898)
