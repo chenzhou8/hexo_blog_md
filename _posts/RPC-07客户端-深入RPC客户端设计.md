@@ -53,7 +53,7 @@ RPC 客户端实现起来要比服务器简单，所以我们先讲客户端的�
 
 > 1. 永不超时，等不到就接着等，这可能不是一种好的选择。
 > 2. 一定的时间拿不到后，就向外部跑出超时异常，中断业务逻辑。
-> 3. 如果发现连接池没有空闲连接，就去申请一个新的连接给调用方。调用方归还连接的时候，连接池计算当前缓存的连接数量，如果超过了最大空闲连接数，就将当前归还的连接直接销毁。也就是即用即走。...
+> 3. 如果发现连接池没有空闲连接，就去申请一个新的连接给调用方。调用方归还连接的时候，连接池计算当前缓存的连接数量，如果超过了最大空闲连接数，就将当前归还的连接直接销毁。也就是即用即走。
 
 ### 性能追踪
 好的连接池还应该考虑到性能的可追踪性，当用户通过线程池分配的连接去访问数据库时，它的消息执行时间应该是可以被追踪被统计的。所以往往连接池还需要对原生的连接进行一定程度的包装，在关键的函数调用前后增加性能统计代码。并对外提供监听接口，以便将统计信息传递给外部监控模块。
@@ -72,10 +72,39 @@ HTTP1.x 协议是基于一问一答形式的，到了 HTTP2.0 就具备了多路
 当客户端长期空闲时，服务器往往会自动关闭连接已减轻资源消耗。当客户端再次请求时，就会遇到连接已断开的错误。为了避免这种错误，一般有两种方法，一种是通过请求遇到连接错误时进行重连重试，另一种就是通过心跳方式告知服务器不要关闭连接。
 
 ### 小结
-客户端的设计原理我们就讲到这里，读者们也许都开始感到不耐烦了，枯燥透了，眼皮子都要打架了。...
+客户端的设计原理我们就讲到这里，读者们也许都开始感到不耐烦了，枯燥透了，眼皮子都要打架了。
 不捉急，激动人心的时刻马上就要到来，前方高能预警，会突然冒出大量代码实现，读者们，准备迎接挑战吧。
 
 ### 作业
-读者们还是去阅读一下 redis-py 的源代码吧，看看它的连接池是如何实现的。
+读者们还是去阅读一下 [redis-py](https://github.com/andymccurdy/redis-py) 的源代码吧，看看它的连接池是如何实现的。
 
+### 解答
+redis-py的从连接池获取连接: <code>pool.get_connection(command_name, **options)</code>
+```
+def get_connection(self, command_name, *keys, **options):
+        "Get a connection from the pool"
+        self._checkpid()
+        try:
+            connection = self._available_connections.pop()
+        except IndexError:
+            connection = self.make_connection()
+        self._in_use_connections.add(connection)
+        return connection
+```
+
+如果连接池中有可用连接，直接pop出一个连接，如果连接池为空，则创建一条连接池（值得一提的是整个连接池在初始化的时候可用连接池是一个空列表，所以在第一次调用该方法时才会有真正的连接）
+
+
+再看命令执行完成释放连接: <code>pool.release(connection)</code>
+```
+ def release(self, connection):
+        "Releases the connection back to the pool"
+        self._checkpid()
+        if connection.pid != self.pid:
+            return
+        self._in_use_connections.remove(connection)
+        self._available_connections.append(connection)
+```
+
+将在用连接从在用连接池中移除，但是连接不销毁，直接添加在可用连接池中...
 
