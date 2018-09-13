@@ -1,5 +1,5 @@
 ---
-title: RPC-08【单线程同步】模型
+title: RPC-08单线程同步模型
 date: 2018-09-13 10:50:06
 tags: RPC
 cover_img:
