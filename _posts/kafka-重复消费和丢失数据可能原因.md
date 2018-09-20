@@ -1,12 +1,12 @@
 ---
 title: kafka-重复消费和丢失数据可能原因
 date: 2018-09-14 17:43:39
-tags: 消息队列
+tags: Kafka
 cover_img:
 feature_img:
 description: Kafka重复消费和丢失数据研究
 keywords: kafka
-categories: 消息队列
+categories: Kafka
 ---
 
 > 转载自: CSDN，[Kafka重复消费和丢失数据研究](https://blog.csdn.net/zollty/article/details/53958641)

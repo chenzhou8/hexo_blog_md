@@ -1,7 +1,7 @@
 ---
 title: Tornado-异步原理详析
 date: 2018-09-12 12:32:34
-tags: Tronado
+tags: Tornado
 cover_img:
 feature_img:
 description: Tornado是一个用Python编写的异步HTTP服务器，同时也是一个web开发框架。 Tornado 优秀的大并发处理能力得益于它的 web server 从底层开始就自己实现了一整套基于 epoll 的单线程异步架构。
