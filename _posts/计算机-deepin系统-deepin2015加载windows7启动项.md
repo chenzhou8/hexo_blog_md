@@ -1,6 +1,7 @@
 title: deepin 2015加载windows 7启动项
 date: 2016-05-09 19:50:04
-tags: Linux
+tags: 操作系统
+categories: 操作系统
 ---
 
 ### 安装deepin 2015后无法加载出windows 7启动项解决方法
