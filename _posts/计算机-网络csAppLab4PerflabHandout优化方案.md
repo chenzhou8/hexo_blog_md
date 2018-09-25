@@ -1,7 +1,7 @@
 title: CSAPP-LAB4-perflab-handout优化方案
 date: 2015-11-30 19:37
-categories: OS
-tags: OS
+categories: 操作系统
+tags: 操作系统
 
 ---
 
