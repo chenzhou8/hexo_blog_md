@@ -47,7 +47,7 @@ except Exception as e:
 
 理论上记录offset，下一个group consumer可以接着记录的offset位置继续消费。
 
-#### offset记录方案：
+#### offset记录方案
 
 每次消费时更新每个topic+partition位置的offset在内存中， <code>Map<key, value>，key=topic+'-'+partition，value=offset</code>
 
@@ -57,7 +57,7 @@ except Exception as e:
 
 然后使用consumer.seek()方法指定到上次的offset位置。
 
-#### 说明：
+#### 说明
 
 1、该方案针对单台服务器比较简单，直接把offset记录到本地文件中即可，但是对于多台服务器集群，offset也要记录到同一个地方，并且需要做去重处理。
 如果线上程序是由多台服务器组成的集群，是否可以用一台服务器来支撑？应该可以，只是消费慢一点，没多大影响。
