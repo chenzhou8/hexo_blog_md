@@ -1,7 +1,8 @@
 ---
 title: leetcode-四数之和1
 date: 2018-07-06 08:05:31
-tags:
+tags: leetcode
+categories: leetcode
 ---
 
 # 题目描述
