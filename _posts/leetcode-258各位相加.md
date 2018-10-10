@@ -1,38 +1,35 @@
----
-title: leetcode-258各位数相加
-date: 2018-07-09 11:30:15
-tags: leetcode
+title: leetcode-258各位相加
+date: 2017-03-25 21:37:54
 categories: leetcode
-description: 把一个数的各个位相加，结果得到的数在相加，如此反复，直到结果为一位数。 求这个一位数是多少
+tags: leetcode
 ---
 
-
-## 题目
+## Description
 ```
-描述: 
-    把一个数的各个位相加，结果得到的数在相加，如此反复，直到结果为一位数。
-    求这个一位数是多少
-
-例子:
-     123456 -> 1+2+3+4+5+6 = 21 -> 2+1 = 3
-     结果: 3
+Description:
+    Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
 ```
 
-## 解体
+## Example
 ```
-解题思路:
-    123456 mod 9   ->   3
+Example:
+    Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it.
 ```
 
+## Solution
 ```
-def fuc(num):
-    return num % 9
+class Solution(object):
+    def addDigits(self, num):
+        """
+        num: <int>
+        return: <int>
+        """
+        if num == 0:
+            return 0
+        else:
+            return (num-1) % 9 + 1  # 9是区分最大的一位数
 
-num1 = 21
-print(num1)
-# 3
 
-num2 = 123456
-print(num2)
-# 3
+solution = Solution()
+print(solution.addDigits(38))
 ```
