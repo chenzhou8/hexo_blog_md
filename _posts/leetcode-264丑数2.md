@@ -1,4 +1,4 @@
-title: leetcode-ugly_number2
+title: leetcode-264丑数2
 date: 2017-06-12 21:37:54
 categories: leetcode
 tags: leetcode
