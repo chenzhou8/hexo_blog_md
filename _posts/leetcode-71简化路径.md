@@ -4,7 +4,7 @@ date: 2018-10-09 09:26:21
 tags: leetcode
 cover_img:
 feature_img:
-description: leetcode-71:给定一个文档 (Unix-style) 的完全路径，请进行路径简化。
+description: 给定一个文档 (Unix-style) 的完全路径，请进行路径简化。
 keywords: leetcode
 categories: leetcode
 ---
