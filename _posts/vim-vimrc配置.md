@@ -2,6 +2,8 @@ title: 我的vim配置(.vimrc)
 date: 2016-05-15 12:45:33
 categories: vim
 tags: vim
+description: vim配置的介绍, deepin linux 2015
+
 
 ---
 
@@ -13,12 +15,10 @@ tags: vim
 
 ![vim效果图](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160515162228.png)
 
-<!--more-->
-
 使用vundle管理vim插件, 配置代码部分:
 在home目录下添加：
 
-    vim ~/.vimrc
+> vim ~/.vimrc
 
 .vimrc内容:
 
