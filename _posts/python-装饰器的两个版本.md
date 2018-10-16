@@ -2,6 +2,7 @@
 title: python-装饰器的典型实现
 date: 2018-06-23 10:08:38
 tags: python
+categories: python
 ---
 
 ## 题目
