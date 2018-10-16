@@ -7,7 +7,7 @@ date: 2016-05-28 02:07:00
 - QQ: 810 424 083
 - 手机: 176 2307 6764
 - 邮箱: lixiaolong@smuer.cn
-- 微信: [扫描二维码添加好友](http://7xorah.com1.z0.glb.clouddn.com/wechat_timilong.jpg)
+- 微信: [扫描二维码添加好友](http://timilong.com/wechat_timilong.jpg)
 
 ---
 
