@@ -1,12 +1,12 @@
 ---
-title: 随笔-那个女孩
+title: 那个女孩
 date: 2018-10-17 10:19:41
-tags: 随笔
+tags: 文集
 cover_img:
 feature_img:
 description: 国庆节前，在堂姐的婚礼上，认识了一位女孩。
-keywords: 随笔
-categories: 随笔
+keywords: 文集
+categories: 文集
 ---
 
 ## 相识
