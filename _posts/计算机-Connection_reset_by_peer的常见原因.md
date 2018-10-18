@@ -1,5 +1,5 @@
 ---
-title: Connection reset by peer的常见原因
+title: Connection reset by peer的错误分析
 date: 2018-10-16 10:33:31
 tags: Socket
 categories: Socket
@@ -19,3 +19,23 @@ description: 我在用Thrift进行Python后端服务开发时，在客户端并�
 
 ### 网络防火墙的问题
  如果网络连接通过防火牆，而防火牆一般都会有超时的机制，在网络连接长时间不传输数据时，会关闭这个TCP的会话，关闭后在读写，就会导致异常。 如果关闭防火牆，解决了问题，需要重新配置防火牆，或者自己编写程序实现TCP的长连接。实现TCP的长连接，需要自己定义心跳协议，每隔一段时间，发送一次心跳协议，双方维持连接。
+
+### errno 104:connetction reset by peer
+> 转载自CSDN: https://blog.csdn.net/zjk2752/article/details/21236725
+
+errno = 104错误表明你在对一个对端socket已经关闭的的连接调用write或send方法，在这种情况下，调用write或send方法后，对端socket便会向本端socket发送一个RESET信号，在此之后如果继续执行write或send操作，就会得到errno为104，错误描述为connection reset by peer。
+
+出现这种问题的很大一部分原因，至少我遇到的几次全都是，发送端和接收端事先约定好的数据长度不一致导致的，接收端被通知要收的数据长度小于发送端实际要发送的数据长度。
+
+比如接收端被通知要收1024个字节，但发送端却发了1025（可以是字符串末尾隐含的结束符），这样一来，接收端收完1024就执行了close操作，如果发送端再继续发送，接收端协议就会向发送端返回一个RESET信号，RESET信号可以抓包看到，如下所示：
+![图](http://timilong.com/20140314151927578.jpeg)
+
+具体的分析可以结合TCP的"四次握手"关闭. TCP是全双工的信道, 可以看作两条单工信道, TCP连接两端的两个端点各负责一条。 
+
+当对端调用close时, 虽然本意是关闭整个两条信道, 但本端只是收到FIN包. 按照TCP协议的语义, 表示对端只是关闭了其所负责的那一条单工信道, 仍然可以继续接收数据。
+
+也就是说, 因为TCP协议的限制, 一个端点无法获知对端的socket是调用了close还是shutdown.
+
+对于一个TCP连接，如果对端执行close操作，则会向本端发送一个FIN分节，这时候读本端socket会返回0，我们就知道对方已经关闭了连接，通常这时候我们会在本地调用close来主动关闭本端连接。
+
+但如果对方socket已经执行了close的操作，本端socket还继续在这个连接上写数据，就会触发对端socket发送RST报文，按照TCP的四次握手原理，这时候本端socket应该也要开始执行close的操作流程了，而不是接着发数据.
