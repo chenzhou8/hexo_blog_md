@@ -1,5 +1,5 @@
 ---
-title: HeyPlus(黑加)手环CEO殷明君sensoro内部创业分享
+title: HeyPlus(黑加)手环CEO殷明君创业分享
 date: 2018-10-17 20:31:22
 tags: 经验
 cover_img:
@@ -25,11 +25,13 @@ categories: 经验
 [手环](http://5b0988e595225.cdn.sohucs.com/images/20180818/fda9dfa7f3494978852addfa3a8667a3.jpeg)
 
 ## 关于创业
-
+<待补充>
 
 ## 关于生态
+<待补充>
 
 ## 关于用户群
+<待补充>
 
 ## 关于产品
 1. 表里如一:
