@@ -294,9 +294,9 @@ bdtb.start()
 
 ### 运行效果:
 
-![运行效果](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161018143022.png)
+![运行效果](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161018143022.png)
 
 
 ### 结果展示
 
-![结果展示](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161018143308.png)
+![结果展示](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161018143308.png)

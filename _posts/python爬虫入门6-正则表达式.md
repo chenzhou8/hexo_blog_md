@@ -25,7 +25,7 @@ tags: 爬虫
 
 下面是Python中正则表达式的一些匹配规则，图片资料来自CSDN:
 
-![python正则表达式匹配规则](http://7xorah.com1.z0.glb.clouddn.com/zhengzebiaodas.png)
+![python正则表达式匹配规则](http://timilong.com/zhengzebiaodas.png)
 
 ### 正则表达式相关注解
 

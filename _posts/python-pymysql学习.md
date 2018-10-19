@@ -18,7 +18,7 @@ Python程序----------------------------------->数据库服务器
 -数据库连接对象connection.(建立连接)
 -数据库交互对象cursor(交互数据)
 -数据库异常类exceptions(处理数据库操作过程中的事故)
-![python db api](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709073935.png)
+![python db api](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709073935.png)
 
 #### Python DB API访问数据库流程
 -开始
@@ -28,10 +28,10 @@ Python程序----------------------------------->数据库服务器
 -关闭cursor
 -关闭connection(网络资源，一直没有关闭会浪费应用程序和数据库服务器的资源)
 -结束
-![访问流程](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709075539.png)
+![访问流程](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709075539.png)
 
 ### Python开发DB程序的开发环境
-![windows 下的python开发环境](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709074444.png)
+![windows 下的python开发环境](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709074444.png)
 
 
 ### Python访问DB的connection、cursor两大对象
@@ -100,7 +100,7 @@ fetch*()方法：移动rownumber, 返回缓冲区的数据
 ### Python执行增、删、改、查操作的实例讲解
 #### select查询数据
 流程图：
-![流程图](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712114529.png)
+![流程图](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712114529.png)
 
 首先，在test_db数据库中创建一个user表格:
 
@@ -142,7 +142,7 @@ conn.close()
 
 #### insert/update/delete更新数据库
 流程图：
-![流程图](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712124117.png)
+![流程图](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712124117.png)
 
 事物：访问和更新数据库的一个程序执行单元
 - 原子性：事物中包括的诸操作要么都做，要么都不做

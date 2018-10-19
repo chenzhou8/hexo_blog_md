@@ -21,7 +21,7 @@ print(response.read())
 
 终端运行: <code>python test.py</code>
 结果如下: 
-![test.py运行结果](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161004165509.png)
+![test.py运行结果](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161004165509.png)
 
 
 ### 分析代码

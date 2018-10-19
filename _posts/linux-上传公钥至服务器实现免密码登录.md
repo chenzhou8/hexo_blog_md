@@ -23,7 +23,7 @@ categories: Linux
 
 # 上传成功可看到
 
-![上传成功](http://7xorah.com1.z0.glb.clouddn.com/ssh-copy-id.png)
+![上传成功](http://timilong.com/ssh-copy-id.png)
 
 # 免密登录
 

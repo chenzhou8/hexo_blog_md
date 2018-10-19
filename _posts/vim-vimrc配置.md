@@ -13,7 +13,7 @@ description: vim配置的介绍, deepin linux 2015
 
 效果图如下:
 
-![vim效果图](http://7xorah.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160515162228.png)
+![vim效果图](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160515162228.png)
 
 使用vundle管理vim插件, 配置代码部分:
 在home目录下添加：
