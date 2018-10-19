@@ -13,16 +13,16 @@ categories: 计算机网络
 
 ### TCP传输大小
 
-![TCP](http://7xorah.com1.z0.glb.clouddn.com/tcp_bao_chaungkou01.png)
+![TCP](http://timilong.com/tcp_bao_chaungkou01.png)
 
 ### TCP慢启动
-![TCP](http://7xorah.com1.z0.glb.clouddn.com/tcp_bao_chuangkou02.png)
+![TCP](http://timilong.com/tcp_bao_chuangkou02.png)
 
-![TCP](http://7xorah.com1.z0.glb.clouddn.com/tcp_bao_chuangkou_03.png)
+![TCP](http://timilong.com/tcp_bao_chuangkou_03.png)
 
 ### TCP包大小为1480字节
-![TCP](http://7xorah.com1.z0.glb.clouddn.com/tcp_bao_chuangkou_04.png)
+![TCP](http://timilong.com/tcp_bao_chuangkou_04.png)
 
-![TCP](http://7xorah.com1.z0.glb.clouddn.com/tcp_bao_chuangkou_06.png)
+![TCP](http://timilong.com/tcp_bao_chuangkou_06.png)
 
 
