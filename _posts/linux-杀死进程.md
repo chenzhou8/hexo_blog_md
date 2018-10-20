@@ -2,13 +2,13 @@ title: Linux-杀死进程
 date: 2016-07-06 22:06:39
 categories: Linux
 tags: Linux
+description: Linux杀死一个进程的方式
 ---
 
 ### 用ps命令查看进程
 
 ### ps -ef
-<!--more-->
-```
+```shell
 UID        PID  PPID  C STIME TTY          TIME CMD
 root         1     0  0 7月05 ?       00:00:02 /sbin/init splash
 root         2     0  0 7月05 ?       00:00:00 [kthreadd]
@@ -191,7 +191,7 @@ timilong 16834 16823  0 22:09 pts/1    00:00:00 ps -ef
 ```
 
 #### ps -aux
-```
+```shell
 D        PID  PPID  C STIME TTY          TIME CMD
 root         1     0  0 7月05 ?       00:00:02 /sbin/init splash
 root         2     0  0 7月05 ?       00:00:00 [kthreadd]
@@ -374,7 +374,7 @@ timilong 16834 16823  0 22:09 pts/1    00:00:00 ps -ef
 ```
 
 ### 用kill命令杀死进程
-```
+```shell
 kill -s 9 16122
 ```
 就可以杀死进程号为16122的goole chrome的进程。
@@ -386,31 +386,31 @@ kill -s 9 16122
 
 #### pgrep
 pgrep的p表明了这个命令是专门用于进程查询的grep。
-```
+```shell
 pgrep chrome
 ```
 
 #### pidof
 pid of xx，字面翻译过来就是 xx的PID。
-```
+```shell
 pidof firefox-bin
 ```
 
 #### ps -ef | grep firefox | grep -v grep | cut -c 9-15 | xargs kill -s 9
 
 说明：
-“grep firefox”的输出结果是，所有含有关键字“firefox”的进程。
-“grep -v grep”是在列出的进程中去除含有关键字“grep”的进程。
-“cut -c 9-15”是截取输入行的第9个字符到第15个字符，而这正好是进程号PID。
-“xargs kill -s 9”中的xargs命令是用来把前面命令的输出结果（PID）作为“kill -s 9”命令的参数，并执行该命令。“kill -s 9”会强行杀掉指定进程
+`grep firefox` 的输出结果是，所有含有关键字“firefox”的进程。
+`grep -v grep` 是在列出的进程中去除含有关键字“grep”的进程。
+`cut -c 9-15` 是截取输入行的第9个字符到第15个字符，而这正好是进程号PID。
+`xargs kill -s 9` 中的xargs命令是用来把前面命令的输出结果（PID）作为“kill -s 9”命令的参数，并执行该命令。“kill -s 9”会强行杀掉指定进程
 
 #### pkill
-```
+```shell
 pkill -９ firefox
 ```
 
 #### killall
-```
+```shell
 killall -9 firefox
 ```
 
