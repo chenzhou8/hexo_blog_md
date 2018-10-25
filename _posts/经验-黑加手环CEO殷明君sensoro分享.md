@@ -20,9 +20,11 @@ categories: 经验
 > 手环就是公交卡，现已支持京津冀互联互通卡、岭南通、深圳通，覆盖北广深等148个城市，陆续会开通更多城市。
 > 与此同时，黑加手环已接入米家APP，可连接任意小米蓝牙网关，进而查看并联动家中Wi-Fi、蓝牙、ZigBee设备。充一次电可满足18天持续使用。
 
-![新闻报道](https://www.baidu.com/s?wd=%E9%BB%91%E5%8A%A0%E6%89%8B%E7%8E%AF)
+[新闻报道](https://www.baidu.com/s?wd=%E9%BB%91%E5%8A%A0%E6%89%8B%E7%8E%AF)
 
 [手环](http://5b0988e595225.cdn.sohucs.com/images/20180818/fda9dfa7f3494978852addfa3a8667a3.jpeg)
+
+[在线购买](https://youpin.mi.com/detail?gid=103121)
 
 ## 关于创业
 <待补充>
