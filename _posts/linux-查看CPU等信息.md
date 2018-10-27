@@ -4,9 +4,9 @@ date: 2018-10-18 11:16:00
 tags: Linux
 cover_img:
 feature_img:
-description: 通过Linux自身的一些命令查看CPU、内存、磁盘、主机名、ip配置等信息。
 keywords: Linux
 categories: Linux
+description: 通过Linux自身的一些命令查看CPU、内存、磁盘、主机名、ip配置等信息。
 ---
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
