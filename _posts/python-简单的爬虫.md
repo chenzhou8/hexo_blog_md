@@ -21,7 +21,7 @@ tags: python
 
 
 #### 运行流程
-![http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160708101206.png](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160708101206.png)
+![http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160708101206.png](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160708101206.png)
 
 
 ### URL管理器

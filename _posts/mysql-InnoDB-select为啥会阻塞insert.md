@@ -61,7 +61,7 @@ t(id PK, name KEY, sex, flag);
 5, lisi, m, A
 9, wangwu, f, B
 ```
-![索引存储](http://timilong.com/1536302724407.jpg)
+![索引存储](http://qiniucdn.timilong.com/1536302724407.jpg)
 
 可以看到：
 (1)第一幅图，id `PK`的聚集索引，叶子存储了所有的行记录；

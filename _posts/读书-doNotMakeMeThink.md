@@ -13,7 +13,7 @@ tags: 经验
 
 ### 思维导图
 
-![思维导图](http://timilong.com/don%2527t%20make%20me%20think.png)
+![思维导图](http://qiniucdn.timilong.com/don%2527t%20make%20me%20think.png)
 
 ### 主要内容[转载自:http://www.woshipm.com/it/10471.html]
 

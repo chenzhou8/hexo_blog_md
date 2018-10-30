@@ -16,10 +16,10 @@ categories: 随笔
 
 ## 贴图为贺
 
-![00](http://timilong.com/acm00.jpg)
-![01](http://timilong.com/acm01.jpg)
-![02](http://timilong.com/acm02.jpg)
-![03](http://timilong.com/acm03.jpg)
+![00](http://qiniucdn.timilong.com/acm00.jpg)
+![01](http://qiniucdn.timilong.com/acm01.jpg)
+![02](http://qiniucdn.timilong.com/acm02.jpg)
+![03](http://qiniucdn.timilong.com/acm03.jpg)
 
 ## 小小的回忆一下
 

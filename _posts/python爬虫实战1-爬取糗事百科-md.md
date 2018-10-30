@@ -126,4 +126,4 @@ spider.start()
 3）re.S 标志代表在匹配时为点任意匹配模式，点 . 也可以代表换行符。
 
 ### 结果截图
-![运行结果](http://timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161012101339.png)
+![运行结果](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20161012101339.png)
