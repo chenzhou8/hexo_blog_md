@@ -2,16 +2,15 @@ title: 《MacTalk——人生元编程》-读书笔记
 date: 2015-12-02 17:32:08
 categories: 读书笔记
 tags: 随笔文集
-
+description: 一种编程语言想要变得流行，最后一关就是要经受时间的考验。
 ---
-
-<!--more-->
 
 ![封面](http://img3.douban.com/lpic/s27219901.jpg)
 
 ---
 
 mac几个文中出现的微信公众号码：
+
 ”二爷鉴书“
 ”小道消息“
 ”MacTalk By池建强（sagacity-mac）“
