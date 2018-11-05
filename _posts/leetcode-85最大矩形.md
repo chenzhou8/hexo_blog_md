@@ -17,10 +17,10 @@ categories: leetcode
 
 输入:
 [
-  ["1","0","1","0","0"],
-  ["1","0","1","1","1"],
-  ["1","1","1","1","1"],
-  ["1","0","0","1","0"]
+  ["1", "0", "1", "0", "0"],
+  ["1", "0", "1", "1", "1"],
+  ["1", "1", "1", "1", "1"],
+  ["1", "0", "0", "1", "0"]
 ]
 输出: 6
 
@@ -34,8 +34,7 @@ categories: leetcode
 我们可以从matrix的第一行开始往下进行，然后每次都做出一个heights列表，找出当前的最大area，最终找到最后一行，可以得到最终的最大area。
 
 伪代码可以这样写：
-
-```
+```python
 class Solution(object):
     def maximalRectangle(self, matrix):
         """
@@ -44,6 +43,7 @@ class Solution(object):
         """
         if not matrix or not matrix[0]:
             return 0
+
         # for each cell with value=1, we look upward (north), the number of continuous '1' is the height of cell
         heights = [0] * len(matrix[0])
         res, cur_max_area = -1
@@ -53,13 +53,12 @@ class Solution(object):
                     heights[j] = 0
                 else:
                     heights[j] += 1
+
             cur_max_area = yourLeetCode84Funtion(heights)
             res = max(cur_max_area, res)
+
         return res
 ```
-
-
-
 
 最终代码就是：
 
