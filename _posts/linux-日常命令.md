@@ -3,6 +3,7 @@ title: linux-日常命令
 date: 2018-04-23 23:03:50
 tags: Linux
 categories: Linux
+description: 记录日常Linux使用中会使用到的一些命令。
 ---
 
 ### tree
@@ -35,7 +36,6 @@ categories: Linux
 ```
 tree -d -L 4  # 列出当前目录下的四层目录
 ```
-<!-- more -->
 
 ### find
 
