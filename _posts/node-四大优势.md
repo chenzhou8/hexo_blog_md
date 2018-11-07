@@ -1,8 +1,8 @@
-title: Node的4大优势
+title: Nodejs-四大优势
 date: 2016-04-17 16:14:42
-categories: Node
-tags: Node
-description: 不用再单独学习一门陌生的语言，从而降低了学习的门槛。同时，JavaScript语言在Web前端开发中至关重要,特别HTML5的应用必须要使用。
+categories: Nodejs
+tags: Nodejs
+description: 不用再单独学习一门陌生的语言，从而降低了学习的门槛。同时，JavaScript语言在Web前端开发中至关重要, 特别HTML5的应用必须要使用。
 
 ---
 
