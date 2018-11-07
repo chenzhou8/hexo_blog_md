@@ -1,17 +1,14 @@
 title: Node.js模块系统
 date: 2016-03-01 17:38
-categories: Node
-tags: Node
+categories: Nodejs
+tags: Nodejs
+description: 为了让nodejs的文件可以相互调用，nodejs提供了一个简单的模块系统。
 
 ---
-
-为了让nodejs的文件可以相互调用，nodejs提供了一个简单的模块系统
 
 模块是nodejs应用程序的基本组成部分，文件和模块是一一对应的。
 
 换言之，一个nodejs文件就是一个模块，这个文件可能是JavaScript代码，JSON或者是编译过的C/C++扩展
-
-<!--more-->
 
 ### 创建模块
 
@@ -24,8 +21,6 @@ hello.world();
 ```
 
 以上实例中，代码require('./hello')引入了当前目录下的hello.js文件(./为当前目录, node.js默认后缀是js).
-
-<!--more-->
 
 Node.js提供了exports和require两个对象，其中exports是模块公开的接口，require用于外部获取一个模块的接口，即所获取模块的exports对象。
 接下来我们创建hello.js文件，代码如下:
