@@ -3,6 +3,7 @@ title: mysql-8.04以上版本修改root密码
 date: 2018-08-08 12:16:24
 tags: MySQL
 categories: MySQL
+description: 记录一次更改myql root用户密码的经历.
 ---
 
 # 忘记root密码
