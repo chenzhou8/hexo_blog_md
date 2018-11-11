@@ -2,7 +2,7 @@ title: Linux-杀死进程
 date: 2016-07-06 22:06:39
 categories: Linux
 tags: Linux
-description: Linux杀死一个进程的方式
+description: Linux杀死一个进程的方式.
 ---
 
 ### 用ps命令查看进程
