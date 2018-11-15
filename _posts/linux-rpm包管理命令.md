@@ -2,12 +2,12 @@ title: Linux-rpm包管理命令
 date: 2017-06-16 22:06:39
 categories: Linux
 tags: Linux
+description: RPM的全名为“RedHat Package Manager”, 是由RedHat公司开发的。Rpm是以一种数据库记录的方式将所需要的套件安装到linux主机的一套管理程序
 ---
 
 ## 简介
 
-RPM的全名为“RedHat Package Manager”:
-    是由RedHat公司开发的。Rpm是以一种数据库记录的方式将所需要的套件安装到linux主机的一套管理程序
+RPM的全名为“RedHat Package Manager”: 是由RedHat公司开发的。Rpm是以一种数据库记录的方式将所需要的套件安装到linux主机的一套管理程序
 
 RPM主要优点: 
  1. 由于已经编译完成并且打包, 所以安装方便
@@ -26,7 +26,6 @@ RPM包名格式:
         次版本号改变: 某个子功能发生重大变化
         发行号: 修正了部分bug, 调整了一点功能
 ```
-<!--more-->
 
 ## rpm命令的详细用法
 1. 语法如下
