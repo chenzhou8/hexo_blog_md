@@ -3,6 +3,7 @@ title: leetcode-'h-index1'
 date: 2017-03-10 21:37:54
 categories: leetcode
 tags: leetcode
+description: h-index ，又称为h指数或h因子（h-factor），是一种评价学术成就的新方法。 h代表“高引用次数”（high citations），一名科研人员的h指数是指他至多有h篇论文分别被引用了至少h次。 要确定一个人的h指数非常容易，到SCI网站，查出某个人发表的所有SCI论文，让其按被引次数从高到低排列， 从低到高进行排列，如果(某篇论文的引用次数) >= (论文总数 - 当前论文序号)，则(总长度-当前序号)就是h指数
 ---
 
 ## Description
