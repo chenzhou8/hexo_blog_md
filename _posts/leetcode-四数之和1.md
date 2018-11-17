@@ -3,6 +3,7 @@ title: leetcode-四数之和1
 date: 2018-07-06 08:05:31
 tags: leetcode
 categories: leetcode
+description: 给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ， 使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
 ---
 
 # 题目描述
@@ -25,8 +26,6 @@ categories: leetcode
       [-2,  0, 0, 2]
     ]
 ```
-
-<!--more-->
 
 # 解答
 ```
