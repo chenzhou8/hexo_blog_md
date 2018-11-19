@@ -2,6 +2,7 @@ title: leetcode-'single_number'
 date: 2017-03-1 21:37:54
 categories: leetcode
 tags: leetcode
+description: 找出一组整型数字数组中只出现一次的那个数字.
 ---
 
 ## single_number_1
