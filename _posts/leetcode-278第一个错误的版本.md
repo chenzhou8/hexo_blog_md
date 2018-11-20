@@ -3,6 +3,7 @@ title: leetcode-278第一个错误的版本
 date: 2017-03-20 21:37:54
 categories: leetcode
 tags: leetcode
+description: 给定一个API, isBadVersion(), 要求, 在需要编写的firstBadVersion()中最少次数调用该API得到第一个bad version.
 ---
 
 ## Description
