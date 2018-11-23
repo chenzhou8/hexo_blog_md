@@ -2,7 +2,7 @@
 title: python-内置方法的时间复杂度
 date: 2018-11-09 15:26:21
 tags: python
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968650476.jpg
 feature_img:
 description: 本文介绍Python内置list, set, dict, collections.deque等方法的时间复杂度.
 keywords: python

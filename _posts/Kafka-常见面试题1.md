@@ -2,7 +2,7 @@
 title: Kafka-常见面试题1
 date: 2018-11-07 10:36:07
 tags: Kafka
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968635303.jpg
 feature_img:
 description: 14个最常见的Kafka面试题及答案。
 keywords: Kafka

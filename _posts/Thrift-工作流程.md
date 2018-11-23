@@ -2,7 +2,7 @@
 title: Thrift-工作流程
 date: 2018-10-17 17:45:12
 tags: RPC
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968639754.jpg
 feature_img:
 description: 简单介绍下Thrift RPC的工作过程。
 keywords: RPC 

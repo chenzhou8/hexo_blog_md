@@ -2,7 +2,7 @@
 title: linux-查看CPU等信息
 date: 2018-10-18 11:16:00
 tags: Linux
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968653498.jpg
 feature_img:
 keywords: Linux
 categories: Linux

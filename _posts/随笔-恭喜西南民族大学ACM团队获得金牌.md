@@ -2,7 +2,7 @@
 title: 随笔-恭喜母校ACM团队获得校史上首块区域赛金牌
 date: 2018-10-28 17:12:10
 tags: 随笔
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968656601.jpg
 feature_img:
 description: 恭喜母校西南民族大学ACM团队摘得创建ACM-ICPC(国际大学生程序设计大赛)集训队13年以来的历史首金!
 keywords: 随笔

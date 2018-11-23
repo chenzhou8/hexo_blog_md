@@ -2,7 +2,7 @@
 title: HeyPlus(黑加)手环CEO殷明君创业分享
 date: 2018-10-17 20:31:22
 tags: 经验
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1542968642377.jpg
 feature_img:
 description: 殷明君，深圳如一探索科技有限公司创始人，代表作品heyplus(黑加)手环。
 keywords: 经验
