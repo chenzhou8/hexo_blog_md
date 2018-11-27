@@ -28,7 +28,7 @@ categories: leetcode
 ]
 ```
 
-## 题解 
+## 题解
 
 ```
 # 每次取一个作为prefix, 剩下的继续做permutation，然后连接起来加入res中
