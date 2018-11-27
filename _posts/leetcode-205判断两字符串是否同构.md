@@ -4,7 +4,7 @@ date: 2018-07-09 11:26:35
 tags: leetcode
 categories: leetcode
 description: 给定两个字符串 s 和 t，判断它们是否是同构的。
-
+cover_img: http://qiniucdn.timilong.com/1543288421433.jpg
 ---
 
 # 题目

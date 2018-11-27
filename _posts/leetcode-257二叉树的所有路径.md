@@ -2,6 +2,7 @@ title: leetcode-257二叉树的所有路径
 date: 2017-03-15 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288434710.jpg
 ---
 
 ## Description

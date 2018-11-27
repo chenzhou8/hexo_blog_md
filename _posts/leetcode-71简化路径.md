@@ -2,7 +2,7 @@
 title: leetcode-71简化路径
 date: 2018-10-09 09:26:21
 tags: leetcode
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543288424292.jpg
 feature_img:
 description: 给定一个文档 (Unix-style) 的完全路径，请进行路径简化。
 keywords: leetcode

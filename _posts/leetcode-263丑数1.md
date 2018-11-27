@@ -3,6 +3,7 @@ title: leetcode-263丑数1
 date: 2017-05-30 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/154328843058.jpg
 ---
 
 ## Description

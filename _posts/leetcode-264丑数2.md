@@ -2,6 +2,7 @@ title: leetcode-264丑数2
 date: 2017-06-12 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288411876.jpg
 ---
 
 ## Description

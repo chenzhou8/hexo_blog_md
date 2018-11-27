@@ -3,6 +3,7 @@ title: leetcode-268缺失的数字
 date: 2017-01-03 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/154328840886.jpg
 ---
 
 ## Description

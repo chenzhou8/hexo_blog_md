@@ -2,9 +2,9 @@
 title: leetcode-85最大矩形
 date: 2018-10-04 21:46:00
 tags: leetcode
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543288414205.jpg
 feature_img:
-description: leetcode85最大矩形题解
+description: leetcode85最大矩形题解.
 keywords: leetcode
 categories: leetcode
 ---

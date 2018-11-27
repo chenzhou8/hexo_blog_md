@@ -2,6 +2,7 @@ title: leetcode-242有效的字母异位词
 date: 2017-03-18 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288440507.jpg
 ---
 ## 描述
 ```

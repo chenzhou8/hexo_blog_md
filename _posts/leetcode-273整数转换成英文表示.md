@@ -4,6 +4,7 @@ date: 2017-02-03 21:37:54
 categories: leetcode
 description: leetcode-273整数转换成英文表示题解
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288397693.jpg
 ---
 
 ## Description

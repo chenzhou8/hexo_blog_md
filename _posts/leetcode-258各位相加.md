@@ -2,6 +2,7 @@ title: leetcode-258各位相加
 date: 2017-03-25 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288403900.jpg
 ---
 
 ## Description

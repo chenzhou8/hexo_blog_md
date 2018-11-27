@@ -2,6 +2,7 @@ title: leetcode-240搜索二维矩阵2
 date: 2017-04-18 21:37:54
 categories: leetcode
 tags: leetcode
+cover_img: http://qiniucdn.timilong.com/1543288437866.jpg
 ---
 
 ## search_a_2d_matrix_1
