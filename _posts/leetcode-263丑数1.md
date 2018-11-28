@@ -4,6 +4,7 @@ date: 2017-05-30 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/154328843058.jpg
+description: leetcode第263题，丑数1，题解。
 ---
 
 ## Description
@@ -23,7 +24,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def isUgly(self, num):
         """

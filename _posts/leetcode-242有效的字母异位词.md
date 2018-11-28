@@ -3,6 +3,7 @@ date: 2017-03-18 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288440507.jpg
+description: leetcode上第242题，有效的字母异位词题解。
 ---
 ## 描述
 ```

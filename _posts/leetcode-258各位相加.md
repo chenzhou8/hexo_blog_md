@@ -3,6 +3,7 @@ date: 2017-03-25 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288403900.jpg
+description: leetcode第258题，各位相加，题解。
 ---
 
 ## Description
@@ -18,7 +19,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def addDigits(self, num):
         """

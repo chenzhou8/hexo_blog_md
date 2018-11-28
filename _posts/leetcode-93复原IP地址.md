@@ -3,10 +3,11 @@ title: leetcode-93复原IP地址
 date: 2018-07-09 11:26:14
 tags: leetcode
 categories: leetcode
+cover_img: http://qiniucdn.timilong.com/1543387776398.png
 description: 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
 ---
 
-# 题目
+## 题目
 ```
 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
 
@@ -16,15 +17,15 @@ description: 给定一个只包含数字的字符串，复原它并返回所有�
 输出: ["255.255.11.135", "255.255.111.35"]
 ```
 
-# 解题
+## 解题
 ```
 # 解题思路:
    回溯法: 看到所有的组合相关的题目，一般都是用回溯。 
 
    回溯 + 深度优先搜索 + 剪枝
 ```
-
-```
+## 代码
+```python
 class Solution(object):
     def restoreIpAddresses(self, s):
         """

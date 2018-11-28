@@ -3,6 +3,7 @@ date: 2017-03-15 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288434710.jpg
+description: leetcode第257题，二叉树的所有路径，题解。
 ---
 
 ## Description
@@ -18,7 +19,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

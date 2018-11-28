@@ -4,6 +4,7 @@ date: 2017-01-03 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/154328840886.jpg
+description: leetcode第268题，缺失的数字，题解。
 ---
 
 ## Description
@@ -20,16 +21,19 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def missingNumber(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
+
         # 方法1: 利用前n项和公式  n*(n+1)/2 减去sum(nums)
         return len(nums)*(len(nums)+1) // 2 - sum(nums)
+
         """ 方法2: 利用两集合的差值极为所求结果
+
         length = len(nums)
         temp_set = set([i for i in range(length+1)])
         nums_set = set(nums)

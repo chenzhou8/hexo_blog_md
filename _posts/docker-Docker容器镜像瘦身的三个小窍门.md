@@ -2,7 +2,7 @@
 title: docker-Docker容器镜像瘦身的三个小窍门
 date: 2018-09-03 19:38:09
 tags: Docker
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543387757615.jpg
 feature_img:
 description: 在构建Docker容器时，我们应尽可能减小镜像的大小。使用共享层的镜像尺寸越小，其传输和部署速度越快。 不过在每个RUN语句都会创建一个新层的情况下，如果我们需要获取镜像完成前的中间产物，又如何控制其大小呢？
 keywords: Docker
@@ -11,7 +11,7 @@ keywords: Docker
 转载自: 微信公众号[Docker 梁晓勇 译](https://mp.weixin.qq.com/s/Iwn4bMQwD-HEK-WI1494GQ)
 
 
-### 介绍
+## 介绍
 在构建Docker容器时，我们应尽可能减小镜像的大小。使用共享层的镜像尺寸越小，其传输和部署速度越快。
 
 不过在每个RUN语句都会创建一个新层的情况下，如果我们需要获取镜像完成前的中间产物，又如何控制其大小呢？
@@ -21,6 +21,7 @@ keywords: Docker
 FROM ubuntu
 RUN apt-get update && apt-get install vim
 ```
+
 为什么要使用`&&`，而不像这样运行两个`RUN`语句？
 ```
 FROM ubuntu
@@ -32,7 +33,7 @@ RUN apt-get install vim
 ![分层](http://omdt9pa3d.bkt.clouddn.com/docker-%E5%88%86%E5%B1%82)
 
 
-### 层跟Git提交类似。
+## 层跟Git提交类似。
 
 Docker层存储了镜像上一版本和当前版本之间的差异。与Git提交类似，层有利于与其他仓库或镜像进行共享。
 
@@ -43,7 +44,7 @@ Docker层存储了镜像上一版本和当前版本之间的差异。与Git提�
 层会占用空间，层越多，最终的镜像就越大。Git仓库在这方面是相似的。因为Git需要保存提交之间的所有变更，仓库的大小会随着层数的增加而增加。
 在过去，做法就是像第一个例子那样将几个RUN语句合并在一行中。
 
-### 使用Docker多阶段构建将层合并为一
+## 使用Docker多阶段构建将层合并为一
 
 当Git仓库变得越来越大时，我们可以放弃所有过往信息，将历史提交合并成一个。
 
@@ -270,7 +271,7 @@ $ docker exec -ti <替换成_docker_id> node
 如果我们既希望能调试，又关心尺寸大小，又该怎么办？
 
 
-### 使用Alpine作为更小的基础镜像
+## 使用Alpine作为更小的基础镜像
 
 我们可以使用Alpine取代Distroless来作为基础镜像。
 
@@ -353,7 +354,7 @@ Alpine基础镜像是基于muslc的，这是一个C的替代标准库。
 举个例子，PhantomJS预置包就无法在Alpine中工作。
 
 
-### 怎么选择基础镜像？
+## 怎么选择基础镜像？
 
 Alpine、Distroless或是原生镜像到底用哪个？
 

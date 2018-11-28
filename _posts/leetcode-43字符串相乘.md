@@ -2,9 +2,9 @@
 title: leetcode-43字符串相乘
 date: 2018-10-01 16:37:19
 tags: leetcode
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543387770478.jpg
 feature_img:
-description: leetcode-43字符串相乘题解
+description: leetcode-43字符串相乘的题解.
 keywords: leetcode
 categories: leetcode
 ---
@@ -86,7 +86,7 @@ class Solution(object):
         return ''.join(str(i) for i in res[::-1]).lstrip('0')  # 去掉最终结果头部可能存在的‘0’
 ```
 
-觉得这样写才是最容易理解的，看一个具体的🌰:
+觉得这样写才是最容易理解的，看一个具体的例子:
 ```
 input: num1, num2 = '91', '91'
 tmp_res = [1,18,81,0]

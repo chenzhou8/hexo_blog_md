@@ -2,7 +2,9 @@
 title: leetcode-274H指数1
 date: 2017-03-10 21:37:54
 categories: leetcode
+cover_img: http://qiniucdn.timilong.com/1543387778232.png
 tags: leetcode
+description: leetcode第274题, H指数1, 题解。
 ---
 
 ## Description
@@ -27,7 +29,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def hIndex(self, citations):
         """

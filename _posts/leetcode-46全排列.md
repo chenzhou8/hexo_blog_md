@@ -2,7 +2,7 @@
 title: leetcode-46全排列
 date: 2018-10-02 22:54:32
 tags: leetcode
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543387773264.jpg
 feature_img:
 description: 给定一个没有重复数字的序列，返回其所有可能的全排列。
 keywords: leetcode
@@ -30,7 +30,7 @@ categories: leetcode
 
 ## 题解
 
-```
+```python
 # 每次取一个作为prefix, 剩下的继续做permutation，然后连接起来加入res中
 
 class Solution(object):

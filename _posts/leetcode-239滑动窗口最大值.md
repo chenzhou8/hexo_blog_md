@@ -4,6 +4,7 @@ date: 2017-02-13 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288406140.jpg
+description: leetcode上第239题，求滑动窗口最大值的题解。
 ---
 
 ## Description
@@ -33,7 +34,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """

@@ -3,6 +3,7 @@ date: 2017-06-12 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288411876.jpg
+description: leetcode第264题，丑数2，题解。
 ---
 
 ## Description
@@ -20,8 +21,6 @@ Example:
     Note that 1 is typically treated as an ugly number, and n does not exceed 1690.
 
 ```
-
-<!-- more -->
 
 ## Hints
 ```
@@ -54,7 +53,7 @@ Hints:
 
 ## Solution
 
-```
+```python
 class Solution(object):
     def nthUglyNumber(self, num):
         """

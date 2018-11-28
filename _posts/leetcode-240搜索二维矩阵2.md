@@ -1,13 +1,15 @@
+---
 title: leetcode-240搜索二维矩阵2
 date: 2017-04-18 21:37:54
 categories: leetcode
 tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288437866.jpg
+description: leetcode上第240题搜索二维矩阵2的题解。
 ---
 
 ## search_a_2d_matrix_1
 
-```
+```python
 
 #! /usr/bin/python3
 # coding: utf-8
@@ -56,10 +58,9 @@ class Solution(object):
         return False
 ```
 
-<!--more-->
 ## search_a_2d_matrix_2
 
-```
+```python
 
 #! /usr/bin/python3
 # coding: utf-8

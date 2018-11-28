@@ -3,10 +3,11 @@ title: leetcode-04两个排序数组的中位数
 date: 2017-06-23 10:07:11
 tags: leetcode
 categories: leetcode
+cover_img: http://qiniucdn.timilong.com/1543387765563.jpg
 description: 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2 。 请找出这两个有序数组的中位数。要求算法的时间复杂度为 O(log (m+n)) 。
 ---
 
-# 题目
+## 题目
 ```
 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2 。
 
@@ -26,8 +27,8 @@ description: 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2 。 �
     中位数是 (2 + 3)/2 = 2.5
 ```
 
-# 题解
-```
+## 题解
+```python
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """

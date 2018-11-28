@@ -2,7 +2,9 @@
 title: leetcode-275H指数2
 date: 2017-04-30 21:37:54
 categories: leetcode
+cover_img: http://qiniucdn.timilong.com/1543387778232.png
 tags: leetcode
+description: leetcode第275题, H指数2, 题解。
 ---
 
 ## Description
@@ -29,7 +31,7 @@ Example:
 ```
 
 ## Solution
-```
+```python
 class Solution(object):
     def hIndex(self, citations):
         """
