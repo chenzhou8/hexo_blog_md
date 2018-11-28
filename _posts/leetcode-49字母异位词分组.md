@@ -2,7 +2,7 @@
 title: leetcode-49字母异位词分组
 date: 2018-09-30 22:05:27
 tags: leetcode
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543387773264.jpg
 feature_img:
 description: https://leetcode-cn.com/problems/group-anagrams/题解
 keywords: leetcode
