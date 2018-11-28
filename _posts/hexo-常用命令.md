@@ -2,7 +2,7 @@ title: 常用的hexo命令
 date: 2015-11-29 19:09:38
 categories: hexo
 tags: [hexo]
-# 常用的hexo命令
+description: 常用的hexo命令简介.
 ---
 
 ### 常用的命令:
