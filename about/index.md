@@ -42,9 +42,14 @@ date: 2016-05-28 02:07:00
 - 团队作品: [witcoder.com](http://witcoder.com)  <code>ps: 负责后端RPC微服务开发, 提供数据服务、Web平台的API</code>
 - 公司作品1: [demo.easypdm.cn](http://demo.easypdm.cn)  <code>ps: 担任后端开发工程师, 承担后端开发、运维工作</code>
 - 公司作品2: [simright.com](https://www.simright.com)   <code>ps: 担任后端开发工程师, 承担整站的后端开发、运维工作</code>
-- 个人作品1: [smuer.cn](https://www.smuer.cn)  <code>ps: 独立开发</code>
-- 个人作品2: [timilong.com](https://www.timilong.com)  <code>ps: 独立开发</code>
-- 个人作品3: [91bati.com](https://www.91bati.com)  <code>ps: 独立开发</code>
+- 公司作品3: [ai.sensoro.com](https://ai.sensoro.com)   <code>ps: 担任后端开发工程师, 承担整站的api开发(暂未上线)</code>
+- 公司作品4: [Sensoro Ai Camera](https://www.sensoro.com/zh/intelligent.html)   <code>ps: 担任后端工程师，提供AI相关的算法服务</code>
+- 个人作品1: [smuer.cn](https://www.smuer.cn)  <code>ps: 独立开发(暂未上线)</code>
+- 个人作品2: [timilong.com](https://www.timilong.com)  <code>ps: 独立开发(暂未上线)</code>
+- 个人作品3: [91bati.com](https://www.91bati.com)  <code>ps: 独立开发(暂未上线)</code>
+- 个人作品4: [xj-mckinsey.com](https://www.xj-mckinsey.com)  <code>ps: 独立开发(暂未上线)</code>
+- 个人作品5: [Pypi包: timi-uuid](https://pypi.org/project/timi-uuid/) <code>独立开发，实现模拟中心发号器, 发放唯一不重复自增类uuid str, 支持timi-uuid str解析成相应的dict，获取此类uuid信息。</code>
+
 
 ---
 
