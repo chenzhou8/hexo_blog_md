@@ -2,11 +2,12 @@
 title: RPC-07客户端-深入RPC客户端设计
 date: 2018-09-11 14:40:35
 tags: RPC
-cover_img:
 feature_img:
 description: RPC 客户端实现起来要比服务器简单，所以我们先讲客户端的实现原理和方法。当然，实现 RPC 客户端也具有一定的挑战性，其核心难点在于客户端往往并不是单线程的，我们需要考虑多线程下如何流畅使用客户端而不出现并发问题。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735467897.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

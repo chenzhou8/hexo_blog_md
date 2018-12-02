@@ -2,6 +2,10 @@ title: python爬虫实战2-爬取百度贴吧的帖子
 date: 2016-10-18 14:04:43
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/1543736907739.jpg
+description: python爬虫实战2-爬取百度贴吧的帖子
+
+
 ---
 
 ### 分析百度贴吧的帖子

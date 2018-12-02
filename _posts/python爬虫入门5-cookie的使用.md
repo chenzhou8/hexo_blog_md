@@ -2,6 +2,9 @@ title: python爬虫入门5-cookie的使用
 date: 2016-10-07 19:31:04
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/154373545046.jpg
+description: python爬虫入门5-cookie的使用.
+
 ---
 
 为什么要使用Cookie呢？

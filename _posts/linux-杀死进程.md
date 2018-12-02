@@ -3,6 +3,8 @@ date: 2016-07-06 22:06:39
 categories: Linux
 tags: Linux
 description: Linux杀死一个进程的方式.
+cover_img: http://qiniucdn.timilong.com/1543735280183.jpg
+
 ---
 
 ### 用ps命令查看进程

@@ -2,11 +2,12 @@
 title: linux-ls命令统计文件个数
 date: 2018-09-07 15:49:20
 tags: Linux
-cover_img:
 feature_img:
 description: Linux下有三个命令：ls、grep、wc。通过这三个命令的组合可以统计目录下文件及文件夹的个数。
 keywords: Linux
 categories: Linux
+cover_img: http://qiniucdn.timilong.com/1543736935686.jpg
+
 ---
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)

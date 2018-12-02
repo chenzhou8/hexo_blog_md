@@ -2,11 +2,12 @@
 title: 工具-JWT简介
 date: 2018-09-28 17:01:32
 tags: JWT
-cover_img:
 feature_img:
 description: JSON Web Token（JWT）是一个非常轻巧的规范。这个规范允许我们使用JWT在用户和服务器之间传递安全可靠的信息。
 keywords: JWT
 categories: 工具
+cover_img: http://qiniucdn.timilong.com/1543735276657.jpg
+
 ---
 
 > 转载自: 掘金，[聊聊JWT](https://juejin.im/post/5baba6466fb9a05cdc499192?utm_source=gold_browser_extension)

@@ -2,6 +2,7 @@ title: 深入理解计算机系统-LAB4-perflab-handout优化方案
 date: 2015-11-30 19:37
 categories: 操作系统
 tags: 操作系统
+cover_img: http://qiniucdn.timilong.com/1543735270525.jpg
 description: 大三在湖南大学，学习《深入理解计算机系统》时所做的课堂实验。
 
 ---

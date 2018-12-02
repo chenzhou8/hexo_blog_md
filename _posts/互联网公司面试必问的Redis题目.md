@@ -2,11 +2,12 @@
 title: 互联网公司面试必问的Redis题目
 date: 2018-09-21 10:36:11
 tags: Redis
-cover_img:
 feature_img:
 description: 介绍：Redis 是一个开源的使用 ANSI C 语言编写、遵守 BSD 协议、支持网络、可基于内存亦可持久化的日志型、Key-Value 数据库，并提供多种语言的 API的非关系型数据库。传统数据库遵循 ACID 规则。而 Nosql（Not Only SQL )的缩写，是对不同于传统的关系型数据库的数据库管理系统的统称）一般为分布式而分布式一般遵循 CAP 定理。
 keywords: Redis
 categories: Redis
+cover_img: http://qiniucdn.timilong.com/1543735464963.jpg
+
 ---
 
 > 转载自: 微信公众号: codewill，[互联网公司面试必问的Redis题目](https://mp.weixin.qq.com/s?__biz=MzU3MTQwNDEyMg==&mid=2247483696&idx=1&sn=df846a5c35eda7d1e1459c7415e64ea2&chksm=fce1fb05cb96721382cea1a9461f2b6c514a7a718ded90a9ea41de0e0af8b532b57db70a0d4f&scene=21#wechat_redirect)

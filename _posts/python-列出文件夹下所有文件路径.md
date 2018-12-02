@@ -2,6 +2,10 @@
 title: python-列出文件夹下所有文件名
 date: 2018-07-09 18:34:41
 tags: python
+categories: python
+cover_img: http://qiniucdn.timilong.com/154373690549.jpg
+description: python-列出文件夹下所有文件名
+
 ---
 
 # 题目

@@ -2,6 +2,9 @@ title: python-函数作用域
 date: 2016-07-07 18:51:32
 categories: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543735486652.jpg
+description: 函数作用域.
+
 ---
 
 ### 函数的实质与属性
@@ -9,10 +12,9 @@ tags: python
 * 函数执行完成后内部变量回收（变量被返回，那么改变量的内存空间没有被回收，即该变量的引用计数不为0）
 * 函数属性
 * 函数的返回值
-<!--more-->
 
 ### 函数作用域LEGB
-LEGB: L>E>G>B
+LEGB: L > E > G > B
 例子：
 ```
 passline = 60 #全局变量global

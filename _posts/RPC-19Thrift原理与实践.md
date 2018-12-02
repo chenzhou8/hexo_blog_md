@@ -2,11 +2,12 @@
 title: RPC-19Thrift原理与实践
 date: 2018-09-16 11:01:53
 tags: RPC
-cover_img:
 feature_img:
 description: 国外开源影响力大厂除了 Google 就数 Facebook 了。自从 Google 开源了 protobuf 之后，Facebook 紧随其后，开源了自家的 Thrift RPC 框架。相比 protobuf 一个单纯的序列化工具而言，thrift 是一个全套的 RPC 框架，支持多种协议，多种传输模式和多种服务器模型，还有单向消息，多种容器型数据结构和自定义异常类型。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736754752.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

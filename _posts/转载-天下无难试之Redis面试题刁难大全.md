@@ -2,7 +2,7 @@
 title: 转载-天下无难试之Redis面试题刁难大全
 date: 2018-09-19 10:42:10
 tags: Redis
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543735492853.jpg
 feature_img:
 description: Redis有哪些数据结构？ 字符串String、字典Hash、列表List、集合Set、有序集合SortedSet。 如果你是Redis中高级用户，还需要加上下面几种数据结构HyperLogLog、Geo、Pub/Sub。 如果你说还玩过Redis Module，像BloomFilter，RedisSearch，Redis-ML，面试官得眼睛就开始发亮了。
 keywords: Redis

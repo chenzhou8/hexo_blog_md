@@ -2,7 +2,7 @@
 title: 转载-TCP传输趣解
 date: 2018-09-19 13:36:52
 tags: 计算机网络
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543736950216.jpg
 feature_img:
 description: 1，下载一个15K的文件，和下载一个28K的文件，时间其实几乎是一样的，但下载一个15K的文件和一个14K的文件，前者比后者耗时几乎多了一倍。这是因为一个TCP请求窗口在绝大部分情况下是1480 * 10/1024=14.45K。
 keywords: 计算机网络

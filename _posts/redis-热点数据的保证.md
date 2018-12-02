@@ -2,11 +2,12 @@
 title: redis-热点数据的保证
 date: 2018-09-23 20:46:41
 tags: Redis
-cover_img:
 feature_img:
 description: MySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据？
 keywords: Redis
 categories: Redis
+cover_img: http://qiniucdn.timilong.com/1543735294748.jpg
+
 ---
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)

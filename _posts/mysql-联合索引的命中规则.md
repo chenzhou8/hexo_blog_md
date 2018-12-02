@@ -3,6 +3,9 @@ title: mysql-联合索引的命中规则
 date: 2018-08-10 11:23:37
 tags: MySQL
 categories: MySQL
+cover_img: http://qiniucdn.timilong.com/1543735300518.jpg
+description: mysql-联合索引的命中规则.
+
 ---
 
 ## 联合索引优点

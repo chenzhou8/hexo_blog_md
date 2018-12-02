@@ -2,11 +2,12 @@
 title: mongodb-ObjectID浅析
 date: 2017-06-12 11:57:10
 tags: MongoDB
-cover_img:
 feature_img:
 description: 59ca2a45938d69002054a607 这个24位的字符串，虽然看起来很长，也很难理解，但实际上它是由一组十六进制的字符构成，每个字节两位的十六进制数字，总共用了12字节的存储空间。相比MYSQL int类型的4个字节，MongoDB确实多出了很多字节。不过按照现在的存储设备，多出来的字节应该不会成为什么瓶颈。不过MongoDB的这种设计，体现着空间换时间的思想.
 keywords: MongoDB
 categories: MongoDB
+cover_img: http://qiniucdn.timilong.com/1543735291528.jpg
+
 ---
 
 > 参考: https://docs.mongodb.com/manual/reference/bson-types/#objectid

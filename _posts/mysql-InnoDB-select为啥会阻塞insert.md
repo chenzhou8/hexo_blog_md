@@ -1,12 +1,13 @@
 ---
 title: mysql-InnoDB-select为啥会阻塞insert
 date: 2018-09-07 14:30:54
-tags: InnoDB
-cover_img:
+tags: MySQL
 feature_img:
 description: MySQL的InnoDB的细粒度行锁，是它最吸引人的特性之一。 但是，如果查询没有命中索引，也将退化为表锁。 InnoDB的细粒度锁，是实现在索引记录上的。
 keywords: mysql, Innodb
 categories: MySQL
+cover_img: http://qiniucdn.timilong.com/1543736902834.jpg
+
 ---
 
 > 转载自: 架构师之路，[InnoDB，select为啥会阻塞insert？](https://mp.weixin.qq.com/s/y_f2qrZvZe_F4_HPnwVjOw)

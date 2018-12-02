@@ -2,10 +2,11 @@
 title: RPC_解决的核心问题和在企业服务中的地位
 date: 2018-09-03 16:10:42
 tags: RPC
-cover_img:
 feature_img:
 description: RPC (Remote Procedure Call)即远程过程调用，是分布式系统常见的一种通信方法，已经有 40 多年历史。当两个物理分离的子系统需要建立逻辑上的关联时，RPC 是牵线搭桥的常见技术手段之一。除 RPC 之外，常见的多系统数据交互方案还有分布式消息队列、HTTP 请求调用、数据库和分布式缓存等.
 keywords: RPC
+cover_img: http://qiniucdn.timilong.com/1543736891749.jpg
+
 ---
 
 转载自: 掘金，深入理解RPC: [基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004/section/5af56a3c5188254267261e03)

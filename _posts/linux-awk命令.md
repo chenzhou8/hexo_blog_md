@@ -3,6 +3,8 @@ date: 2017-07-29 14:06:39
 categories: Linux
 tags: Linux
 description: awk是一个强大的文本分析工具，相对于grep的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。
+cover_img: http://qiniucdn.timilong.com/1543735251861.jpg
+
 ---
 
 ## 简介

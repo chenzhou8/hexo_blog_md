@@ -2,6 +2,9 @@ title: loadRunner入门教程
 date: 2016-05-31 20:59:13
 categoriges: 软件测试
 tags: LoadRunner
+description: loadRunner使用入门介绍.
+cover_img: http://qiniucdn.timilong.com/1543735494271.jpg
+
 ---
 
 测试环境： Windows 7 使用前请关闭电脑管家、安全卫士等安全软件
@@ -11,7 +14,7 @@ loadRunner是一种预测行为和性能的负载测试工具。
 可适用于各种体系架构的自动负责测试，能预测系统行为并评估系统性能。
 
 本篇教程以测试loadRunner自带的webTours网站为例。
-<!--more-->
+
 ### 1. 启动loadRunner自带的webTours网站。
 ```
 开始菜单->所有程序->HP->Samples->start the web tour server

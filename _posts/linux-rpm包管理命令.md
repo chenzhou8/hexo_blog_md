@@ -3,6 +3,8 @@ date: 2017-06-16 22:06:39
 categories: Linux
 tags: Linux
 description: RPM的全名为“RedHat Package Manager”, 是由RedHat公司开发的。Rpm是以一种数据库记录的方式将所需要的套件安装到linux主机的一套管理程序
+cover_img: http://qiniucdn.timilong.com/1543736948447.jpg
+
 ---
 
 ## 简介

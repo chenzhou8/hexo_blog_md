@@ -2,6 +2,9 @@ title: mysql-linux下基本操作
 date: 2016-07-13 00:08:18
 categories: MySQL
 tags: MySQL
+cover_img: http://qiniucdn.timilong.com/1543735442389.jpg
+description: linux下基本操作mysql.
+
 ---
 
 ### 打开终端，进入root
@@ -13,7 +16,6 @@ tags: MySQL
 ```
     ******
 ```
-<!--more-->
 
 ### 进入MySQL
 ```

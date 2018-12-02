@@ -3,6 +3,8 @@ date: 2015-11-30 22:05:29
 categories: Markdown
 tags: Markdown
 description: Markdown 是一种轻量级标记语言，让写作者专注于写作而不用关注样式。Coding 的许多版块均采用了 Markdown 语法，比如冒泡、讨论、Pull Request 等。
+cover_img: http://qiniucdn.timilong.com/1543736885620.jpg
+
 
 ---
 

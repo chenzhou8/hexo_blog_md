@@ -2,11 +2,12 @@
 title: RPC-05Protobuf-二进制协议结构
 date: 2018-09-09 17:16:09
 tags: RPC
-cover_img:
 feature_img:
 description: Protobuf 协议是 Google 开源的二进制 RPC 通讯协议，它可能是互联网开源项目中使用最为广泛的 RPC 协议。 Protobuf 提供了一种描述通讯协议的接口描述语言 IDL，通过编写接口协议，Protobuf 可以自动生成多种语言的 RPC 通讯代码，目前官方已经支持了近 10 种语言。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736900877.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

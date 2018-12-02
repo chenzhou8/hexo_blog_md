@@ -2,11 +2,12 @@
 title: RPC-18gRPC原理与实践
 date: 2018-09-16 11:01:25
 tags: RPC
-cover_img:
 feature_img:
 description: gRPC 是 Google 开源的基于 Protobuf 和 Http2.0 协议的通信框架，Google 深度学习框架 tensorflow 底层的 RPC 通信就完全依赖于 gRPC 库。Google 的开源影响力很大，目前已经有非常多的大型互联网公司在使用 gRPC 了。比如国产开源数据库影响力最大的 Tidb 就选择了 gRPC 作为底层通讯库。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736752445.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

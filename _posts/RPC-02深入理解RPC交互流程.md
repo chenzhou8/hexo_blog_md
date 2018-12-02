@@ -3,10 +3,11 @@ title: RPC_02深入理解RPC交互流程
 date: 2018-09-05 09:48:04
 categories: RPC
 tags: RPC
-cover_img:
 feature_img:
 description: RPC 是两个子系统之间进行的直接消息交互，它使用操作系统提供的套接字来作为消息的载体，以特定的消息格式来定义消息内容和边界。 RPC 的客户端通过文件描述符的读写 API (read & write) 来访问操作系统内核中的网络模块为当前套接字分配的发送 (send buffer) 和接收 (recv buffer) 缓存。
 keywords: RPC
+cover_img: http://qiniucdn.timilong.com/154373677120.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

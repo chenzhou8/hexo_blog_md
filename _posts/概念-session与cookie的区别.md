@@ -2,11 +2,12 @@
 title: 后端-session与cookie的区别
 date: 2018-09-29 21:04:48
 tags: 后端
-cover_img:
 feature_img:
 description: 概念性了解Cookie和Session的区别
 keywords: 后端
 categories: 后端
+cover_img: http://qiniucdn.timilong.com/154373673961.jpg
+
 ---
 
 # 概念: 什么是Cookie和Session

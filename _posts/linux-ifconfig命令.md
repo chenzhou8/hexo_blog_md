@@ -2,6 +2,9 @@ title: Linux-ifconfig命令
 date: 2017-05-26 22:06:39
 categories: Linux
 tags: Linux
+cover_img: http://qiniucdn.timilong.com/1543736973823.jpg
+description: ifconfig命令.
+
 ---
 
 ## Linux系统的网络配置基本

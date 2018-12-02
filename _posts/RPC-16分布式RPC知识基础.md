@@ -2,11 +2,12 @@
 title: RPC-16分布式RPC知识基础
 date: 2018-09-14 16:33:05
 tags: RPC
-cover_img:
 feature_img:
 description: 本节要学习一下 ZooKeeper 的进程管理、信号处理和服务发现的 Python 客户端基本使用。有了这些基础知识之后，大作业的代码理解起来就没有那么吃力了。请读者务必掌握了本节的所有知识点之后再去进行大作业，否则可能会感觉像天书一般难以理解。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735273714.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

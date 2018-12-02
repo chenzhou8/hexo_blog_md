@@ -2,6 +2,9 @@ title: python爬虫入门3-Urllib的高级使用
 date: 2016-10-06 16:16:26
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/1543735259252.jpg
+description: python爬虫入门3-Urllib的高级使用.
+
 ---
 
 ### 设置Headers

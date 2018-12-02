@@ -2,11 +2,12 @@
 title: RPC-12单进程异步模型
 date: 2018-09-13 10:53:21
 tags: RPC
-cover_img:
 feature_img:
 description: 本小节我们开始讲 RPC 的异步模型。异步模型是现代服务器的通用模型，它比古典的同步模型在效率上要高出一大截，但是编程难度上也要加大不少，需要程序员有较高的编程素养。关于如何应用异步模型，我们 需要要先从非阻塞 IO 开始讲起，逐步理解基本原理和必备的工具和库之后，再用代码实现。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736749689.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

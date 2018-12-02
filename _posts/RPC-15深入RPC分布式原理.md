@@ -2,11 +2,12 @@
 title: RPC-15深入RPC分布式原理
 date: 2018-09-14 16:16:22
 tags: RPC
-cover_img:
 feature_img:
 description: 前面几节讲的都是单机 RPC 服务的模式，无论是多线程也好多进程也好，它们都只能算是单点的设计。现代企业的关键性 RPC 服务是绝不可以只使用单点部署的。本节我们要对 RPC 服务进行分布式化，使得服务可以容忍个别节点故障仍能继续对外提供服务。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736757312.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

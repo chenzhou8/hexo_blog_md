@@ -4,6 +4,8 @@ date: 2018-08-08 12:16:24
 tags: MySQL
 categories: MySQL
 description: 记录一次更改myql root用户密码的经历.
+cover_img: http://qiniucdn.timilong.com/1543736741455.jpg
+
 ---
 
 # 忘记root密码

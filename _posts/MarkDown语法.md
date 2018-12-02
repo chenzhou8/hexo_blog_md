@@ -3,6 +3,8 @@ date: 2016-11-28 23:53
 categories: Markdown
 tags: Markdown
 description: 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
+cover_img: http://qiniucdn.timilong.com/154373540388.jpg
+
 
 # 欢迎使用 Cmd Markdown 编辑阅读器
 

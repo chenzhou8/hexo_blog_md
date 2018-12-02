@@ -2,8 +2,8 @@ title: JavaScript进阶-匿名函数
 date: 2016-04-10 15:25:09
 categories: 前端
 tags: JavaScript
-cover_img:
 description: 本文介绍JavaScript中的匿名函数用法。
+cover_img: http://qiniucdn.timilong.com/1543736929827.jpg
 
 ---
 

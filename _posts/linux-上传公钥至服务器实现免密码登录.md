@@ -4,6 +4,8 @@ date: 2016-08-06 11:14:41
 tags: Linux
 categories: Linux
 description: 使用ssh-key实现免输入账号密码登录服务器
+cover_img: http://qiniucdn.timilong.com/1543735287639.jpg
+
 ---
 
 # 生成秘钥

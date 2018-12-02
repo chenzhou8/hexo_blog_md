@@ -2,11 +2,12 @@
 title: RPC-08单线程同步模型
 date: 2018-09-13 10:50:06
 tags: RPC
-cover_img:
 feature_img:
 description: 单线程同步模型的服务器是最简单的服务器模型，每次只能处理一个客户端连接，其它连接必须等到前面的连接关闭了才能得到服务器的处理。否则发送过来的请求会悬挂住，没有任何响应，直到前面的连接处理完了才能继续。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736719492.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

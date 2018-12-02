@@ -2,6 +2,8 @@ title: python-简单的爬虫
 date: 2016-07-08 09:55:35
 categories: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543735236912.jpg
+description: 爬虫可以从一个URL出发，访问所有它所关联的URL，并从每个页面中提取我们所需要的价值数据。
 
 ---
 
@@ -9,8 +11,6 @@ tags: python
 爬虫：一段自动抓取互联网信息的程序
 爬虫可以从一个URL出发，访问所有它所关联的URL，并从每个页面中提取我们所需要的价值数据。
 爬虫技术的价值：互联网数据为我所用
-
-<!--more-->
 
 ### 简单爬虫架构
 

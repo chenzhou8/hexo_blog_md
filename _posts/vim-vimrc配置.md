@@ -2,8 +2,8 @@ title: 我的vim配置(.vimrc)
 date: 2016-05-15 12:45:33
 categories: vim
 tags: vim
+cover_img: http://qiniucdn.timilong.com/1543735462876.jpg
 description: vim配置的介绍, deepin linux 2015
-
 
 ---
 

@@ -2,12 +2,11 @@
 title: RPC-11PreForking同步模型
 date: 2018-09-13 10:53:03
 tags: RPC
-cover_img:
 feature_img:
 description: 进程要比线程更加吃资源，如果来一个连接就开一个进程，当连接比较多时，进程数量也会跟着多起来，操作系统的调度压力也就会比较大。所以我们要对服务器开辟的进程数量进行限制，避免系统负载过重。这就需要掌握多进程 PreForking 模型。
-
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/154373696068.jpg
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

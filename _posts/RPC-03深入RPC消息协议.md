@@ -3,10 +3,11 @@ title: RPC_03深入RPC消息协议
 date: 2018-09-06 17:56:40
 categories: RPC
 tags: RPC
-cover_img:
 feature_img:
 description: 对于一串消息流，我们必须能确定消息边界，提取出单条消息的字节流片段，然后对这个片段按照一定的规则进行反序列化来生成相应的消息对象。
 keywords: RPC
+cover_img: http://qiniucdn.timilong.com/1543735500548.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

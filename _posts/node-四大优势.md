@@ -3,6 +3,8 @@ date: 2016-04-17 16:14:42
 categories: Nodejs
 tags: Nodejs
 description: 不用再单独学习一门陌生的语言，从而降低了学习的门槛。同时，JavaScript语言在Web前端开发中至关重要, 特别HTML5的应用必须要使用。
+cover_img: http://qiniucdn.timilong.com/1543736768842.jpg
+
 
 ---
 

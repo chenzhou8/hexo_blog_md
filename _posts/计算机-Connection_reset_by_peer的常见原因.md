@@ -4,6 +4,8 @@ date: 2018-10-16 10:33:31
 tags: Socket
 categories: Socket
 description: 我在用Thrift进行Python后端服务开发时，在客户端并发量并不大的情况下，日志报警Connection reset by peer错误很频繁，经过大量google后，对此错误可能情况进行一个记录。
+cover_img: http://qiniucdn.timilong.com/1543736774757.jpg
+
 ---
 
 ## Connection reset by peer出现的原因

@@ -2,7 +2,11 @@ title: python-函数式编程
 date: 2016-07-03 20:09:27
 categories: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543735415562.jpg
+description: 函数式编程.
+
 ---
+
 ### 函数式编程综合概述
 #### 什么是函数式编程？
 函数式编程：使用一系列的函数解决实际问题。

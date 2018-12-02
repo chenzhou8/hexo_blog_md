@@ -2,6 +2,9 @@ title: python爬虫实战1-爬取糗事百科.md
 date: 2016-10-11 22:36:52
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/1543735506726.jpg
+description: python爬虫实战1-爬取糗事百科.
+
 ---
 
 ### 初步测试URL

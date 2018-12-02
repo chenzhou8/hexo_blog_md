@@ -2,11 +2,12 @@
 title: RPC-17分布式RPC实战
 date: 2018-09-14 16:59:37
 tags: RPC
-cover_img:
 feature_img:
 description: 分布式 RPC 服务开发实战这个大作业将分为服务器和客户端两个模块，每个模块都不是特别简单。 服务器要进行复杂的进程管理，客户端要进行复杂的服务列表变更处理。最终我们将打造出一个可用的高性能分布式 RPC 服务，服务器可以横向扩展到多个机器多个节点，客户端可以实时随着服务器的变动而动态切换调用地址。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735425721.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

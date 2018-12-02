@@ -3,6 +3,8 @@ date: 2016-10-03 20:20:34
 categories: python
 tags: 爬虫
 description: 简单介绍爬虫、浏览网页的流程、URL的含义。
+cover_img: http://qiniucdn.timilong.com/1543736765781.jpg
+
 ---
 
 ### 什么是爬虫

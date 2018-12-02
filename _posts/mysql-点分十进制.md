@@ -3,7 +3,7 @@ date: 2017-02-19 14:37:12
 categories: MySQL
 tags: MySQL
 description: 本文着重接受MySQL点分十进制的用法.
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543736713943.jpg
 
 ---
 

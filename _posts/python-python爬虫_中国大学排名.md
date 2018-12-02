@@ -2,6 +2,9 @@
 title: icourse163_org_python爬虫_中国大学排名
 date: 2017-09-09 11:55:39
 tags: python
+categories: python
+cover_img: http://qiniucdn.timilong.com/1543735470517.jpg
+description: python爬虫_中国大学排名.
 ---
 
 ```

@@ -4,6 +4,8 @@ date: 2018-04-23 23:03:50
 tags: Linux
 categories: Linux
 description: 记录日常Linux使用中会使用到的一些命令。
+cover_img: http://qiniucdn.timilong.com/1543735457325.jpg
+
 ---
 
 ### tree

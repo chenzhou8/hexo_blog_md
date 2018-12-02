@@ -4,6 +4,8 @@ date: 2018-08-16 20:09:14
 tags: Linux
 categories: Linux
 description: 有些时候，我们希望Linux服务器在宕机重启后，能将我们自己搭建的一些服务自动启动起来，这里，通过简单的一篇博文，记录自己怎么实现的开机自启动的。
+cover_img: http://qiniucdn.timilong.com/1543735459136.jpg
+
 ---
 
 ### 设置自启动

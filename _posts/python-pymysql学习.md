@@ -2,6 +2,8 @@ title: python-MySQL数据库操作
 date: 2016-07-09 07:25:40
 categories: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543736943777.jpg
+description: python-MySQL数据库操作.
 ---
 
 ### Python访问DB的官方接口规范
@@ -10,8 +12,6 @@ Python访问数据库的统一接口规范。
 [官网](htttps://www.python.org/dev/peps/pep-0249)
 
 Python应用程序通过Python DB API即可完成对不同数据库的访问，对应用程序来说，只需切换少量代码即可实现。
-
-<!--more-->
 
 #### Python DB API包含的内容：
 Python程序----------------------------------->数据库服务器

@@ -2,7 +2,7 @@
 title: 转载-互联网公司面试必问的mysql题目
 date: 2018-09-20 10:16:26
 tags: MySQL
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543736914285.jpg
 feature_img:
 description: MySQL是一个关系型数据库管理系统，目前属于 Oracle 旗下产品。虽然单机性能比不上oracle，但免费开源，单机成本低且借助于分布式集群所以受到互联网公司的青睐，是互联网公司的主流数据库。
 keywords: MySQL

@@ -3,6 +3,7 @@ date: 2016-03-01 17:38
 categories: Nodejs
 tags: Nodejs
 description: 为了让nodejs的文件可以相互调用，nodejs提供了一个简单的模块系统。
+cover_img: http://qiniucdn.timilong.com/1543736966495.jpg
 
 ---
 

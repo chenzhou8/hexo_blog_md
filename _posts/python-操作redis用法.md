@@ -2,11 +2,12 @@
 title: python-操作redis用法
 date: 2018-09-24 22:06:20
 tags: Redis
-cover_img:
 feature_img:
 description: redis提供两个类Redis和StrictRedis用于实现Redis的命令，StrictRedis用于实现大部分官方的命令，并使用官方的语法和命令，Redis是StrictRedis的子类，用于向后兼容旧版本的redis-py。
 keywords: Redis
 categories: Python
+cover_img: http://qiniucdn.timilong.com/1543736723528.jpg
+
 ---
 
 ### redis连接

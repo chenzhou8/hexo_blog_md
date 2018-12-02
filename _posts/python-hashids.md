@@ -2,6 +2,10 @@
 title: python-三方开源库hashids
 date: 2018-08-09 15:05:16
 tags: python
+categories: python
+cover_img: http://qiniucdn.timilong.com/1543736736849.jpg
+description: 三方开源库hashids.
+
 ---
 
 [转载自知乎专栏: 码洞](https://zhuanlan.zhihu.com/p/32671455)

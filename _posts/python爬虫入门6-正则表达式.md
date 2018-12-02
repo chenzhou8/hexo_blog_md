@@ -2,11 +2,10 @@ title: python爬虫入门6-正则表达式
 date: 2016-10-07 20:21:12
 categories: python
 tags: 爬虫
-cover_img:
 description: 正则表达式学习记录。
----
+cover_img: http://qiniucdn.timilong.com/154373695786.jpg
 
-[TOC]
+---
 
 ### 了解正则表达式
 

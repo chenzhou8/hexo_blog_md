@@ -1,11 +1,12 @@
 title: RPC-04Redis文本协议结构
 date: 2018-09-07 09:59:53
 tags: RPC
-cover_img:
 feature_img:
 description: Redis 在互联网存储技术上使用非常普遍，它以高性能高并发、易于理解和易于使用而广泛应用于互联网服务的存储系统上。 Redis 要对外提供存储服务，客户端和服务器之间免不了也要进行 RPC 通信，Redis 作者 Antirez 为 Redis 设计了一套专用的文本通讯协议 RESP。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/154373698287.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

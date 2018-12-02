@@ -2,11 +2,12 @@
 title: RPC-20推荐学习资源
 date: 2018-09-16 11:02:30
 tags: RPC
-cover_img:
 feature_img:
 description: 通过这段征途，你们应该会发现，后端开发者在平时工作中用到的各种服务器工具就是基于这本小册中介绍的各种信息交互模型构建出来的。无论是 Nginx、Redis、MySQL，还是 Tornado、Nodejs、Tomcat、Netty 等等，它们的核心结构就是多线程、多进程、PreForking、事件循环、异步 IO 等。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736888230.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

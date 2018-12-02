@@ -3,7 +3,7 @@ date: 2015-12-07 23:10:08
 categories: 读书笔记
 tags: 经验
 description: 《别让我思考》读书笔记。
-cover_img:
+cover_img: http://qiniucdn.timilong.com/1543735374227.jpg
 
 ---
 

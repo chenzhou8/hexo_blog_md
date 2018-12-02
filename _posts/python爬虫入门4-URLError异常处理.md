@@ -2,6 +2,9 @@ title: python爬虫入门4-URLError异常处理
 date: 2016-10-07 18:39:30
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/1543736721880.jpg
+description: python爬虫入门4-URLError异常处理.
+
 ---
 
 本节在这里主要说的是URLError还有HTTPError，以及对它们的一些处理。

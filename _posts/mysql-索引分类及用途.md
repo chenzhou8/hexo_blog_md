@@ -3,6 +3,9 @@ title: mysql-索引分类及用途
 date: 2018-08-10 11:47:57
 tags: MySQL
 categories: MySQL
+cover_img: http://qiniucdn.timilong.com/1543735406642.jpg
+description: mysql-索引分类及用途.
+
 ---
 
 ## 索引分类

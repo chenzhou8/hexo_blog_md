@@ -2,11 +2,12 @@
 title: RPC-10多进程同步模型
 date: 2018-09-13 10:52:37
 tags: RPC
-cover_img:
 feature_img:
 description: fork 调用将生成一个子进程，所以这个函数会在父子进程同时返回。在父进程的返回结果是一个整数值，这个值是子进程的进程号，父进程可以使用该进程号来控制子进程的运行。fork 在子进程的返回结果是零。如果 fork 返回值小于零，一般意味着操作系统资源不足，无法创建进程。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735454132.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

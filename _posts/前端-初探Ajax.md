@@ -2,6 +2,9 @@ title: 初探Ajax
 date: 2016-04-16 12:01:27
 categories: 前端
 tags: 前端
+description: Ajax简介。
+cover_img: http://qiniucdn.timilong.com/1543735297293.jpg
+
 
 ---
 

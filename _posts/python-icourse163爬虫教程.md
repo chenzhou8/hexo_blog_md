@@ -3,6 +3,9 @@ title: python网络爬虫与信息提取
 date: 2017-09-10 20:04:18
 categroies: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543736952322.jpg
+description: python网络爬虫与信息提取
+
 ---
 
 ## 课程内容
@@ -27,7 +30,6 @@ tags: python
 1. 课程内容导学
 2. 工具介绍与选择
 ```
-<!--more-->
 
 ## 第1周 网络爬虫之规则
 ### Requests库入门

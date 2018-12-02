@@ -2,11 +2,12 @@
 title: RPC-14多进程描述符传递模型
 date: 2018-09-13 10:54:00
 tags: RPC
-cover_img:
 feature_img:
 description: Node Cluster 为了解决负载均衡问题，它采用了不同的策略。它也是多进程并发模型，Master 进程会 fork 出多个子进程来处理客户端套接字。但是不存在竞争问题，因为负责 accept 套接字的只能是 Master 进程，Slave 进程只负责处理客户端套接字请求。那就存在一个问题，Master 进程拿到的客户端套接字如何传递给 Slave 进程。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736975596.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

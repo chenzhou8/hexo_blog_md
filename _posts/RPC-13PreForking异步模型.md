@@ -2,11 +2,12 @@
 title: RPC-13PreForking异步模型.md
 date: 2018-09-13 10:53:36
 tags: RPC
-cover_img:
 feature_img:
 description: 单个进程的 IO 并发能力有限，虽然使用了事件轮询 API 和异步读写功能，但是还是不够应对大型服务的高并发要求。特别是 Python 这种语言因为 GIL 的存在使得单个进程只能榨干一个 CPU 核心。我们需要一种扩展机制可以扩大服务器的整体并发处理能力，好好利用现代处理器的多核优势，这就需要使用多进程。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735452966.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

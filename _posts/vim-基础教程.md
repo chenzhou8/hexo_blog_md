@@ -2,6 +2,9 @@ title: vim教程-基础
 date: 2017-05-19 06:55:45
 categories: vim
 tags: vim
+cover_img: http://qiniucdn.timilong.com/1543736940298.jpg
+description: Vim简介.
+
 ---
 
 ### 1. 简介

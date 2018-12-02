@@ -3,6 +3,9 @@ title: Python网络爬虫与信息提取-网络爬虫之规则
 date: 2017-08-26 23:17:44
 categories: python
 tags: python
+cover_img: http://qiniucdn.timilong.com/1543736711372.jpg
+description: Python网络爬虫与信息提取-网络爬虫之规则.
+
 ---
 
 

@@ -2,11 +2,12 @@
 title: RPC-06Redis协议的缺陷
 date: 2018-09-10 17:33:26
 tags: RPC
-cover_img:
 feature_img:
 description: 本节我们要分析 Redis 协议设计的缺陷，但是要理解这个缺陷就必须先明白下面几个知识点，所以先不直接告诉大家 Redis 协议错在哪里。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543736761885.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)

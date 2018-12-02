@@ -2,11 +2,12 @@
 title: python-关于匿名函数的延迟加载
 date: 2018-09-18 11:35:19
 tags: python
-cover_img:
 feature_img:
 description: Python里面的延迟加载用得非常多，其主要思想是延迟所要引入类的实例化，节省一些初始化所需要的时间和空间。
 keywords: python
 categories: python
+cover_img: http://qiniucdn.timilong.com/1543735243806.jpg
+
 ---
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)

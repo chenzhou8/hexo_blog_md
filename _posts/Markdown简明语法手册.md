@@ -3,10 +3,11 @@ date: 2015-11-29 16:53
 categories: Markdown
 tags: Markdown
 description: Markdown日常语法简单介绍。
+cover_img: http://qiniucdn.timilong.com/1543735511628.jpg
+
+---
 
 # Markdown简明手册
-
-------
 
 ### 1. 斜体和粗体  
 

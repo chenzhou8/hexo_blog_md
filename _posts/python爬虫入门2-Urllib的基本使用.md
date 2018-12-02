@@ -2,6 +2,9 @@ title: python爬虫入门2-Urllib的基本使用
 date: 2016-10-04 16:40:34
 categories: python
 tags: 爬虫
+cover_img: http://qiniucdn.timilong.com/1543736977763.jpg
+description: python爬虫入门2-Urllib的基本使用.
+
 ---
 
 ### 爬取网页

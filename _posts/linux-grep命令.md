@@ -2,6 +2,9 @@ title: Linux-grep命令
 date: 2017-07-16 22:06:39
 categories: Linux
 tags: Linux
+cover_img: http://qiniucdn.timilong.com/1543735412861.jpg
+description: grep命令.
+
 ---
 
 ## 语法

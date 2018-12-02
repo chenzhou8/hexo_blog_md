@@ -2,11 +2,12 @@
 title: RPC-09多线程同步模型
 date: 2018-09-13 10:50:30
 tags: RPC
-cover_img:
 feature_img:
 description: 多线程同步模型, 服务器可以并行处理多个客户端，每来一个新连接，则开启一个新的线程单独进行处理。每个线程都是同步读写客户端连接。
 keywords: RPC
 categories: RPC
+cover_img: http://qiniucdn.timilong.com/1543735240334.jpg
+
 ---
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)
