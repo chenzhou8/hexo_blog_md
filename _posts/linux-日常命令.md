@@ -8,9 +8,8 @@ cover_img: http://qiniucdn.timilong.com/1543735457325.jpg
 
 ---
 
-### tree
-
-```
+## tree
+```shell
 -a：显示所有文件和目录；
 -A：使用ASNI绘图字符显示树状图而非以ASCII字符组合；
 -C：在文件和目录清单加上色彩，便于区分各种类型；
@@ -34,14 +33,12 @@ cover_img: http://qiniucdn.timilong.com/1543735457325.jpg
 ```
 
 按照指定的层级列出目录文件...
-
-```
+```shell
 tree -d -L 4  # 列出当前目录下的四层目录
 ```
 
-### find
-
-```
+## find
+```shell
 -amin<分钟>：查找在指定时间曾被存取过的文件或目录，单位以分钟计算；
 -anewer<参考文件或目录>：查找其存取时间较指定文件或目录的存取时间更接近现在的文件或目录；
 -atime<24小时数>：查找在指定时间曾被存取过的文件或目录，单位以24小时计算；
@@ -98,16 +95,16 @@ tree -d -L 4  # 列出当前目录下的四层目录
 -xdev：将范围局限在先行的文件系统中；
 -xtype <文件类型>：此参数的效果和指定-type参数类似，差别在于它针对符号连接检查。
 
-如下命令: 
+如下命令:
 find . -type f -name "*.py[co]" -delete  # 寻找当前目录下 所有以pyc结尾的文件 并删除
 
-运维中经常用到的寻找大文件的命令: 
+运维中经常用到的寻找大文件的命令:
 find / -type f -size +80M  # 寻找/目录下 所有size大于80Mb的文件
 ```
 
-### dpkg
+## dpkg
 
-```
+```shell
 用法：dpkg [<选项> ...] <命令>
 
 Commands:
@@ -147,14 +144,11 @@ Commands:
   -?, --help                       显示本帮助信息。
       --version                    显示版本信息。
 
-Assert 特性： support-predepends, working-epoch, long-filenames,
-  multi-conrep, multi-arch, versioned-provides.
-
+Assert 特性： support-predepends, working-epoch, long-filenames, multi-conrep, multi-arch, versioned-provides.  
 Validatable things: pkgname, archname, trigname, version.
 
-调用 dpkg 并带参数 -b, --build, -c, --contents, -e, --control, -I, --info,
-  -f, --field, -x, --extract, -X, --vextract, --ctrl-tarfile, --fsys-tarfile
-是针对归档文件的。 (输入 dpkg-deb --help 获取帮助)
+调用 dpkg 并带参数 -b, --build, -c, --contents, -e, --control, -I, --info, -f, --field, -x, --extract, -X, --vextract, --ctrl-tarfile, --fsys-tarfile是针对归档文件的。
+(输入 dpkg-deb --help 获取帮助)
 
 选项：
   --admindir=<目录>          使用 <目录> 而非 /var/lib/dpkg。
@@ -190,9 +184,8 @@ Validatable things: pkgname, archname, trigname, version.
 'apt' 和 'aptitude' 提供了更为便利的软件包管理。
 ```
 
-如下例子: 
-```
+如下例子:
+```shell
 dpkg --list | grep postgresql  # 列出postgresql相关的所有安装包
 dpkg --purge postgresql  # 删除postgresql
 ```
-
