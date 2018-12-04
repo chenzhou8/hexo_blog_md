@@ -5,6 +5,9 @@ tags: leetcode
 cover_img: http://qiniucdn.timilong.com/1543288440507.jpg
 description: leetcode上第242题，有效的字母异位词题解。
 ---
+
+![tu](http://qiniucdn.timilong.com/1543288440507.jpg)
+
 ## 描述
 ```
 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的一个字母异位词。

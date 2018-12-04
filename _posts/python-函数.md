@@ -4,8 +4,9 @@ categories: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543735486652.jpg
 description: 函数作用域.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735486652.jpg)
 
 ### 函数的实质与属性
 * 函数是一个对象

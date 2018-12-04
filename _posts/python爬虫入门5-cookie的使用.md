@@ -4,10 +4,11 @@ categories: python
 tags: 爬虫
 cover_img: http://qiniucdn.timilong.com/154373545046.jpg
 description: python爬虫入门5-cookie的使用.
-
 ---
 
-为什么要使用Cookie呢？
+![tu](http://qiniucdn.timilong.com/154373545046.jpg)
+
+### 为什么要使用Cookie呢？
 
 Cookie，指某些网站为了辨别用户身份、进行session跟踪而储存在用户本地终端上的数据（通常经过加密）
 
@@ -21,7 +22,6 @@ Cookie，指某些网站为了辨别用户身份、进行session跟踪而储存�
 
 如果我们需要用到Cookie，只用这个opener是不能达到目的的，所以我们需要创建更一般的opener来实现对Cookie的设置。
 
-<!--more-->
 
 ### Cookielib
 

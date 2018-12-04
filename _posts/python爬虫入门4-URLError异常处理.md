@@ -4,8 +4,9 @@ categories: python
 tags: 爬虫
 cover_img: http://qiniucdn.timilong.com/1543736721880.jpg
 description: python爬虫入门4-URLError异常处理.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736721880.jpg)
 
 本节在这里主要说的是URLError还有HTTPError，以及对它们的一些处理。
 
@@ -36,7 +37,7 @@ except urllib2.URLError, e:
 
 它说明了错误代号是11004，错误原因是 getaddrinfo failed
 
-<!--more-->
+
 
 ### HTTPError
 

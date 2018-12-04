@@ -6,6 +6,8 @@ tags: hexo
 description: 常用的hexo命令简介.
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387760179.jpg)
+
 ## 常用的命令:
 ```
     hexo new "新建的文件名"

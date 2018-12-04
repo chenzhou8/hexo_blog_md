@@ -7,8 +7,9 @@ description: 概念性了解Cookie和Session的区别
 keywords: 后端
 categories: 后端
 cover_img: http://qiniucdn.timilong.com/154373673961.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/154373673961.jpg)
 
 # 概念: 什么是Cookie和Session
 ## 协议角度理解

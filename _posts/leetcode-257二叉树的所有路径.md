@@ -6,6 +6,8 @@ cover_img: http://qiniucdn.timilong.com/1543288434710.jpg
 description: leetcode第257题，二叉树的所有路径，题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288434710.jpg)
+
 ## Description
 ```
 Description:

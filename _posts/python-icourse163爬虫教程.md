@@ -5,8 +5,9 @@ categroies: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543736952322.jpg
 description: python网络爬虫与信息提取
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736952322.jpg)
 
 ## 课程内容
 ```

@@ -4,9 +4,9 @@ categories: python
 tags: 爬虫
 cover_img: http://qiniucdn.timilong.com/1543736907739.jpg
 description: python爬虫实战2-爬取百度贴吧的帖子
-
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736907739.jpg)
 
 ### 分析百度贴吧的帖子
 
@@ -50,7 +50,7 @@ description: python爬虫实战2-爬取百度贴吧的帖子
 获得该贴的标题。
 
 
-<!--more-->
+
 
 2. 回复贴的总页数
 

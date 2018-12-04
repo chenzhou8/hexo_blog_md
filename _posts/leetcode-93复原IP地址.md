@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543387776398.png
 description: 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387776398.png)
+
 ## 题目
 ```
 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。

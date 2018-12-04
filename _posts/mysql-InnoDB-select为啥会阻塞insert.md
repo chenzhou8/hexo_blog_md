@@ -7,8 +7,9 @@ description: MySQL的InnoDB的细粒度行锁，是它最吸引人的特性之�
 keywords: mysql, Innodb
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/1543736902834.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736902834.jpg)
 
 > 转载自: 架构师之路，[InnoDB，select为啥会阻塞insert？](https://mp.weixin.qq.com/s/y_f2qrZvZe_F4_HPnwVjOw)
 > 推荐阅读: 架构师之路，[缓存架构, 一篇足够](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)

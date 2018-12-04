@@ -9,6 +9,8 @@ keywords: kafka
 categories: Kafka
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387763929.png)
+
 > 转载自: CSDN，[Kafka重复消费和丢失数据研究](https://blog.csdn.net/zollty/article/details/53958641)
 
 ## Kafka重复消费原因

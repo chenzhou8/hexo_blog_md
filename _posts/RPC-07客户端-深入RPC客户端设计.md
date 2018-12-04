@@ -7,8 +7,9 @@ description: RPC 客户端实现起来要比服务器简单，所以我们先讲
 keywords: RPC
 categories: RPC
 cover_img: http://qiniucdn.timilong.com/1543735467897.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735467897.jpg)
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)
 

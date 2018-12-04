@@ -4,10 +4,11 @@ categories: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543736717464.jpg
 description: 汉诺塔.
-
 ---
 
-# python 实现
+![tu](http://qiniucdn.timilong.com/1543736717464.jpg)
+
+## python 实现
 ```python
 def moveHanii(n, a, b, c):
     if n == 1:

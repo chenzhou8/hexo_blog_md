@@ -7,8 +7,9 @@ description: 本文以MySQL数据库为研究对象，讨论与数据库索引�
 keywords: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/1543736728255.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736728255.jpg)
 
 > 转载自: CodingLabs，[MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 

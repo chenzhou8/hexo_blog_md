@@ -4,8 +4,9 @@ categories: 读书笔记
 tags: 经验
 description: 《别让我思考》读书笔记。
 cover_img: http://qiniucdn.timilong.com/1543735374227.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735374227.jpg)
 
 ## 思维导图
 

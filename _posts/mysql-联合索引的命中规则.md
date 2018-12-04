@@ -5,8 +5,9 @@ tags: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/1543735300518.jpg
 description: mysql-联合索引的命中规则.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735300518.jpg)
 
 ## 联合索引优点
 ```
@@ -17,7 +18,7 @@ description: mysql-联合索引的命中规则.
 在只用一个的基础之上，联合索引会比单列索引更快；
 ```
 
-<!--more-->
+
 
 ## 联合索引命中规则
 

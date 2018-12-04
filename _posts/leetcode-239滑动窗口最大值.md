@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543288406140.jpg
 description: leetcode上第239题，求滑动窗口最大值的题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288406140.jpg)
+
 ## Description
 ```
 Description:

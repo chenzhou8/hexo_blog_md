@@ -9,6 +9,8 @@ keywords: leetcode
 categories: leetcode
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387770478.jpg)
+
 ## 题目描述
 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
 

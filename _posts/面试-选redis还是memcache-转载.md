@@ -9,6 +9,8 @@ keywords: Redis
 categories: Redis
 ---
 
+![封面](http://qiniucdn.timilong.com/15429394458.jpg)
+
 > 转载自: 微信公众号，[架构师之路](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961269&idx=1&sn=ea447397423a2ad9d9f44ad51f0bed5e&chksm=bd2d02698a5a8b7f966f77c0283124e7d7dee42cc604b418b57ba4ff15e583fe2873a356dc31&scene=21#wechat_redirect)
 
 # 选redis还是memcache, 面试官会问什么?

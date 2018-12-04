@@ -5,10 +5,11 @@ tags: python
 categories: python
 cover_img: http://qiniucdn.timilong.com/1543736736849.jpg
 description: 三方开源库hashids.
-
 ---
 
-[转载自知乎专栏: 码洞](https://zhuanlan.zhihu.com/p/32671455)
+![tu](http://qiniucdn.timilong.com/1543736736849.jpg)
+
+> [转载自知乎专栏: 码洞](https://zhuanlan.zhihu.com/p/32671455)
 
 ## hashids介绍
 
@@ -26,7 +27,7 @@ Hashids是一个非常小巧的开源库，它用来把数字编码成一个随�
  pip install hashids
 ```
 
-<!--more-->
+
 
 
 ## 具体使用

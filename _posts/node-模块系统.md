@@ -4,9 +4,11 @@ categories: Nodejs
 tags: Nodejs
 description: 为了让nodejs的文件可以相互调用，nodejs提供了一个简单的模块系统。
 cover_img: http://qiniucdn.timilong.com/1543736966495.jpg
-
 ---
 
+![tu](http://qiniucdn.timilong.com/1543736966495.jpg)
+
+## 简介
 模块是nodejs应用程序的基本组成部分，文件和模块是一一对应的。
 
 换言之，一个nodejs文件就是一个模块，这个文件可能是JavaScript代码，JSON或者是编译过的C/C++扩展

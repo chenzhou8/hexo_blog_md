@@ -4,10 +4,9 @@ categories: 读书笔记
 tags: 随笔文集
 description: 一种编程语言想要变得流行，最后一关就是要经受时间的考验。
 cover_img: http://qiniucdn.timilong.com/1543735306101.jpg
-
 ---
 
-![封面](http://qiniucdn.timilong.com/mactalk-renshengyuanbianchen.jpg)
+![封面](http://qiniucdn.timilong.com/1543735306101.jpg)
 
 ## 推荐
 mac几个文中出现的微信公众号码：

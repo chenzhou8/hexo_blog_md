@@ -7,8 +7,9 @@ description: 59ca2a45938d69002054a607 这个24位的字符串，虽然看起来�
 keywords: MongoDB
 categories: MongoDB
 cover_img: http://qiniucdn.timilong.com/1543735291528.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735291528.jpg)
 
 > 参考: https://docs.mongodb.com/manual/reference/bson-types/#objectid
 

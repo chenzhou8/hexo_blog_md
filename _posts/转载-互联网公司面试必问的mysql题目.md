@@ -9,12 +9,12 @@ keywords: MySQL
 categories: MySQL
 ---
 
+![封面](http://qiniucdn.timilong.com/1543736914285.jpg)
+
 > 转载自: 微信公众号 codewill，[互联网公司面试必问的mysql题目](https://mp.weixin.qq.com/s?__biz=MzU3MTQwNDEyMg==&mid=2247483712&idx=1&sn=69d682415757d739437a81e46614010a&chksm=fce1fb75cb967263ec343596a94f52fcff84aeb56f95ced0534fdb739c2eab453f027f07a1c8&token=1140785409&lang=zh_CN#rd)
 > 参考: 掘金, [互联网公司必问的mysql题目](https://juejin.im/post/5ba1f32ee51d450e805b43f2?utm_source=gold_browser_extension)
 
 ### 什么是脏读？幻读？不可重复读？什么是事务的隔离级别？Mysql的默认隔离级别是？
-
-
 
 脏读：
 > 事务A读取了事务B更新的数据，然后B回滚操作，那么A读取到的数据是脏数据

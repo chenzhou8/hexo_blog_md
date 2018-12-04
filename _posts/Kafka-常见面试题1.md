@@ -9,6 +9,8 @@ keywords: Kafka
 categories: Kafka
 ---
 
+![tu](http://qiniucdn.timilong.com/1542968635303.jpg)
+
 > 转载自: CSDN，[14个最常见的Kafka面试题及答案](https://blog.csdn.net/yjh314/article/details/77568580)
 
 ## 请说明什么是Apache Kafka?

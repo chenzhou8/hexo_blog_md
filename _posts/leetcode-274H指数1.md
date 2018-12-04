@@ -7,6 +7,8 @@ tags: leetcode
 description: leetcode第274题, H指数1, 题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387778232.png)
+
 ## Description
 ```
 Description:

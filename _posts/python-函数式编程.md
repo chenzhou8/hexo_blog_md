@@ -4,8 +4,9 @@ categories: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543735415562.jpg
 description: 函数式编程.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735415562.jpg)
 
 ### 函数式编程综合概述
 #### 什么是函数式编程？
@@ -25,7 +26,7 @@ description: 函数式编程.
 
 可以认为函数式编程站在了面向对象编程的对立面。
 
-<!--more-->
+
 
 对象通常包含内部状态（字段），和许多能修改这些状态的函数，程序则由不断修改状态构成；函数式编程则极力避免状态改动，并
 通过在函数间传递数据流进行工作。

@@ -7,8 +7,9 @@ description: 介绍：Redis 是一个开源的使用 ANSI C 语言编写、遵�
 keywords: Redis
 categories: Redis
 cover_img: http://qiniucdn.timilong.com/1543735464963.jpg
-
 ---
+
+![tu]()
 
 > 转载自: 微信公众号: codewill，[互联网公司面试必问的Redis题目](https://mp.weixin.qq.com/s?__biz=MzU3MTQwNDEyMg==&mid=2247483696&idx=1&sn=df846a5c35eda7d1e1459c7415e64ea2&chksm=fce1fb05cb96721382cea1a9461f2b6c514a7a718ded90a9ea41de0e0af8b532b57db70a0d4f&scene=21#wechat_redirect)
 

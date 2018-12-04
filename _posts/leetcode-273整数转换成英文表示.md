@@ -7,6 +7,8 @@ tags: leetcode
 description: leetcode-273整数转换成英文表示, 题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288397693.jpg)
+
 ## Description
 ```
 将非负整数转换为其对应的英文表示。可以保证给定输入小于 231 - 1 。

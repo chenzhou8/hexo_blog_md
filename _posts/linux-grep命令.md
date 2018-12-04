@@ -4,8 +4,9 @@ categories: Linux
 tags: Linux
 cover_img: http://qiniucdn.timilong.com/1543735412861.jpg
 description: grep命令.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735412861.jpg)
 
 ## 语法
 
@@ -22,7 +23,7 @@ description: grep命令.
     --color=auto : 可以将找到的关键词部分加上颜色的显示喔！
 ```
 
-<!--more-->
+
 
 2. 例子
 ```

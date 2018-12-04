@@ -6,6 +6,8 @@ cover_img: http://qiniucdn.timilong.com/1543288411876.jpg
 description: leetcode第264题，丑数2，题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288411876.jpg)
+
 ## Description
 ```
 Description:

@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/154328843058.jpg
 description: leetcode第263题，丑数1，题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/154328843058.jpg)
+
 ## Description
 ```
 Description:

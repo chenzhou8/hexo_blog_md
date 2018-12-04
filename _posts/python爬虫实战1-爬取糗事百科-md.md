@@ -4,8 +4,9 @@ categories: python
 tags: 爬虫
 cover_img: http://qiniucdn.timilong.com/1543735506726.jpg
 description: python爬虫实战1-爬取糗事百科.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735506726.jpg)
 
 ### 初步测试URL
 
@@ -32,7 +33,7 @@ except urllib2.URLError, e:
         print(e.reason)
 
 ```
-<!--more-->
+
 
 ### 爬取所有段子，完成交互
 

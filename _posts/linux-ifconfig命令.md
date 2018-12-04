@@ -4,8 +4,9 @@ categories: Linux
 tags: Linux
 cover_img: http://qiniucdn.timilong.com/1543736973823.jpg
 description: ifconfig命令.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736973823.jpg)
 
 ## Linux系统的网络配置基本
     包括：网络IP的配置、网关路由的配置、主机DNS的配置、主机名的配置等，本篇注重介绍网络IP的配置。
@@ -14,7 +15,7 @@ description: ifconfig命令.
     暂时的网络配置：利用ifconfig等命令配置的网络信息，会立即生效，但重启网络服务和系统会失效。
     永久的网络配置：通过修改系统内的网络配置文件进行的修改，不会立即生效，需要重启网络服务或者系统会生效，并且会永久性的生效。 
 
-<!--more-->
+
 
 ## Linux下的网络接口和命名规则
     ⑴、网络接口：

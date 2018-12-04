@@ -4,8 +4,9 @@ categories: MySQL
 tags: MySQL
 description: 本文着重接受MySQL点分十进制的用法.
 cover_img: http://qiniucdn.timilong.com/1543736713943.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736713943.jpg)
 
 ## 简介
 ```

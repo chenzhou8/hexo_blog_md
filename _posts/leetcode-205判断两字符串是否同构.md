@@ -7,6 +7,8 @@ description: 给定两个字符串 s 和 t，判断它们是否是同构的。
 cover_img: http://qiniucdn.timilong.com/1543288421433.jpg
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288421433.jpg)
+
 # 题目
 ```
 给定两个字符串 s 和 t，判断它们是否是同构的。

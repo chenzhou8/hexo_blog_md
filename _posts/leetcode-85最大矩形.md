@@ -9,6 +9,8 @@ keywords: leetcode
 categories: leetcode
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288414205.jpg)
+
 ## 题目描述
 
 给定一个仅包含 0 和 1 的二维二进制矩阵，找出只包含 1 的最大矩形，并返回其面积。

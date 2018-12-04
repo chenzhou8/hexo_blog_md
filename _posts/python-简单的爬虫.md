@@ -4,8 +4,9 @@ categories: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543735236912.jpg
 description: 爬虫可以从一个URL出发，访问所有它所关联的URL，并从每个页面中提取我们所需要的价值数据。
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735236912.jpg)
 
 ### 爬虫简介
 爬虫：一段自动抓取互联网信息的程序

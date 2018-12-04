@@ -5,10 +5,11 @@ categories: python
 tags: python
 cover_img: http://qiniucdn.timilong.com/1543736711372.jpg
 description: Python网络爬虫与信息提取-网络爬虫之规则.
-
 ---
 
+![tu](http://qiniucdn.timilong.com/1543736711372.jpg)
 
+## 题目
 [1].下面哪个不是Python Requests库提供的方法？ <code>B. .push() </code>
 ```
 A. .get() 
@@ -24,7 +25,7 @@ B. headers
 C. raise_for_status
 D. status_code
 ```
-<!--more-->
+
 
 [3]Requests库中，下面哪个属性代表了从服务器返回HTTP协议头所推荐的编码方式？ <code>C. encoding</code>
 ```

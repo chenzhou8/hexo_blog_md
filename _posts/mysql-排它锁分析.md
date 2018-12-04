@@ -7,8 +7,9 @@ description: for update仅适用于InnoDB，且必须在事务块(BEGIN/COMMIT)�
 keywords: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/154373697036.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/154373697036.jpg)
 
 > 转载自: CSDN，[数据库: Mysql中“select ... for update”排他锁分析](https://blog.csdn.net/claram/article/details/54023216)
 

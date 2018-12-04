@@ -4,10 +4,11 @@ categories: 前端
 tags: JavaScript
 description: 本文介绍JavaScript中的匿名函数用法。
 cover_img: http://qiniucdn.timilong.com/1543736929827.jpg
-
 ---
 
-### 1.函数传递
+![tu](http://qiniucdn.timilong.com/1543736929827.jpg)
+
+### 函数传递
 
 ```javascript
 function say(word){
@@ -27,7 +28,7 @@ execute(say, "Hello, World");
 来使用say函数。
 当然， 因为say有一个变量， execute在调用someFunction时候可以传递这样一个变量。
 
-### 2. 匿名函数
+### 匿名函数
 
 另外，我们可以用直接传递函数作为变量传递。我们不一定要围绕着“先定义，再传递”这个圈子。
 我们可以直接在另一个含糊的括号中是定义和传递这个函数

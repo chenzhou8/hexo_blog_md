@@ -4,8 +4,9 @@ categories: MySQL
 tags: MySQL
 cover_img: http://qiniucdn.timilong.com/1543735442389.jpg
 description: linux下基本操作mysql.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735442389.jpg)
 
 ### 打开终端，进入root
 ```

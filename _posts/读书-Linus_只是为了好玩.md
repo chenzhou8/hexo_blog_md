@@ -4,10 +4,9 @@ categories: 读书笔记
 tags: 人物传记
 description: 在大一选修课选修了Linux系统，就深深被这一系统所吸引。后面拜读到Linux的开创者Linus的这本唯一自传《Just For Fun》瞬间对Linus本人路转粉。特写此博客来记录阅读此书中特别有意思的一些文字片段。
 cover_img: http://qiniucdn.timilong.com/1543735306101.jpg
-
 ---
 
-![封面](http://qiniucdn.timilong.com/just_for_fun.jpg)
+![tu](http://qiniucdn.timilong.com/1543735306101.jpg)
 
 ## 简介
 除了程序员，大概很少人知道Linux操作系统。

@@ -4,8 +4,9 @@ categoriges: 软件测试
 tags: LoadRunner
 description: loadRunner使用入门介绍.
 cover_img: http://qiniucdn.timilong.com/1543735494271.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735494271.jpg)
 
 测试环境： Windows 7 使用前请关闭电脑管家、安全卫士等安全软件
 

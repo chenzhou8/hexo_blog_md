@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543288427245.jpg
 description: 给定两个非空链表来表示两个非负整数。位数按照逆序方式存储，它们的每个节点只存储单个数字。将两数相加返回一个新的链表。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288427245.jpg)
+
 ## Description
 ```
 给定两个非空链表来表示两个非负整数。位数按照逆序方式存储，它们的每个节点只存储单个数字。将两数相加返回一个新的链表。

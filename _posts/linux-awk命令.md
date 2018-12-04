@@ -4,8 +4,9 @@ categories: Linux
 tags: Linux
 description: awk是一个强大的文本分析工具，相对于grep的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。
 cover_img: http://qiniucdn.timilong.com/1543735251861.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735251861.jpg)
 
 ## 简介
 awk是一个强大的文本分析工具，相对于grep的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。
@@ -24,7 +25,7 @@ awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Ke
     awk '{pattern + action}' {filenames}
 ```
 
-<!--more-->
+
 
 2. 例子
 ```

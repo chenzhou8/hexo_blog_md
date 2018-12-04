@@ -3,10 +3,10 @@ date: 2015-11-30 19:37
 categories: 操作系统
 tags: 操作系统
 cover_img: http://qiniucdn.timilong.com/1543735270525.jpg
-description: 大三在湖南大学，学习《深入理解计算机系统》时所做的课堂实验。
-
+description: 大三学习《深入理解计算机系统》时所做的课堂实验。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543735270525.jpg)
 
 ### 实验环境
 Linux 3.13.11-ckt27-终端
@@ -57,7 +57,7 @@ Makefile:
 优化的三个版本：rotate1、rotate2、rotate3与smooth1、smooth2、smooth3如下：
 
 
-<!--more-->
+
 
 ### kernels.c:
 ```

@@ -4,9 +4,9 @@ categories: 前端
 tags: 前端
 description: Ajax简介。
 cover_img: http://qiniucdn.timilong.com/1543735297293.jpg
-
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735297293.jpg)
 
 ### 介绍
 AJAX = Asynchronous JavaScript and XML(异步的JavaScript和XML)
@@ -15,11 +15,9 @@ AJAX不是新的编程语言，而是一种使用现有标准的新方法。
 
 AJAX是在不重新加载整个页面的情况下，与服务器交换数据并更新部分网页的艺术。
 
-<!--more-->
-
 ### AJAX实例
 
-```
+```html
 <html>
 <head>
 <script type="text/javascript">

@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/154328840886.jpg
 description: leetcode第268题，缺失的数字，题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/154328840886.jpg)
+
 ## Description
 ```
 Description:

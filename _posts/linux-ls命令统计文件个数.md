@@ -7,8 +7,9 @@ description: Linux下有三个命令：ls、grep、wc。通过这三个命令的
 keywords: Linux
 categories: Linux
 cover_img: http://qiniucdn.timilong.com/1543736935686.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736935686.jpg)
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 

@@ -5,8 +5,9 @@ tags: python
 categories: python
 cover_img: http://qiniucdn.timilong.com/154373690549.jpg
 description: python-列出文件夹下所有文件名
-
 ---
+
+![tu](http://qiniucdn.timilong.com/154373690549.jpg)
 
 # 题目
 ```
@@ -32,7 +33,7 @@ for parent, dirnames, filenames in os.walk(rootdir):
         print("文件名: ", filename)
 ```
 
-<!--more-->
+
 
 ```
 目录名:  _posts

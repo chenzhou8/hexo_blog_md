@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543288400281.jpg
 description: 给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288400281.jpg)
+
 # 题目描述
 ```
 给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，

@@ -9,6 +9,8 @@ keywords: leetcode
 categories: leetcode
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288424292.jpg)
+
 ## 题目描述
 ```
 给定一个文档 (Unix-style) 的完全路径，请进行路径简化。

@@ -6,21 +6,23 @@ cover_img: http://qiniucdn.timilong.com/1543736943777.jpg
 description: python-MySQL数据库操作.
 ---
 
-### Python访问DB的官方接口规范
-#### Python DB API
+![tu](http://qiniucdn.timilong.com/1543736943777.jpg)
+
+## Python访问DB的官方接口规范
+### Python DB API
 Python访问数据库的统一接口规范。
 [官网](htttps://www.python.org/dev/peps/pep-0249)
 
 Python应用程序通过Python DB API即可完成对不同数据库的访问，对应用程序来说，只需切换少量代码即可实现。
 
-#### Python DB API包含的内容：
+### Python DB API包含的内容：
 Python程序----------------------------------->数据库服务器
 -数据库连接对象connection.(建立连接)
 -数据库交互对象cursor(交互数据)
 -数据库异常类exceptions(处理数据库操作过程中的事故)
 ![python db api](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709073935.png)
 
-#### Python DB API访问数据库流程
+### Python DB API访问数据库流程
 -开始
 -创建connection
 -获取cursor
@@ -30,12 +32,12 @@ Python程序----------------------------------->数据库服务器
 -结束
 ![访问流程](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709075539.png)
 
-### Python开发DB程序的开发环境
+## Python开发DB程序的开发环境
 ![windows 下的python开发环境](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709074444.png)
 
 
-### Python访问DB的connection、cursor两大对象
-#### 连接对象：建立Python客户端与数据库的网络连接
+## Python访问DB的connection、cursor两大对象
+### 连接对象：建立Python客户端与数据库的网络连接
 创建方法：MySQLdb.Connect(参数):
 
 参数名   | 类型   | 说明
@@ -46,7 +48,7 @@ password | 字符串 | 密码
 db       | 字符串 | 数据库名称
 charset  | 字符串 | 连接编码 
 
-#### connection对象支持的方法:
+### connection对象支持的方法:
 
 方法名     | 说明
 cursor()   | 使用该连接创建并返回游标
@@ -54,7 +56,7 @@ commit()   | 提交当前事物
 rollback() | 回滚当前事物
 close()    | 关闭连接
 
-```
+```python
 import MySQLdb
 conn = MySQLdb.Connect(
                 host = '127.0.0.1',
@@ -74,7 +76,7 @@ conn.close()
 
 ```
 
-#### 数据库游标对象cursor
+### 数据库游标对象cursor
 游标对象:用于执行查询和获取结果
 cursor对象支持的方法：
 
@@ -97,14 +99,14 @@ execute(sql语句)----------->执行SQL语句
 
 fetch*()方法：移动rownumber, 返回缓冲区的数据
 
-### Python执行增、删、改、查操作的实例讲解
-#### select查询数据
+## Python执行增、删、改、查操作的实例讲解
+### select查询数据
 流程图：
 ![流程图](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712114529.png)
 
 首先，在test_db数据库中创建一个user表格:
 
-```
+```python
 CREATE TABLE 'user' (
     'userid' INT(11) NOT NULL AUTO_INCREMENT,
     'username' VARCHAR(100) DEFAULT NULL,
@@ -114,7 +116,7 @@ CREATE TABLE 'user' (
 
 测试cursor方法：
 
-```
+```python
 import MySQLdb
 conn = MySQLdb.Connect(
                 host = '127.0.0.1',
@@ -140,7 +142,7 @@ cursor.close()
 conn.close()
 ```
 
-#### insert/update/delete更新数据库
+### insert/update/delete更新数据库
 流程图：
 ![流程图](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712124117.png)
 
@@ -157,7 +159,7 @@ conn.close()
 
 针对select中test_db数据库的user表格继续进行insert/update/delete:
 
-```
+```python
 import MySQLdb
 
 conn = MySQLdb.Connect(
@@ -197,7 +199,7 @@ conn.close()
 ```
 
 测试conn.rollback():
-```
+```python
 import MySQLdb
 
 conn = MySQLdb.Connect(
@@ -236,14 +238,14 @@ cursor.close()
 conn.close()
 
 ```
-### 完整实例：银行转账实现账户A给账户B转账100元
+## 完整实例：银行转账实现账户A给账户B转账100元
 开始事务-->检查账户A和账户是否可用-->检查账户A是否有100元-->账户A减去100元、账户B加上100元-->提交事务
 (出现异常-->回滚事务)
 
-#### 代码实现
+### 代码实现
 数据库部分：
 在名为bank的数据库中创建account表格：账户的id和账户的金额
-```
+```python
 CREATE TABLE 'ACCOUNT' (
   `acctid` INT(11) DEFAULT NULL COMMENT '账户ID',
   `money` INT(11) DEFAULT NULL COMMENT '余额'
@@ -251,7 +253,7 @@ CREATE TABLE 'ACCOUNT' (
 ```
 
 python代码部分：transfer_money.py
-```
+```python
 # coding: utf8
 
 import sys

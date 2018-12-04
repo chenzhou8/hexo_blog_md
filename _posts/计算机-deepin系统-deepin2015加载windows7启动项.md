@@ -4,8 +4,9 @@ tags: 操作系统
 categories: 操作系统
 cover_img: http://qiniucdn.timilong.com/1543735445857.jpg
 description: deepin 2015加载windows 7启动项.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735445857.jpg)
 
 ### 安装deepin 2015后无法加载出windows 7启动项解决方法
 

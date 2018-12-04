@@ -7,8 +7,9 @@ description: 转载自[10亿级订单系统分库分表设计思路](https://jue
 keywords: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/154373538420.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/154373538420.jpg)
 
 > 转载自: 微信公众号, 架构师之巅，[10亿级订单系统分库分表设计思路](https://juejin.im/book/5af56a3c518825426642e004)
 

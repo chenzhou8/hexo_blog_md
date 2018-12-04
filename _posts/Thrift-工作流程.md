@@ -9,6 +9,8 @@ keywords: RPC
 categories: RPC
 ---
 
+![tu](http://qiniucdn.timilong.com/1542968639754.jpg)
+
 ## 工作流程
 
 Thrift框架的远程过程调用的工作过程如下：

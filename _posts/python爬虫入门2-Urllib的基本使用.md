@@ -4,8 +4,9 @@ categories: python
 tags: 爬虫
 cover_img: http://qiniucdn.timilong.com/1543736977763.jpg
 description: python爬虫入门2-Urllib的基本使用.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736977763.jpg)
 
 ### 爬取网页
 爬取网页其实就是根据URL来获取它的网页信息.
@@ -20,7 +21,7 @@ print(response.read())
 
 ```
 
-<!--more-->
+
 
 终端运行: <code>python test.py</code>
 结果如下: 

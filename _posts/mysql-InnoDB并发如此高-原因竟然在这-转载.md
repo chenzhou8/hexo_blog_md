@@ -9,6 +9,8 @@ keywords: MySQL
 categories: MySQL
 ---
 
+![tu](http://qiniucdn.timilong.com/1543736726965.jpg)
+
 > 转载自: 微信公众号，[架构师之路](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961444&idx=1&sn=830a93eb74ca484cbcedb06e485f611e&chksm=bd2d0db88a5a84ae5865cd05f8c7899153d16ec7e7976f06033f4fbfbecc2fdee6e8b89bb17b&scene=21#wechat_redirect)
 
 ## 并发控制

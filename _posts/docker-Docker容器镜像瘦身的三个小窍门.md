@@ -8,8 +8,9 @@ description: 在构建Docker容器时，我们应尽可能减小镜像的大小�
 keywords: Docker
 ---
 
-转载自: 微信公众号[Docker 梁晓勇 译](https://mp.weixin.qq.com/s/Iwn4bMQwD-HEK-WI1494GQ)
+![tu](http://qiniucdn.timilong.com/1543387757615.jpg)
 
+> 转载自: 微信公众号[Docker 梁晓勇 译](https://mp.weixin.qq.com/s/Iwn4bMQwD-HEK-WI1494GQ)
 
 ## 介绍
 在构建Docker容器时，我们应尽可能减小镜像的大小。使用共享层的镜像尺寸越小，其传输和部署速度越快。

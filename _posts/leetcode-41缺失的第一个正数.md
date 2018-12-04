@@ -9,6 +9,8 @@ keywords: leetcode
 categories: leetcode
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387768401.jpg)
+
 > 题目链接: [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)
 
 ## 题目描述

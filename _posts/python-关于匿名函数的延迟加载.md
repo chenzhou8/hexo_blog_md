@@ -7,8 +7,9 @@ description: Python里面的延迟加载用得非常多，其主要思想是延�
 keywords: python
 categories: python
 cover_img: http://qiniucdn.timilong.com/1543735243806.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735243806.jpg)
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 

@@ -4,9 +4,11 @@ categories: vim
 tags: vim
 cover_img: http://qiniucdn.timilong.com/1543735462876.jpg
 description: vim配置的介绍, deepin linux 2015
-
 ---
 
+![tu](http://qiniucdn.timilong.com/1543735462876.jpg)
+
+## vim配置
 上周三更新了Deepin Linux系统，将deepin2014升级到deepin2015。新版deepin对界面优化了不少，开关机铃声蛮不错的，能够自定义就更好了(仔细琢磨，查看deepin的源码应该可以实现自定义开关机铃声的).
 
 话不多说，进入今天主题: vim配置。

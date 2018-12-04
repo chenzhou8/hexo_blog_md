@@ -7,8 +7,9 @@ description: fork 调用将生成一个子进程，所以这个函数会在父�
 keywords: RPC
 categories: RPC
 cover_img: http://qiniucdn.timilong.com/1543735454132.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735454132.jpg)
 
 > 转载自: 掘金，[深入理解RPC: 基于Python自建分布式高并发RPC服务](https://juejin.im/book/5af56a3c518825426642e004)
 

@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543735470517.jpg
 description: python爬虫_中国大学排名.
 ---
 
+![tu](http://qiniucdn.timilong.com/1543735470517.jp)
+
 ```
 #! /usr/bin/python3
 # coding: utf-8

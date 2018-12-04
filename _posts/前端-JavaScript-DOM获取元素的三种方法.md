@@ -4,22 +4,21 @@ categories: 前端
 tags: JavaScript
 description: JavaScript Dom获取元素的几种方法介绍。
 cover_img: http://qiniucdn.timilong.com/1543736896543.jpg
-
-
 ---
 
+![tu](http://qiniucdn.timilong.com/1543736896543.jpg)
 
 ## JavaScript DOM获取元素的三种方法
 ### 通过id 
 DOM提供了一个名为: getElementById的方法, 这个方法将返回一个那个有着给定id属性的值的元素节点对应的对象。在这里强调: JavaScript语言严格区分字母的大小写!
 它是document对象特有的函数。在脚本代码里, 函数名的后面必须跟有一对圆括号, 这对圆括号包含着函数的参数。getElementById方法只有一个参数: 想要获得的那个元素的id属性的值, 这个id值必须放在单引号或者双引号里面:
 
-```
+```javascript
     document.getElementById(id)
 ```
 
 例子：
-```
+```html
     <!DOCTYPE html>
     <head>
       <meta charset="utf-8">

@@ -9,6 +9,8 @@ categories: Linux
 description: 通过Linux自身的一些命令查看CPU、内存、磁盘、主机名、ip配置等信息。
 ---
 
+![tu](http://qiniucdn.timilong.com/1542968653498.jpg)
+
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
 ## CPU信息

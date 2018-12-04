@@ -7,8 +7,9 @@ description: Tornado是一个用Python编写的异步HTTP服务器，同时也�
 keywords: Tornado
 categories: Tornado
 cover_img: http://qiniucdn.timilong.com/1543736980297.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736980297.jpg)
 
 > 转载自: 简书，[Tornado-异步原理详析](https://www.jianshu.com/p/de7f04e65618)
 

@@ -9,6 +9,8 @@ keywords: Redis
 categories: Redis
 ---
 
+![封面](http://qiniucdn.timilong.com/1543735492853.jpg)
+
 > 转载自: 微信公众号码洞，[天下无难试之 Redis 面试题刁难大全》](https://mp.weixin.qq.com/s/-y1zvqWEJ3Tt4h39Z0WBJg)
 
 ### Redis有哪些数据结构？

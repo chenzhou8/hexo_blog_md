@@ -4,8 +4,9 @@ categories: python
 tags: 爬虫
 description: 正则表达式学习记录。
 cover_img: http://qiniucdn.timilong.com/154373695786.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/154373695786.jpg)
 
 ### 了解正则表达式
 

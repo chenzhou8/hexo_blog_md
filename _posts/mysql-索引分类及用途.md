@@ -5,8 +5,9 @@ tags: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/1543735406642.jpg
 description: mysql-索引分类及用途.
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543735406642.jpg)
 
 ## 索引分类
 MySQL索引分为普通索引、唯一性索引、全文索引、单列索引、多列索引等等。
@@ -21,7 +22,7 @@ create index on Tablename (列的列表)
 alter table TableName add index (列的列表) 
 create table TableName([...], index [IndexName] (列的列表)
 ```
-<!--more-->
+
 
 ## 唯一性索引：create unique index 
 ```

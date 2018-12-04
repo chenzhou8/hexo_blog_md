@@ -7,8 +7,9 @@ description: 事务(Transaction)，一般是指要做的或所做的事情。在
 keywords: MySQL
 categories: MySQL
 cover_img: http://qiniucdn.timilong.com/1543736745654.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736745654.jpg)
 
 > 转载自: Hollis，[彻底理解数据库事务](http://www.hollischuang.com/archives/898)
 

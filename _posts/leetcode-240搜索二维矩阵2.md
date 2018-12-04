@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543288437866.jpg
 description: leetcode上第240题搜索二维矩阵2的题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543288437866.jpg)
+
 ## search_a_2d_matrix_1
 
 ```python

@@ -6,6 +6,8 @@ description: 爱数-提供智能数据管理的云计算公司, www.eisoo.com
 cover_img: http://qiniucdn.timilong.com/1543736777461.jpg
 ---
 
+![封面](http://qiniucdn.timilong.com/1543736777461.jpg)
+
 #### 公司简介
 [爱数-提供智能数据管理的云计算公司](www.eisoo.com)
 

@@ -9,6 +9,8 @@ keywords: python
 categories: python
 ---
 
+![tu](http://qiniucdn.timilong.com/1542968650476.jpg)
+
 > 转载自: [Python内置方法的时间复杂度](http://www.orangecube.net/python-time-complexity)
 
 ## 介绍

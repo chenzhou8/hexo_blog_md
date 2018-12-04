@@ -9,6 +9,8 @@ keywords: 计算机网络
 categories: 计算机网络
 ---
 
+![封面](http://qiniucdn.timilong.com/1543736950216.jpg)
+
 > 转载自:[有哪些计算机的事实，没有一定计算机知识的人不会相信？ - 猫爱吃鱼不吃耗子的回答 - 知乎](https://www.zhihu.com/question/288115796/answer/483284593)
 
 ### TCP传输大小

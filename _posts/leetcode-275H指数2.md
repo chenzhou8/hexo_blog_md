@@ -7,6 +7,8 @@ tags: leetcode
 description: leetcode第275题, H指数2, 题解。
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387778232.png)
+
 ## Description
 ```
 Description:

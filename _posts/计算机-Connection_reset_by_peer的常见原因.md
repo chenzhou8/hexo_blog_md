@@ -5,8 +5,9 @@ tags: Socket
 categories: Socket
 description: 我在用Thrift进行Python后端服务开发时，在客户端并发量并不大的情况下，日志报警Connection reset by peer错误很频繁，经过大量google后，对此错误可能情况进行一个记录。
 cover_img: http://qiniucdn.timilong.com/1543736774757.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736774757.jpg)
 
 ## Connection reset by peer出现的原因
 该异常在客户端和服务器端均有可能发生，引起该异常的原因有两个，第一个就是如果一端的Socket被关闭（或主动关闭或者因为异常退出而引起的关闭），另一端仍发送数据，发送的第一个数据包引发该异常 (Connect reset by peer)。

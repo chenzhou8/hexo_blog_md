@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/154328843058.jpg
 description: 给定一个API, isBadVersion(), 要求, 在需要编写的firstBadVersion()中最少次数调用该API得到第一个bad version。
 ---
 
+![tu](http://qiniucdn.timilong.com/154328843058.jpg)
+
 ## Description
 ```
 Description:

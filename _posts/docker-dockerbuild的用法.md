@@ -7,6 +7,8 @@ cover_img: http://qiniucdn.timilong.com/1543387754757.jpg
 description: 手动构建docker images时，需要使用到本文介绍的docker build命令.
 ---
 
+![tu](http://qiniucdn.timilong.com/1543387754757.jpg)
+
 ## 说明
 
 docker build 命令用于使用 Dockerfile 创建镜像。

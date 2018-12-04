@@ -5,8 +5,9 @@ tags: MySQL
 categories: MySQL
 description: 记录一次更改myql root用户密码的经历.
 cover_img: http://qiniucdn.timilong.com/1543736741455.jpg
-
 ---
+
+![tu](http://qiniucdn.timilong.com/1543736741455.jpg)
 
 # 忘记root密码
 
@@ -20,7 +21,7 @@ Logging to '/usr/local/mysql-5.7.23-macos10.13-x86_64/data/localhost.err'.
 2018-08-08T03:58:27.6NZ mysqld_safe mysqld from pid file /usr/local/mysql-5.7.23-macos10.13-x86_64/data/localhost.pid ended
 ```
 
-<!--more-->
+
 
 ## 新开终端、更新密码
 
