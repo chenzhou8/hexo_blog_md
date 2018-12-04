@@ -13,7 +13,6 @@ categories: MySQL
 
 > 转载自: 微信公众号，[架构师之路](https://mp.weixin.qq.com/s/tmkRAmc1M_Y23ynduBeP3Q)
 
-![tu](http://qiniucdn.timilong.com/1543735257967.jpg)
 
 ## [《InnoDB，为何并发如此之高？》](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961444&idx=1&sn=830a93eb74ca484cbcedb06e485f611e&chksm=bd2d0db88a5a84ae5865cd05f8c7899153d16ec7e7976f06033f4fbfbecc2fdee6e8b89bb17b&scene=21#wechat_redirect)
 文章介绍了：
