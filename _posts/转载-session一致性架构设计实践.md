@@ -26,11 +26,13 @@ Web开发中，web-server可以自动为同一个浏览器的访问用户自动�
 
 只要用户不重启浏览器，每次http短连接请求，理论上服务端都能定位到session，保持会话。
 
+![tu](http://qiniucdn.timilong.com/2017060621.jpg)
+
 当只有一台web-server提供服务时，每次http短连接请求，都能够正确路由到存储session的对应web-server（废话，因为只有一台）。
 
 此时的web-server是无法保证高可用的，采用“冗余+故障转移”的多台web-server来保证高可用时，每次http短连接请求就不一定能路由到正确的session了。
 
-![tu]()
+![tu](http://qiniucdn.timilong.com/2017060622.jpg)
 
 如上图，假设用户包含登录信息的session都记录在第一台web-server上，反向代理如果将请求路由到另一台web-server上，可能就找不到相关信息，而导致用户需要重新登录。
 
@@ -38,6 +40,8 @@ Web开发中，web-server可以自动为同一个浏览器的访问用户自动�
 
 
 ## session同步法
+
+![tu](http://qiniucdn.timilong.com/2017060623.jpg)
 
 思路：多个web-server之间相互同步session，这样每个web-server之间都包含全部的session
 
@@ -53,6 +57,8 @@ Web开发中，web-server可以自动为同一个浏览器的访问用户自动�
 
 
 ## 客户端存储法
+
+![tu](http://qiniucdn.timilong.com/2017060624.jpg)
 
 思路：服务端存储所有用户的session，内存占用较大，可以将session存储到浏览器cookie中，每个端只要存储一个用户的数据了
 
@@ -73,9 +79,13 @@ Web开发中，web-server可以自动为同一个浏览器的访问用户自动�
 
 思路：web-server为了保证高可用，有多台冗余，反向代理层能不能做一些事情，让同一个用户的请求保证落在一台web-server上呢？
 
+![tu](http://qiniucdn.timilong.com/2017060625.jpg)
+
 ### 方案一：四层代理hash
 
 反向代理层使用用户ip来做hash，以保证同一个ip的请求落在同一个web-server上
+
+![tu](http://qiniucdn.timilong.com/2017060626.jpg)
 
 ### 方案二：七层代理hash
 
@@ -101,6 +111,8 @@ session一般是有有效期的，所有不足中的两点，可以认为等同�
 
 
 ## 后端统一存储
+
+![tu](http://qiniucdn.timilong.com/2017060627.jpg)
 
 思路：将session存储在web-server后端的存储层，数据库或者缓存
 
