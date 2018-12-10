@@ -8,10 +8,10 @@ cover_img: http://qiniucdn.timilong.com/1543736777461.jpg
 
 ![封面](http://qiniucdn.timilong.com/1543736777461.jpg)
 
-#### 公司简介
+## 公司简介
 [爱数-提供智能数据管理的云计算公司](www.eisoo.com)
 
-#### CSS中的position常见的几种属性:
+## CSS中的position常见的几种属性:
 
 ```
 absolute: 生成绝对定位的元素， 相对于static定位以外的第一个父元素进行定位。
@@ -28,7 +28,7 @@ static: 默认值， 没有定位， 元素出现在正常的流中(忽略top, b
 inherit: 规定应该从父元素继承position属性的值。
 ```
 
-#### JavaScript的基本数据类型
+## JavaScript的基本数据类型
 
 ```
 JavaScript中有5种简单的数据类型(也称基本数据类型): 
@@ -40,13 +40,13 @@ JavaScript中有5种简单的数据类型(也称基本数据类型):
 还有一种复杂的数据类型——Object,Object本质上是由一组无序的名值对组成的。
 ```
 
-#### JavaScipt执行"2014"+1的结果是?
+## JavaScipt执行"2014"+1的结果是?
 
 ```
 "2014"+1 = "20141"
 ```
 
-#### 最常见的网站解决方案LAMP是由:
+## 最常见的网站解决方案LAMP是由:
 
 ```
 L: Linux.
@@ -55,7 +55,7 @@ M: MySQL.
 P: Python.
 ```
 
-#### 常用的HTTP状态码示请求需要用户验证？
+## 常用的HTTP状态码示请求需要用户验证？
 [HTTP状态码](http://baike.baidu.com/link?url=mvyZuhYfWvdY_dTdpnDmYU-9TucSxqrCTZJKBM8Uv1H7g_tlGHR9CXMiuSv8ig-CAuoxi_mu_Ckm7aCbP6ELI_)
 
 ```
@@ -67,7 +67,7 @@ P: Python.
 那么浏览器应当向用户展示响应中包含的实体信息，因为这个实体信息中可能包含了相关诊断信息。
 ```
 
-#### 编程题: 使用JavaScript实时显示当前时间，格式"年-月-日 时:分:秒"
+## 编程题: 使用JavaScript实时显示当前时间，格式"年-月-日 时:分:秒"
 
 ```
 <!DOCTYPE HTML>
@@ -128,7 +128,7 @@ function showtime()
 </html>
 ```
 
-#### 编程题: 使用Python、JavaScript、PHP中的两种语言完成Fibnacci数列的编写。
+## 编程题: 使用Python、JavaScript、PHP中的两种语言完成Fibnacci数列的编写。
 Python方法1：
 
 ```python
@@ -157,3 +157,4 @@ function fibn(n){
   }
   alert(f(13));
 ```
+
