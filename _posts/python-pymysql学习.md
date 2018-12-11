@@ -89,12 +89,14 @@ rowcount            | 最近一次execute返回数据的行数或者影响行数
 close()             | 关闭游标对象
 
 其中:
+```
 execute方法：执行SQL、将结果从数据库获取到客户端
 客户端----------------------MySQL服务器
 execute(sql语句)----------->执行SQL语句
                                |
                                |
 本地缓冲区<----------------- 结果
+```
 
 
 fetch*()方法：移动rownumber, 返回缓冲区的数据
@@ -106,7 +108,7 @@ fetch*()方法：移动rownumber, 返回缓冲区的数据
 
 首先，在test_db数据库中创建一个user表格:
 
-```python
+```sql
 CREATE TABLE 'user' (
     'userid' INT(11) NOT NULL AUTO_INCREMENT,
     'username' VARCHAR(100) DEFAULT NULL,
