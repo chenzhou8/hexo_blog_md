@@ -9,6 +9,8 @@ keywords: 架构
 categories: 架构
 ---
 
+![cover_img:](http://qiniucdn.timilong.com/1544683490997.jpg)
+
 > 转载自: 微信公众号，[架构师之路](https://mp.weixin.qq.com/s/DM0dKHyD3FweVSHcjabLaw)
 
 ## Feed流架构设计
