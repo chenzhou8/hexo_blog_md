@@ -4,7 +4,7 @@ cover_img: http://qiniucdn.timilong.com/1544683490997.jpg
 date: 2018-12-17 17:19:14
 tags: 架构
 feature_img:
-description: 本文收集了六篇观音湖feed流业务架构设计相关文章。
+description: 本文收集了六篇关于feed流业务架构设计相关文章。
 keywords: 架构
 categories: 架构
 ---
