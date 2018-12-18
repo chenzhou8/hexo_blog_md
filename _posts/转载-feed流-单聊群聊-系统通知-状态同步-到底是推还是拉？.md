@@ -9,12 +9,13 @@ keywords: feed流
 categories: 架构
 ---
 
-[cover_img](http://qiniucdn.timilong.com/1544683405620.jpg)
+![cover_img](http://qiniucdn.timilong.com/1544683405620.jpg)
 
 > 转载自: 微信公众号，[架构师之路](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961144&idx=1&sn=63b4ef2aeea42a4011dd0c7daab459de&chksm=bd2d02e48a5a8bf20c7ebfcb78539b617c52b541d326f35041fa24982c4b6ea26f25fd4c48dd&scene=21#wechat_redirect)
 
 
 根据业务现象，一起讨论其后端实现是推还是拉？
+答案: [feed流设计与实现](https://blog.timilong.com/2018/12/18/%E8%BD%AC%E8%BD%BD-feed%E6%B5%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/)
 
 
 ## feed流
@@ -62,13 +63,10 @@ categories: 架构
 ## 系统通知
 
 系统消息听上去比较泛，典型的业务是QQ的登录广告弹窗，以及登录后的右下角广告提示。
-
 - QQ每天首次登录后的新闻弹窗
-
 拉取？第二次登录却又没有。
 
 - QQ运行过程中的QQ弹窗广告
-
 推送？一次推送几千万条，会不会系统抖动？
 
 或许，真实的实现方式或许与我们想的并不一样。
@@ -79,7 +77,6 @@ categories: 架构
 玩桌面QQ时，收到过“你的好友XXOO登录了”的弹窗提示么？这是一个好友登录/登出状态的客户端同步。同理，群有500人，每个群友的在线/不在线状态又是怎么实现同步的呢？
 
 - 推送？那一个用户登录退出都要推送N个好友？M个群友？
-
 - 拉取？如何保证好友状态，群友状态的实时性？
 
 画外音：好友/群友状态一致性是非常复杂的，移动的时代，索性引入“一律在线”的概念，微信的好友就不存在所谓“头像亮”和“头像灰”的概念了，客户端状态同步这一块复杂性有所降低。
