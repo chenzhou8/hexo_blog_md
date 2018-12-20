@@ -9,7 +9,7 @@ cover_img: http://qiniucdn.timilong.com/1543735365191.jpg
 
 ![tu](http://qiniucdn.timilong.com/1543735365191.jpg)
 
-## 题目
+## 题目1
 
 请实现装饰器log，可以计算test函数的运行时间
 ```python
@@ -59,7 +59,7 @@ def metric(func):
         start = time.time()
         _res = func(*args, **kwargs)
         end = time.time()
-        
+
         print(func.__name__, "运行了: ", end - start, " ms")
         return _res
     return wrapper
