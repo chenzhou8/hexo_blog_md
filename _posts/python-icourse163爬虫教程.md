@@ -27,7 +27,7 @@ description: python网络爬虫与信息提取
 
 ## 第1周 网络爬虫之规则
 ### Requests库入门
-```
+```python
 安装方法: pip install requests
 
 测试:
