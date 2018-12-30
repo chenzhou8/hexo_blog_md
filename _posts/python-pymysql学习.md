@@ -9,13 +9,16 @@ description: python-MySQL数据库操作.
 ![tu](http://qiniucdn.timilong.com/1543736943777.jpg)
 
 ## Python访问DB的官方接口规范
+
 ### Python DB API
+
 Python访问数据库的统一接口规范。
 [官网](htttps://www.python.org/dev/peps/pep-0249)
 
 Python应用程序通过Python DB API即可完成对不同数据库的访问，对应用程序来说，只需切换少量代码即可实现。
 
 ### Python DB API包含的内容：
+
 Python程序----------------------------------->数据库服务器
 -数据库连接对象connection.(建立连接)
 -数据库交互对象cursor(交互数据)
@@ -23,6 +26,7 @@ Python程序----------------------------------->数据库服务器
 ![python db api](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709073935.png)
 
 ### Python DB API访问数据库流程
+
 -开始
 -创建connection
 -获取cursor
@@ -30,31 +34,38 @@ Python程序----------------------------------->数据库服务器
 -关闭cursor
 -关闭connection(网络资源，一直没有关闭会浪费应用程序和数据库服务器的资源)
 -结束
+
 ![访问流程](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709075539.png)
 
+
 ## Python开发DB程序的开发环境
+
 ![windows 下的python开发环境](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160709074444.png)
 
 
 ## Python访问DB的connection、cursor两大对象
-### 连接对象：建立Python客户端与数据库的网络连接
-创建方法：MySQLdb.Connect(参数):
 
+### 连接对象：建立Python客户端与数据库的网络连接
+
+创建方法：MySQLdb.Connect(参数):
+```
 参数名   | 类型   | 说明
 host     | 字符串 | MySQL服务器地址
 port     | 数字   | MySQL服务器端口号
 user     | 字符串 | 用户名
 password | 字符串 | 密码
 db       | 字符串 | 数据库名称
-charset  | 字符串 | 连接编码 
+charset  | 字符串 | 连接编码
+```
 
 ### connection对象支持的方法:
-
+```
 方法名     | 说明
 cursor()   | 使用该连接创建并返回游标
 commit()   | 提交当前事物
 rollback() | 回滚当前事物
 close()    | 关闭连接
+```
 
 ```python
 import MySQLdb
@@ -77,9 +88,10 @@ conn.close()
 ```
 
 ### 数据库游标对象cursor
+
 游标对象:用于执行查询和获取结果
 cursor对象支持的方法：
-
+```
 参数名              | 说明
 execute(op[, args]) | 执行一个数据库查询和命令
 fetchone()          | 取的结果集的下一行
@@ -87,6 +99,7 @@ fetchmany(size)     | 获取结果集的下几行
 fetchall()          | 获取结果集中剩下的所有行
 rowcount            | 最近一次execute返回数据的行数或者影响行数
 close()             | 关闭游标对象
+```
 
 其中:
 ```
@@ -99,10 +112,12 @@ execute(sql语句)----------->执行SQL语句
 ```
 
 
-fetch*()方法：移动rownumber, 返回缓冲区的数据
+`fetch*()`方法：移动rownumber, 返回缓冲区的数据
 
 ## Python执行增、删、改、查操作的实例讲解
+
 ### select查询数据
+
 流程图：
 ![流程图](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712114529.png)
 
@@ -145,6 +160,7 @@ conn.close()
 ```
 
 ### insert/update/delete更新数据库
+
 流程图：
 ![流程图](http://qiniucdn.timilong.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160712124117.png)
 
@@ -240,11 +256,14 @@ cursor.close()
 conn.close()
 
 ```
+
 ## 完整实例：银行转账实现账户A给账户B转账100元
+
 开始事务-->检查账户A和账户是否可用-->检查账户A是否有100元-->账户A减去100元、账户B加上100元-->提交事务
 (出现异常-->回滚事务)
 
 ### 代码实现
+
 数据库部分：
 在名为bank的数据库中创建account表格：账户的id和账户的金额
 ```python
@@ -294,7 +313,7 @@ class TransferMoney(object):
         try:
             sql = "select * from account where acctid=%s and money>%s" % (acctid, money)
             cursor.execute(sql)
-            print "has_enough_money:"  + sql  
+            print "has_enough_money:"  + sql
             rs = cursor.fetchall()
             if len(rs) != 1:
                 raise Exception("账户%s的钱不足%s" % (acctid, money))
