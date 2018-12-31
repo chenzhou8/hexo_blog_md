@@ -2,7 +2,7 @@
     const fs = require("fs");
     const sizeOf = require('image-size');
     //本地照片所在目录
-    const path = "./source/photos/images";
+    const path = "./photo_images";
     //要放置生成的照片信息文件目录，建议直接放在 source/photos/ 文件夹下
     const output = "./source/photos/photoslist.json";
     var dimensions;
