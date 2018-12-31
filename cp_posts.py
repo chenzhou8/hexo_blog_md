@@ -20,6 +20,12 @@ os.system("rm -rf {0}".format(about_base_path))
 os.system("mkdir {0}".format("about"))
 os.system("cp -r {0} {1}".format(about_source_path, about_base_path))
 
+photos_source_path = "/Users/sensoro/hexoBlog/source/photos/*"
+photos_base_path = "/Users/sensoro/hexoBlog/github_hexo/photos/"
+os.system("rm -rf {0}".format(photos_base_path))
+os.system("mkdir {0}".format("photos"))
+os.system("cp -r {0} {1}".format(photos_source_path, photos_base_path))
+
 os.system("git add . ")
 os.system("git commit -m 'update _posts/' ")
 os.system("git push origin master")
