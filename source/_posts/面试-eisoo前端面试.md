@@ -2,8 +2,9 @@ title: eisoo前端面试题
 date: 2016-03-21 22:13:23
 tags: 前端
 categories: 面试
-description: 爱数-提供智能数据管理的云计算公司, www.eisoo.com
 cover_img: http://qiniucdn.timilong.com/1543736777461.jpg
+description: 爱数-提供智能数据管理的云计算公司, www.eisoo.com
+
 ---
 
 ![封面](http://qiniucdn.timilong.com/1543736777461.jpg)
@@ -24,18 +25,18 @@ relative: 生成相对定位的元素， 相对于其正常的位置进行定位
           因此，"left: 20px" 会向left位置添加20像素。
 
 static: 默认值， 没有定位， 元素出现在正常的流中(忽略top, bottom, left, right, z-index声明)
-      
+
 inherit: 规定应该从父元素继承position属性的值。
 ```
 
 ## JavaScript的基本数据类型
 
 ```
-JavaScript中有5种简单的数据类型(也称基本数据类型): 
-    Undefined, 
-    Null, 
-    Boolean, 
-    Number, 
+JavaScript中有5种简单的数据类型(也称基本数据类型):
+    Undefined,
+    Null,
+    Boolean,
+    Number,
     String.
 还有一种复杂的数据类型——Object,Object本质上是由一组无序的名值对组成的。
 ```
