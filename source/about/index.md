@@ -1,5 +1,5 @@
-title: 个人简历
-date: 2018-12-122 12:07:00
+title: 个人介绍
+date: 2018-12-12 12:07:00
 ---
 
 <blockquote class="blockquote-center">
@@ -48,20 +48,22 @@ RPC: Thrift/Grpc/Thriftpy
 公司作品2: [simright.com](https://www.simright.com)   <code>ps: 担任后端开发工程师, 承担整站的后端开发、运维工作</code>
 公司作品3: [ai.sensoro.com](https://ai.sensoro.com)   <code>ps: 担任后端开发工程师, 承担整站的api开发(暂未上线)</code>
 公司作品4: [Sensoro Ai Camera](https://www.sensoro.com/zh/intelligent.html)   <code>ps: 担任后端工程师，提供AI相关的算法服务</code>
+<!--
 个人作品1: [smuer.cn](https://www.smuer.cn)  <code>ps: 独立开发(暂未上线)</code>
 个人作品2: [timilong.com](https://www.timilong.com)  <code>ps: 独立开发(暂未上线)</code>
 个人作品3: [91bati.com](https://www.91bati.com)  <code>ps: 独立开发(暂未上线)</code>
 个人作品4: [xj-mckinsey.com](https://www.xj-mckinsey.com)  <code>ps: 独立开发(暂未上线)</code>
-个人作品5: [Pypi包: timi-uuid](https://pypi.org/project/timi-uuid/) <code>独立开发，实现模拟中心发号器, 发放唯一不重复自增类uuid str, 支持timi-uuid str解析成相应的dict，获取此类uuid信息。</code>
+-->
+个人作品1: [Pypi包: timi-uuid](https://pypi.org/project/timi-uuid/) <code>独立开发，实现模拟中心发号器, 发放唯一不重复自增类uuid str, 支持timi-uuid str解析成相应的dict，获取此类uuid信息。</code>
 
 ---
 
 <b>兴趣、爱好</b>
 
-摄影: 入门水准，2018.06入手了一台EOS 800D单反 18-135mm镜头, 会用PS做后期
+摄影: 入门，2018.06入手了一台EOS 800D单反 18-135mm镜头, 会用PS做后期
 看书: 每两周一本的纸质书籍的阅读量
 社区: 掘金、极客时间、segmentfault、stackoverflow、知乎, 目前处于摄入大于输出的阶段
-游泳: 游泳是最大兴趣爱好之一, 泳池游1公里21分钟左右
+游泳: 游泳是最大爱好, 泳池游1公里21分钟
 烹饪: 周末有时间会在家里尝试新的菜肴, 川菜为主
 
 ---
