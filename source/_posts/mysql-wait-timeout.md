@@ -1,6 +1,6 @@
 ---
 title: mysql-MySQL 各种超时参数的含义
-over_img: http://qiniucdn.timilong.com/1544683290775.jpg
+cover_img: http://qiniucdn.timilong.com/1544683290775.jpg
 date: 2019-01-03 12:23:57
 tags: MySQL
 feature_img:
