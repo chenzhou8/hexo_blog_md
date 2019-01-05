@@ -19,8 +19,8 @@ QQ: 810 424 083
 
 李小龙/男/1994.09
 本科(2013.09-2017.06)/西南民族大学软件工程系(2015.09-2016.09湖南大学软件工程系学习)
-期望职位: Python 后端开发工程师
-期望城市：北京
+职位: 后端开发工程师
+城市：北京
 技术博客: [blog.timilong.com](http://blog.timilong.com)
 Github: [https://github.com/lxl0928](https://github.com/lxl0928)
 
