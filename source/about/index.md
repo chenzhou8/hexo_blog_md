@@ -4,8 +4,8 @@ date: 2018-12-12 12:07:00
 
 <blockquote class="blockquote-center">
 
-![tupian](http://qiniucdn.timilong.com/face1.jpg)
-
+![tupian](http://qiniucdn.timilong.com/95_99kb_face_lixiaolong.jpg)
+<!--http://qiniucdn.timilong.com/face1.jpg-->
 <b>联系方式</b>
 
 QQ: 810 424 083
