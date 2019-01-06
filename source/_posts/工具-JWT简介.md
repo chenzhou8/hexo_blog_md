@@ -16,14 +16,15 @@ cover_img: http://qiniucdn.timilong.com/1543735276657.jpg
 JSON Web Token（JWT）是一个非常轻巧的规范。这个规范允许我们使用JWT在用户和服务器之间传递安全可靠的信息。
 
 让我们来假想一下一个场景。在A用户关注了B用户的时候，系统发邮件给B用户，并且附有一个链接“点此关注A用户”。链接的地址可以是这样的
+
 > https://your.awesome-app.com/make-friend/?from_user=B&target_user=A
 
 上面的URL主要通过URL来描述这个当然这样做有一个弊端，那就是要求用户B用户是一定要先登录的。可不可以简化这个流程，让B用户不用登录就可以完成这个操作。JWT就允许我们做到这点。
 
-### JWT的组成
+## JWT的组成
 一个JWT实际上就是一个字符串，它由三部分组成，头部、载荷与签名。
 
-#### 载荷（Payload）
+### 载荷（Payload）
 我们先将上面的添加好友的操作描述成一个JSON对象。其中添加了一些其他的信息，帮助今后收到这个JWT的服务器理解这个JWT。
 ```
 {
@@ -62,7 +63,7 @@ console.log(base64url(JSON.stringify(header)))
 ```
 > 小知识：Base64是一种编码，也就是说，它是可以被翻译回原来的样子来的。它并不是一种加密过程。
 
-#### 头部（Header）
+### 头部（Header）
 JWT还需要一个头部，头部用于描述关于该JWT的最基本的信息，例如其类型以及签名所用的算法等。这也可以被表示成一个JSON对象。
 ```
 {
@@ -77,7 +78,7 @@ JWT还需要一个头部，头部用于描述关于该JWT的最基本的信息�
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 ```
 
-#### 签名（签名）
+### 签名（签名）
 将上面的两个编码后的字符串都用句号.连接在一起（头部在前），就形成了
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcm9tX3VzZXIiOiJCIiwidGFyZ2V0X3VzZXIiOiJBIn0
@@ -104,11 +105,9 @@ https://your.awesome-app.com/make-friend/?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1Ni
 
 且慢，我们一定会有一些问题：
 
-### 问题
+## 问题
 > 签名的目的是什么？
 > Base64是一种编码，是可逆的，那么我的信息不就被暴露了吗？
-
-让我逐一为你说明。
 
 ### 签名的目的
 最后一步签名的过程，实际上是对头部以及载荷内容进行签名。一般而言，加密算法对于不同的输入产生的输出总是不一样的。对于两个不同的输入，产生同样的输出的概率极其地小（有可能比我成世界首富的概率还小）。所以，我们就把“不一样的输入产生不一样的输出”当做必然事件来看待吧。
