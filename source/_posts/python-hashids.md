@@ -22,16 +22,11 @@ Hashids是一个非常小巧的开源库，它用来把数字编码成一个随�
 著名的Youtube网站就是这么做的。
 
 ## 安装
-
 ```
  pip install hashids
 ```
 
-
-
-
 ## 具体使用
-
 ```
 import hashids
 
@@ -55,7 +50,6 @@ hasher.decode('3Pl8oibxv5uNDoB')
 ```
 
 ## 缺点
-
 ```
-对 salt 依赖太严重，通一salt下的encode结果必定相同，这是无法避免的
+对 salt 依赖太严重, 同一salt下的encode结果必定相同，这是无法避免的
 ```
