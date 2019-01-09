@@ -31,19 +31,19 @@ description: python网络爬虫与信息提取
 安装方法: pip install requests
 
 测试:
-    import requests
+import requests
 
-    response = requests.get("htttp://www.baidu.com")
-    response.encoding = 'utf-8'
-    status = response.status_code
-    context = response.text
-    headers = response.headers
-    print(type(response))
-    print(status)
-    print(headers)
-    print(context)
+response = requests.get("htttp://www.baidu.com")
+response.encoding = 'utf-8'
+status = response.status_code
+context = response.text
+headers = response.headers
+print(type(response))
+print(status)
+print(headers)
+print(context)
 
-7个主要方法: 
+7个主要方法:
     1. requests.request()  -->  构造一个请求，支撑以下各方法的基础方法
     2. requests.get()      -->  获取HTML网页的主要方法，对应HTTP的GET
     3. requests.head()     -->  获取HTML网页头信息的方法，对应HTTP的HEAD
@@ -114,7 +114,7 @@ description: python网络爬虫与信息提取
     get()方法内部实现:
         def get(url, params=None, **kwargs):
             """ Sends a GET request
-            :param url: 
+            :param url:
             :param params:
             :param \*\*kwargs:
             :return: :class: Response <Respose> object
@@ -144,12 +144,12 @@ Response对象的属性:
     response.status_code == 404/其它 --> 某些原因出错，产生异常
 
 理解Response编码:
-   response.encoding: 从HTTP头中猜测的编码方式  # HTTP头中的charset, 返回存储在response.encoding, 
+   response.encoding: 从HTTP头中猜测的编码方式  # HTTP头中的charset, 返回存储在response.encoding,
                                                 # 如果服务器不存在charset要求，则默认ISO-8859-1不能解析中文, 从头中猜测
    response.apparent_encoding: 从内容中分析出的响应内容编码方式(备用编码方式), 从HTTP内容中解析出的编码, 更准确, 有分析内容
 
    如果response.text乱码, 则应检测上述两种编码，并:
-   encoding = response.apparent_encoding  
+   encoding = response.apparent_encoding
    response.encoding = encoding
    response.text  # 正常显示
 ```
@@ -157,7 +157,7 @@ Response对象的属性:
 #### Requests库认识
 ```
 1. 理解Requests库的异常
-    requests.ConnectionError: 网络链接错误异常，如DNS查询失败，拒绝链接等 
+    requests.ConnectionError: 网络链接错误异常，如DNS查询失败，拒绝链接等
     requests.HTTPError: HTTP错误异常
     requests.URLRequired: URL缺失异常
     requests.TooManyRedirects: 超过大量重定向次数，产生重定向异常
@@ -247,13 +247,13 @@ Requests方法解析:
         url: 拟请求页面的url链接
         **kwargs: 控制访问的参数，共13个, 均为可选项，如下
             params: 字典或字节序列，作为参数增加到URL中
-                例子: 
+                例子:
                     kv = {'key1': 'value1', 'key2': 'value2'}
                     response = requests.request('GET', 'http://python123.io/ws', paramgs=key)
                     print(response.url)
                     >>> http://python123.io/ws?key1=value1&key2=value2
             data: 字典、字节序、或文件对象， 作为Request的内容
-                例子: 
+                例子:
                     kv = {'key1': 'value1', 'key2': 'value2'}
                     response = requests.request('POST', 'http://python123.io/ws', data=kv)
                     body = "测试主体内容"
@@ -261,7 +261,7 @@ Requests方法解析:
                     # 这样不会放在URL中，而是放在URL对应的data域中，被封装一起post
 
             json: JSON格式的数据，作为Request的内容
-                例子: 
+                例子:
                     kv = {'key1': 'value1', 'key2': 'value2'}
                     kv = {'key1': 'value1', 'key2': 'value2'}
                     response = requests.request("POST", "http://python123.io/ws", json=kv)
@@ -271,7 +271,7 @@ Requests方法解析:
                 例子:
                     hd = {'user-agent': 'Chrome/10'}
                     response = requests.request("POST", "http://python123.io/ws", headers=hd)
-            
+
             cookies: 字典或者CookieJar, Request中的cookie
             auth: 元组， 支持HTTP认证功能
             files: 字典类型， 传输文件
@@ -311,7 +311,7 @@ Requests方法解析:
         User-agent: *
         Allow: *
         Disallow: /simright/admin
-        Sitemap: https://www.simright.com/sitemap.xml 
+        Sitemap: https://www.simright.com/sitemap.xml
 
     网络爬虫: 自动或者人工识别robots.txt, 再进行内容爬取
     约束性: Robots协议是建议性的但非约束性, 网络爬虫可以不遵守,但是有法律风险
@@ -407,7 +407,7 @@ except Exception as err:
     print('获取ip地理位置失败: {err}'.format(err))
 ```
 
-#### 第1周测验: 
+#### 第1周测验:
 见icourse163-org-Python网络爬虫与信息提取-测验1.md
 
 
@@ -462,7 +462,7 @@ except Exception as err:
         soup.<tag>.descendants   子孙节点的遍历类型,包括所有子孙节点,用于循环遍历
     5.2 上行遍历
         属性                     说明
-        soup.<tag>.parent        节点的父亲标签  
+        soup.<tag>.parent        节点的父亲标签
         soup.<tag>.parents       节点的所有先辈标签的迭代类型,用于循环遍历祖先节点
     5.4 平行遍历
         属性                               说明
@@ -504,7 +504,7 @@ except Exception as err:
 
     soup.find_all(name, attrs, recursive, string, **kwargs)
     返回一个列表类型, 存储查找的结果
-    name: 对标签名称的检索字符串 
+    name: 对标签名称的检索字符串
         soup.find_all('a')
         soup.find_all(['a', 'b'])
         soup.find_all(True)
@@ -527,7 +527,7 @@ except Exception as err:
 4. bs4的扩展方法
     方法                              说明
     <>.find_all()                     全局检索
-    <>.find()                         搜索且只返回一个结果,<string>类型  
+    <>.find()                         搜索且只返回一个结果,<string>类型
     <>.find_parents()                 在先辈节点中搜索,<list>类型
     <>.find_parent()                  在先辈节点中搜索,返回一个结果,<string>类型
     <>.find_next_siblings()           在后续平行节点中搜索,<list>类型
