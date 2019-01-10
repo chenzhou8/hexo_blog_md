@@ -68,9 +68,9 @@ OPTIONS说明:
 
 ```
 docker build -t "test_docker/mle_platform_api_v0.1" . --no-cache
-    * -t 是指明到哪个repository下的哪个tag
-    * . 表示当前目录下的dockerfile
-    * --no-cache: 表示不使用缓存功能，在没有结束提交之前的镜像层，都看作缓存层，比如我们yum update后，再次执行dockefile是不会在yum update了，所以使用--no-cache后才会执行yum update。
+  * -t 是指明到哪个repository下的哪个tag
+  * . 表示当前目录下的dockerfile
+  * --no-cache: 表示不使用缓存功能，在没有结束提交之前的镜像层，都看作缓存层，比如我们yum update后，再次执行dockefile是不会在yum update了，所以使用--no-cache后才会执行yum update。
 
 注意 . 目录表示当前目录， 需要在当前目录下编写: Dockerfile文件。
 
@@ -80,5 +80,3 @@ docker build -t "test_docker/mle_platform_api_v0.1" . --no-cache
 ```
 docker build github.com/creack/docker-firefox
 ```
-
-
