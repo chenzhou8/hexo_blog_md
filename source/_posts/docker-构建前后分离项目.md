@@ -4,15 +4,13 @@ cover_img: http://qiniucdn.timilong.com/1544683505643.jpg
 date: 2019-01-18 10:29:28
 tags: Docker
 feature_img:
-description: 记录一次帮助前端搭建Docker的经历.
+description: 记录一次帮助前后端分离的纯前端项目搭建Docker的经历.
 keywords: Docker
 categories: Docker
 ---
 
 ![cover_img](http://qiniucdn.timilong.com/1544683505643.jpg)
 
-> 转载自: 微信公众号，[架构师之路]()
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
 ## 前端项目
 

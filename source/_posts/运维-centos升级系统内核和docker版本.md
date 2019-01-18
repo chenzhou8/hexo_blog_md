@@ -9,51 +9,49 @@ keywords: 运维
 categories: 运维
 ---
 
-升级docker原文：https://blog.csdn.net/kongxx/article/details/78361048 
-升级系统内核原文: https://www.jianshu.com/p/726bd9f37220
+![cover_img](http://qiniucdn.timilong.com/1544683520171.jpg)
+
+> 升级docker原文：https://blog.csdn.net/kongxx/article/details/78361048
+> 升级系统内核原文: https://www.jianshu.com/p/726bd9f37220
 
 ## 命令行
 ```
-    1  ls
-    2  yum update
-   20  yum erase docker docker-common docker-client docker-compose  # 卸载安装好的旧版本的docker
+$ yum update
+$ yum erase docker docker-common docker-client docker-compose  # 卸载安装好的旧版本的docker
 
-   23  yum update
-   24  vim /etc/yum.repos.d/docker.repo
+$ vim /etc/yum.repos.d/docker.repo
 
-          [dockerrepo]
-          name=Docker Repository
-          baseurl=https://yum.dockerproject.org/repo/main/centos/7/
-          enabled=1
-          gpgcheck=1
-          gpgkey=https://yum.dockerproject.org/gpg
+   [dockerrepo]
+   name=Docker Repository
+   baseurl=https://yum.dockerproject.org/repo/main/centos/7/
+   enabled=1
+   gpgcheck=1
+   gpgkey=https://yum.dockerproject.org/gpg
 
-   25  yum install -y docker-engine
-   26  yum install -y docker-compose
-   27  docker --version
+$ yum install -y docker-engine
+$ yum install -y docker-compose
+$ docker --version
 
+-------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------
+$ uname -a
+$ rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+$ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+$ yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
+$ yum --enablerepo=elrepo-kernel install kernel-ml
+$ uname -sr
+$ vim /etc/default/grub
 
-   28  uname -a
-   29  rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
-   30  rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
-   31  yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
-   32  yum --enablerepo=elrepo-kernel install kernel-ml
-   36  uname -sr
-   37  vim /etc/default/grub
+   GRUB_DEFAULT=0
+   GRUB_TIMEOUT=5
+   GRUB_DEFAULT=0
+   GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+   GRUB_DISABLE_SUBMENU=true
+   GRUB_TERMINAL_OUTPUT="console"
+   GRUB_CMDLINE_LINUX="rd.lvm.lv=centos/root rd.lvm.lv=centos/swap crashkernel=auto rhgb quiet"
+   GRUB_DISABLE_RECOVERY="true"
 
-          GRUB_DEFAULT=0
-          GRUB_TIMEOUT=5
-          GRUB_DEFAULT=0
-          GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
-          GRUB_DISABLE_SUBMENU=true
-          GRUB_TERMINAL_OUTPUT="console"
-          GRUB_CMDLINE_LINUX="rd.lvm.lv=centos/root rd.lvm.lv=centos/swap crashkernel=auto rhgb quiet"
-          GRUB_DISABLE_RECOVERY="true"
-
-
-   39  grub2-mkconfig -o /boot/grub2/grub.cfg
-   42  shutdown now -r
-   43  uname -sr
+$ grub2-mkconfig -o /boot/grub2/grub.cfg
+$ shutdown now -r
+$ uname -sr
 ```
