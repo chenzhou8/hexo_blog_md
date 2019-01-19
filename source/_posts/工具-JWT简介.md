@@ -105,7 +105,7 @@ https://your.awesome-app.com/make-friend/?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1Ni
 
 且慢，我们一定会有一些问题：
 
-## 问题
+### 问题
 > 签名的目的是什么？
 > Base64是一种编码，是可逆的，那么我的信息不就被暴露了吗？
 
@@ -120,6 +120,7 @@ https://your.awesome-app.com/make-friend/?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1Ni
 如果服务器应用对头部和载荷再次以同样方法签名之后发现，自己计算出来的签名和接受到的签名不一样，那么就说明这个Token的内容被别人动过的，我们应该拒绝这个Token，返回一个HTTP 401 Unauthorized响应。
 
 ### 信息会暴露？
+
 是的。
 
 所以，在JWT中，不应该在载荷里面加入任何敏感的数据。在上面的例子中，我们传输的是用户的User ID。这个值实际上不是什么敏感内容，一般情况下被知道也是安全的。
