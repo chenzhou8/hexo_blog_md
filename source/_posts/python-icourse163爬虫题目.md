@@ -10,11 +10,12 @@ description: Python网络爬虫与信息提取-网络爬虫之规则.
 ![tu](http://qiniucdn.timilong.com/1543736711372.jpg)
 
 ## 题目
+
 [1].下面哪个不是Python Requests库提供的方法？ <code>B. .push() </code>
 ```
-A. .get() 
-B. .push() 
-C. .post() 
+A. .get()
+B. .push()
+C. .post()
 D. .head()
 ```
 
