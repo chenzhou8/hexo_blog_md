@@ -9,8 +9,8 @@ cover_img: http://qiniucdn.timilong.com/1543288421433.jpg
 
 ![tu](http://qiniucdn.timilong.com/1543288421433.jpg)
 
-# 题目
-```
+## 题目
+```python
 给定两个字符串 s 和 t，判断它们是否是同构的。
 
 如果 s 中的字符可以被替换得到 t ，那么这两个字符串是同构的。
@@ -33,12 +33,12 @@ cover_img: http://qiniucdn.timilong.com/1543288421433.jpg
 你可以假设 s 和 t 具有相同的长度。
 ```
 
-# 解题
+## 解题
 ```
 用字典(hashMap), 将字符串s与字符串t简历映射关系
 ```
 
-```
+```python
 #! /usr/bin/python3
 # coding: utf-8
 
@@ -66,5 +66,4 @@ str_t = "ddeeff"
 
 result = is_isomorphic(str_s, str_t)
 print(check_str(result, str_s, str_t))
-
 ```
