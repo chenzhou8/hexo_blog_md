@@ -2,11 +2,12 @@ title: 个人介绍
 date: 2018-12-12 12:07:00
 ---
 
-<blockquote class="blockquote-center">
+<!--<blockquote class="blockquote-center">-->
 
 ![tupian](http://qiniucdn.timilong.com/95_99kb_face_lixiaolong.jpg)
 <!--http://qiniucdn.timilong.com/face1.jpg-->
-<b>联系方式</b>
+
+<p align="center"><b>联系方式</b></p>
 
 QQ: 810 424 083
 手机: 176 2307 6764
@@ -15,7 +16,7 @@ QQ: 810 424 083
 
 ---
 
-<b>个人信息</b>
+<p align="center"><b>个人信息</b></p>
 
 李小龙/男/1994.09
 本科(2013.09-2017.06)/西南民族大学软件工程系(2015.09-2016.09湖南大学软件工程系学习)
@@ -26,7 +27,7 @@ Github: [https://github.com/lxl0928](https://github.com/lxl0928)
 
 ---
 
-<b>技能清单</b>
+<p align="center"><b>技能清单</b></p>
 
 Web开发: Python2/Python3
 Web框架: Tornado/Flask/Django
@@ -41,34 +42,35 @@ RPC: Thrift/Grpc/Thriftpy
 
 ---
 
-<b>作品</b>
+<p align="center"><b>作品</b></p>
 
-团队作品: [witcoder.com](http://witcoder.com)  <code>ps: 负责后端RPC微服务开发, 提供数据服务、Web平台的API</code>
-公司作品1: [demo.easypdm.cn](http://demo.easypdm.cn)  <code>ps: 担任后端开发工程师, 承担后端开发、运维工作</code>
-公司作品2: [simright.com](https://www.simright.com)   <code>ps: 担任后端开发工程师, 承担整站的后端开发、运维工作</code>
-公司作品3: [ai.sensoro.com](https://ai.sensoro.com)   <code>ps: 担任后端开发工程师, 承担整站的api开发(暂未上线)</code>
-公司作品4: [Sensoro Ai Camera](https://www.sensoro.com/zh/intelligent.html)   <code>ps: 担任后端工程师，提供AI相关的算法服务</code>
+公司作品1: [demo.easypdm.cn](http://demo.easypdm.cn)  <code>ps: 担任后端开发工程师, 负责整站后端开发、运维工作</code>
+公司作品2: [simright.com](https://www.simright.com)   <code>ps: 担任后端开发工程师, 负责整站的后端开发、运维工作</code>
+公司作品3: [Sensoro Ai Camera](https://www.sensoro.com/zh/intelligent.html)   <code>ps: 担任后端工程师，负责器机学习平台架构以及自动化运维平台搭建</code>
+公司作品4: [ai.sensoro.com](https://ai-mocha.sensoro.com)   <code>ps: 担任后端开发工程师, 承担整站的后端开发，自动化运维平台搭建</code>
+团队作品1: [witcoder.com](http://witcoder.com)  <code>ps: 负责后端RPC微服务开发, 提供数据服务、Web平台的API</code>
+个人作品1: [Pypi包: timi-uuid](https://pypi.org/project/timi-uuid/) <code>模拟中心发号器。</code>
+
 <!--
-个人作品1: [smuer.cn](https://www.smuer.cn)  <code>ps: 独立开发(暂未上线)</code>
-个人作品2: [timilong.com](https://www.timilong.com)  <code>ps: 独立开发(暂未上线)</code>
-个人作品3: [91bati.com](https://www.91bati.com)  <code>ps: 独立开发(暂未上线)</code>
-个人作品4: [xj-mckinsey.com](https://www.xj-mckinsey.com)  <code>ps: 独立开发(暂未上线)</code>
+个人作品2: [smuer.cn](https://www.smuer.cn)  <code>ps: 独立开发(暂未上线)</code>
+个人作品3: [timilong.com](https://www.timilong.com)  <code>ps: 独立开发(暂未上线)</code>
+个人作品4: [91bati.com](https://www.91bati.com)  <code>ps: 独立开发(暂未上线)</code>
+个人作品5: [xj-mckinsey.com](https://www.xj-mckinsey.com)  <code>ps: 独立开发(暂未上线)</code>
 -->
-个人作品1: [Pypi包: timi-uuid](https://pypi.org/project/timi-uuid/) <code>独立开发，实现模拟中心发号器, 发放唯一不重复自增类uuid str, 支持timi-uuid str解析成相应的dict，获取此类uuid信息。</code>
 
 ---
 
-<b>兴趣、爱好</b>
+<p align="center"><b>兴趣、爱好</b></p>
 
 摄影: 入门，2018.06入手了一台EOS 800D单反 18-135mm镜头, 会用PS做后期
-看书: 每两周一本的纸质书籍的阅读量
+看书: 每月一本的纸质书籍的阅读量, 每两周一本的电子书阅读量
 社区: 掘金、极客时间、segmentfault、stackoverflow、知乎, 目前处于摄入大于输出的阶段
-游泳: 游泳是最大爱好, 泳池游1公里21分钟
+游泳: 游泳是最大爱好, 泳池游1公里21分钟左右
 烹饪: 周末有时间会在家里尝试新的菜肴, 川菜为主
 
 ---
 
-<b>竞赛、奖学金、荣誉称号</b>
+<p align="center"><b>竞赛、奖学金、荣誉称号</b></p>
 
 2015年中国大学生计算机设计大赛四川省一等奖
 2015年中国大学生计算机设计大赛国赛二等奖
@@ -78,4 +80,4 @@ RPC: Thrift/Grpc/Thriftpy
 
 ---
 
-</blockquote>
+<!--</blockquote>-->
