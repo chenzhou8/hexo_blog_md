@@ -26,6 +26,7 @@ description: python网络爬虫与信息提取
 ```
 
 ## 第1周 网络爬虫之规则
+
 ### Requests库入门
 ```python
 安装方法: pip install requests
@@ -154,7 +155,7 @@ Response对象的属性:
    response.text  # 正常显示
 ```
 
-#### Requests库认识
+### Requests库认识
 ```
 1. 理解Requests库的异常
     requests.ConnectionError: 网络链接错误异常，如DNS查询失败，拒绝链接等
@@ -295,7 +296,7 @@ Requests方法解析:
 
 ```
 
-#### 网络爬虫的"盗亦有道"
+### 网络爬虫的"盗亦有道"
 ```
 网络爬虫的限制:
 1. 来源审查: 判断User-Agent进行限制
@@ -317,7 +318,7 @@ Requests方法解析:
     约束性: Robots协议是建议性的但非约束性, 网络爬虫可以不遵守,但是有法律风险
 ```
 
-#### Requests库网络爬虫实战(5个实例)
+### Requests库网络爬虫实战(5个实例)
 1. 京东商品页面的爬取
 ```
 import requests
@@ -407,7 +408,7 @@ except Exception as err:
     print('获取ip地理位置失败: {err}'.format(err))
 ```
 
-#### 第1周测验:
+### 第1周测验:
 见icourse163-org-Python网络爬虫与信息提取-测验1.md
 
 
@@ -420,7 +421,7 @@ except Exception as err:
 5. 第2周测验: icourse163-org-Python网络爬虫与信息提取-测验2.md
 ```
 
-#### Beautiful Soup库
+### Beautiful Soup库
 ```
 1. 安装: pip install beautifulsoup4
 2. 导入: from bs4 import BeautifulSoup
@@ -477,7 +478,7 @@ except Exception as err:
     soup.a.pretify()
 ```
 
-#### 信息组织与提取方法
+### 信息组织与提取方法
 ```
 1. XML, JSON, YAML
     XML: Internet上的信息交互与传递 -> html
@@ -537,7 +538,7 @@ except Exception as err:
 
 ```
 
-#### 实战: 中国大学排名
+### 实战: 中国大学排名
 ``` CrawUnivRankingB.py
 import requests
 import bs4
@@ -587,3 +588,4 @@ main()
 4. 实例3: 股票数据定向爬虫
 5. 课程综合测验: 网络爬虫与信息提取(客观题)
 ```
+

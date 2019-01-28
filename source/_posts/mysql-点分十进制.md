@@ -1,7 +1,7 @@
 title: mysql-点分十进制
 date: 2017-02-19 14:37:12
-categories: MySQL
 tags: MySQL
+categories: MySQL
 description: 本文着重接受MySQL点分十进制的用法.
 cover_img: http://qiniucdn.timilong.com/1543736713943.jpg
 ---
@@ -46,3 +46,4 @@ mysql> select (192*256*256*256+168*256*256+10*256+10);
 +-----------------------------------------+
 1 row in set (0.00 sec)
 ```
+
