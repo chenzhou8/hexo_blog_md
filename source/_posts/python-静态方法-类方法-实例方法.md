@@ -1,15 +1,15 @@
 ---
 title: python-静态方法-类方法-实例方法
-cover_img: 'http://qiniucdn.timilong.com/'
+cover_img: http://qiniucdn.timilong.com/1544683266425.jpg
 date: 2019-02-11 18:00:25
-tags:
+tags: python
 feature_img:
-description:
-keywords:
-categories:
+description: Python 类方法、实例方法、静态方法.
+keywords: python
+categories: python
 ---
 
-![cover_img]()
+![cover_img](http://qiniucdn.timilong.com/1544683266425.jpg)
 
 
 ## 代码
