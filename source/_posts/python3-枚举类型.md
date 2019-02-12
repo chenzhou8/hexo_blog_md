@@ -41,35 +41,47 @@ class VIP1(Enum):
 
 
 # 获取枚举类型
-print(VIP['GREEN'])
+print(VIP['GREEN'])  # VIP.GREEN
 
 # 获取枚举的值
-print(VIP.YELLOW.value)
+print(VIP.YELLOW.value)  # 1
 
 # 获取枚举的名字
-print(VIP.YELLOW.name)
+print(VIP.YELLOW.name)  # YELLOW
 
 # 枚举类型的比较 不可进行大小比较，可进行等值比较和is身份比较
 result = VIP.GREEN == VIP.BLACK
-print(result)
+print(result)  # False
 
 # 进行is比较
 result = VIP.GREEN is VIP.GREEN
-print(result)
+print(result)  # True
 
 # 进行等值比较
 result = VIP.GREEN == VIP1.GREEN
-print(result)
+print(result)  # False
 
 # 使用数值访问枚举类型
 a = 1
-print(VIP(a))
+print(VIP(a))  # VIP.YELLOW
 
 # 枚举的遍历1
 for v in VIP:
     print(v)
 
+# VIP.YELLOW
+# VIP.GREEN
+# VIP.BLACK
+# VIP.RED
+
+
 # 枚举的遍历2
 for v in VIP.__members__:
     print(v)
+
+# YELLOW
+# GREEN
+# BLACK
+# RED
+
 ```
