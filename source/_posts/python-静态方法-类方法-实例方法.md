@@ -1,6 +1,6 @@
 ---
 title: python-静态方法-类方法-实例方法
-cover_img: http://qiniucdn.timilong.com/1544683266425.jpg
+cover_img: http://qiniucdn.timilong.com/1544683423450.jpg
 date: 2019-02-11 18:00:25
 tags: python
 feature_img:
@@ -9,8 +9,7 @@ keywords: python
 categories: python
 ---
 
-![cover_img](http://qiniucdn.timilong.com/1544683266425.jpg)
-
+![cover_img](http://qiniucdn.timilong.com/1544683423450.jpg)
 
 ## 代码
 
