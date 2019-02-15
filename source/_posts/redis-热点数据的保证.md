@@ -11,8 +11,6 @@ cover_img: http://qiniucdn.timilong.com/1543735294748.jpg
 
 ![tu](http://qiniucdn.timilong.com/1543735294748.jpg)
 
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
-
 ## MySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据？
 
 redis 内存数据集大小上升到一定大小的时候，就会施行数据淘汰策略。
@@ -31,4 +29,3 @@ no-enviction（驱逐）：禁止驱逐数据
 ```
 CONFIG SET maxmemory-policy volatile-lru      #淘汰有过时期的最近最好使用数据
 ```
-
