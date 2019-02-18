@@ -13,7 +13,7 @@ cover_img: http://qiniucdn.timilong.com/1543735251861.jpg
 awk是一个强大的文本分析工具，相对于grep的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。
 简单来说awk就是把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理。
 
-awk有3个不同版本: awk、nawk和gawk，未作特别说明，一般指gawk，gawk 是 AWK 的 GNU 版本。
+awk有3个不同版本: `awk`、`nawk`和`gawk`，未作特别说明，一般指`gawk`，`gawk` 是 AWK 的 GNU 版本。
 
 awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Kernighan 姓氏的首个字母。
 实际上 AWK 的确拥有自己的语言: AWK 程序设计语言， 三位创建者已将它正式定义为“样式扫描和处理语言”。
@@ -25,8 +25,6 @@ awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Ke
 ```
     awk '{pattern + action}' {filenames}
 ```
-
-
 
 ### 例子
 ```
@@ -52,3 +50,4 @@ root
 ## 参考教程
 
 [linux-awk常见用法](http://www.cnblogs.com/ggjucheng/archive/2013/01/13/2858470.html)
+
