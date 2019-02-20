@@ -29,6 +29,7 @@ $ source /etc/profile   # 让配置立即生效
 
 
 ## sshd 服务配置
+
 ```shell
 $ cd /etc/ssh  # 查看sshd_config中关于客户端活动状态的配置
 
@@ -53,4 +54,4 @@ $ diff sshd_config sshd_config.bak
 
 # 重新加载ssd配置，让配置生效
 $ service sshd reload
-
+```
