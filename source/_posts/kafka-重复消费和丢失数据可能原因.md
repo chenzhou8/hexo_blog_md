@@ -2,19 +2,18 @@
 title: kafka-重复消费和丢失数据可能原因
 date: 2018-09-14 17:43:39
 tags: Kafka
-cover_img: http://qiniucdn.timilong.com/1543387763929.png
 feature_img:
-description: Kafka重复消费和丢失数据研究
 keywords: kafka
 categories: Kafka
+description: Kafka重复消费和丢失数据研究
+cover_img: http://qiniucdn.timilong.com/1543387763929.png
 ---
 
 ![tu](http://qiniucdn.timilong.com/1543387763929.png)
 
-> 转载自: CSDN，[Kafka重复消费和丢失数据研究](https://blog.csdn.net/zollty/article/details/53958641)
+> 转载自: [CSDN: Kafka重复消费和丢失数据研究](https://blog.csdn.net/zollty/article/details/53958641)
 
 ## Kafka重复消费原因
-
 底层根本原因：<code>已经消费了数据，但是offset没提交。</code>
 
 ### 原因1：强行kill线程，导致消费后的数据，offset没有提交。

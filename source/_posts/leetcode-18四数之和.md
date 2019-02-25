@@ -9,7 +9,7 @@ description: 给定一个包含 n 个整数的数组 nums 和一个目标值 tar
 
 ![tu](http://qiniucdn.timilong.com/1543288400281.jpg)
 
-# 题目描述
+## 题目描述
 ```
 给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，
 使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
@@ -30,7 +30,7 @@ description: 给定一个包含 n 个整数的数组 nums 和一个目标值 tar
     ]
 ```
 
-# 解答
+## 解答
 ```python
 class Solution(object):
     def fourSum(self, num, target):
@@ -40,23 +40,24 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         numLen, res, d = len(num), set(), {}
-        if numLen < 4: 
+        if numLen < 4:
             return []
-        
+
         num.sort()
         for p in range(numLen):
-            for q in range(p+1, numLen): 
+            for q in range(p+1, numLen):
                 if num[p]+num[q] not in d:
                     d[num[p] + num[q]] = [(p,q)]
                 else:
                     d[num[p] + num[q]].append((p, q))
-                    
+
         for i in xrange(numLen):
             for j in xrange(i+1, numLen - 2):
                 T = target - num[i] - num[j]
                 if T in d:
                     for k in d[T]:
-                        if k[0] > j: 
+                        if k[0] > j:
                             res.add((num[i], num[j], num[k[0]], num[k[1]]))
         return [list(i) for i in res]
 ```
+

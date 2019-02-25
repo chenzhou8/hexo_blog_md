@@ -152,3 +152,4 @@ DNS解析过程-->/etc/hosts-->DNS
     HOSTNAME=名称
     NETWORKING={yes|no}：是否开启网络功能
     NETWORKING
+
