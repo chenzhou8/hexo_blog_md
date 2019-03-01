@@ -13,7 +13,8 @@ categories: Kafka
 
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
-## 更新方法--创建成功后，进入kafka-server进行kafka脚本命令进行更新
+## 更新方法
+> 创建成功后，进入kafka-server进行kafka脚本命令进行更新
 
 ### 查看某个topic的description内容
 ```
