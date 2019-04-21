@@ -2,14 +2,14 @@
 title: Unix-中的I/O模型
 cover_img: 'http://qiniucdn.timilong.com/1551520875527.jpg'
 date: 2019-04-21 16:53:15
-tags: unix
+tags: Unix
 feature_img:
-description: unix
-keywords: unix
-categories: Unix中的I/O模型的介绍。
+description: Unix中的I/O模型介绍。
+keywords: Unix
+categories: Unix
 ---
 
-![cover_img]('http://qiniucdn.timilong.com/1551520875527.jpg')
+![cover_img](http://qiniucdn.timilong.com/1551520875527.jpg)
 
 ## POSIX对同步、异步I/O的定义
 
