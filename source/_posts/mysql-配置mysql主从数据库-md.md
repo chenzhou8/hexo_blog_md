@@ -75,12 +75,12 @@ mysql -uroot -pmysql -h 127.0.0.1 --port=8306
 ```
 
 ### 冷备份
-1. 登录到MySQL主机，收集数据
+登录到MySQL主机，收集数据
 ```
 mysqldump -uroot -pmysql --all-databases --lock-all-tables > ~/master_db.sql
 ```
 
-2. 登录到MySQL从机，同步数据 
+登录到MySQL从机，同步数据 
 ```
 mysql -uroot -pmysql -h127.0.0.1 --port=8306 < ~/master_db.sql
 ```
