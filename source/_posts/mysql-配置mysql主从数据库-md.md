@@ -2,11 +2,11 @@
 title: mysql-配置mysql主从数据库.md
 cover_img: 'http://qiniucdn.timilong.com/1551520678591.jpg'
 date: 2019-04-22 10:23:48
-tags: mysql
+tags: MySQL
 feature_img:
 description: MySQL主从数据库配置.
-keywords: mysql
-categories: mysql
+keywords: MySQL
+categories: MySQL
 ---
 
 ![cover_img](http://qiniucdn.timilong.com/1551520678591.jpg)
