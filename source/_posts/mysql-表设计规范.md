@@ -2,11 +2,11 @@
 title: mysql-表设计规范
 cover_img: 'http://qiniucdn.timilong.com/1551520852529.jpg'
 date: 2019-03-03 23:37:14
-tags: mysql
+tags: MySQL
 feature_img:
 description: MySQL数据库表格设计规范
-keywords: mysql
-categories: mysql
+keywords: MySQL
+categories: MySQL
 ---
 
 ![cover_img](http://qiniucdn.timilong.com/1551520852529.jpg)
