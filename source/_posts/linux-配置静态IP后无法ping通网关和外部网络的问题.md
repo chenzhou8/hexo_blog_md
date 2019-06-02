@@ -1,6 +1,6 @@
 ---
 title: linux-配置静态IP后无法ping通网关和外部网络的问题
-cover_img: 'http://qiniucdn.timilong.com/1551520939891.jpg'
+cover_img: 'http://qiniucdn.timilong.com/1551520864412.jpg'
 date: 2019-05-16 18:21:01
 tags: Linux
 feature_img:
@@ -9,7 +9,7 @@ keywords: Linux
 categories: Linux
 ---
 
-![cover_img](http://qiniucdn.timilong.com/1551520939891.jpg)
+![cover_img](http://qiniucdn.timilong.com/1551520864412.jpg)
 
 ### centos7配置静态IP
 centos7安装成功后, 为了保证多个虚拟机的通讯, 需配置静态ip和统一网关, 只需要修改网卡(用ifconfig查看使用的网卡, 我的是ens33)的配置文件就行了。
