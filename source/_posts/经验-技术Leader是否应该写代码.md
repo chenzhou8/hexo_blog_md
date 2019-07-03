@@ -1,6 +1,6 @@
 ---
 title: 经验-技术Leader是否应该写代码
-cover_img: 'http://qiniucdn.timilong.com/1551521074199.jpg'
+cover_img: 'http://qiniucdn.timilong.com/1551520653250.jpg'
 date: 2019-07-01 15:34:12
 tags: 经验
 feature_img:
@@ -9,7 +9,7 @@ keywords: 经验
 categories: 经验
 ---
 
-![cover_img](http://qiniucdn.timilong.com/1551521074199.jpg)
+![cover_img](http://qiniucdn.timilong.com/1551520653250.jpg)
 
 ## 技术 Leader 是否应该写代码呢？
 这个问题特别容易被极端化。

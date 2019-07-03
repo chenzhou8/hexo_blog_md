@@ -1,6 +1,6 @@
 ---
 title: mysql-ACID特性实现原理
-cover_img: 'http://qiniucdn.timilong.com/'
+cover_img: 'http://qiniucdn.timilong.com/1551520948730.jpg'
 date: 2019-07-02 10:36:15
 tags: MySQL
 feature_img:
@@ -9,10 +9,8 @@ keywords: MySQL
 categories: MySQL
 ---
 
-![cover_img]()
+![cover_img](http://qiniucdn.timilong.com/1551520948730.jpg)
 
-> 转载自: 微信公众号，[架构师之路]()
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
 ## CID特性的实现原理
 事务是MySQL等关系型数据库区别于NoSQL的重要方面，是保证数据一致性的重要手段。
