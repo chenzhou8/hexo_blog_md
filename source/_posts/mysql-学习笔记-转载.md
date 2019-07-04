@@ -13,43 +13,62 @@ categories: MySQL
 
 > 转载自: 微信公众号，[知乎](https://zhuanlan.zhihu.com/p/71232689)
 
+### 启动MySQL
 ```
-/* 启动MySQL */
 net start mysql
+```
 
-/* 连接与断开服务器 */
+### 连接与断开服务器
+```
 mysql -h 地址 -P 端口 -u 用户名 -p 密码
+```
 
-/* 跳过权限验证登录MySQL */
+### 跳过权限验证登录MySQL
+```
 mysqld --skip-grant-tables
--- 修改root密码
-密码加密函数password()
-update mysql.user set password=password('root');
+```
+#### 修改root密码
 
+密码加密函数`password()`
+```
+update mysql.user set password=password('root');
+```
+
+```
 SHOW PROCESSLIST -- 显示哪些线程正在运行
 SHOW VARIABLES -- 
+```
 
-/* 数据库操作 */ ------------------
+### 数据库操作
+```
 -- 查看当前数据库
     select database();
+    
 -- 显示当前时间、用户名、数据库版本
     select now(), user(), version();
+    
 -- 创建库
     create database[ if not exists] 数据库名 数据库选项
+    
     数据库选项：
         CHARACTER SET charset_name
         COLLATE collation_name
+        
 -- 查看已有库
     show databases[ like 'pattern']
+    
 -- 查看当前库信息
     show create database 数据库名
+    
 -- 修改库的选项信息
     alter database 库名 选项信息
+    
 -- 删除库
-    drop database[ if exists] 数据库名
-        同时删除该数据库相关的目录及其目录内容
+    drop database[ if exists] 数据库名 (同时删除该数据库相关的目录及其目录内容)
+```
 
-/* 表的操作 */ ------------------
+### 表的操作
+```
 -- 创建表
     create [temporary] table[ if not exists] [库名.]表名 ( 表的结构定义 )[ 表选项]
         每个字段必须有数据类型
@@ -57,6 +76,7 @@ SHOW VARIABLES --
         temporary 临时表，会话结束时表自动消失
         对于字段的定义：
             字段名 数据类型 [NOT NULL | NULL] [DEFAULT default_value] [AUTO_INCREMENT] [UNIQUE [KEY] | [PRIMARY] KEY] [COMMENT 'string']
+            
 -- 表选项
     -- 字符集
         CHARSET = charset_name
@@ -78,13 +98,16 @@ SHOW VARIABLES --
         COMMENT = 'string'
     -- 分区选项
         PARTITION BY ... (详细见手册)
+        
 -- 查看所有表
     SHOW TABLES[ LIKE 'pattern']
     SHOW TABLES FROM 表名
+    
 -- 查看表机构
     SHOW CREATE TABLE 表名    （信息更详细）
     DESC 表名 / DESCRIBE 表名 / EXPLAIN 表名 / SHOW COLUMNS FROM 表名 [LIKE 'PATTERN']
     SHOW TABLE STATUS [FROM db_name] [LIKE 'pattern']
+    
 -- 修改表
     -- 修改表本身的选项
         ALTER TABLE 表名 表的选项
@@ -112,61 +135,81 @@ SHOW VARIABLES --
 
 -- 删除表
     DROP TABLE[ IF EXISTS] 表名 ...
+    
 -- 清空表数据
     TRUNCATE [TABLE] 表名
+    
 -- 复制表结构
     CREATE TABLE 表名 LIKE 要复制的表名
+    
 -- 复制表结构和数据
     CREATE TABLE 表名 [AS] SELECT * FROM 要复制的表名
+    
 -- 检查表是否有错误
     CHECK TABLE tbl_name [, tbl_name] ... [option] ...
+    
 -- 优化表
     OPTIMIZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
+    
 -- 修复表
     REPAIR [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ... [QUICK] [EXTENDED] [USE_FRM]
+    
 -- 分析表
     ANALYZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
+```
 
-
-
-/* 数据操作 */ ------------------
+### 数据操作
+```
 -- 增
     INSERT [INTO] 表名 [(字段列表)] VALUES (值列表)[, (值列表), ...]
         -- 如果要插入的值列表包含所有字段并且顺序一致，则可以省略字段列表。
         -- 可同时插入多条数据记录！
         REPLACE 与 INSERT 完全一样，可互换。
     INSERT [INTO] 表名 SET 字段名=值[, 字段名=值, ...]
+    
 -- 查
     SELECT 字段列表 FROM 表名[ 其他子句]
         -- 可来自多个表的多个字段
         -- 其他子句可以不使用
         -- 字段列表可以用*代替，表示所有字段
+        
 -- 删
     DELETE FROM 表名[ 删除条件子句]
         没有条件子句，则会删除全部
+        
 -- 改
     UPDATE 表名 SET 字段名=新值[, 字段名=新值] [更新条件]
+```
 
-/* 字符集编码 */ ------------------
+### 字符集编码
+```
 -- MySQL、数据库、表、字段均可设置编码
+
+
 -- 数据编码与客户端编码不需一致
 SHOW VARIABLES LIKE 'character_set_%'    -- 查看所有字符集编码项
     character_set_client        客户端向服务器发送数据时使用的编码
     character_set_results        服务器端将结果返回给客户端所使用的编码
     character_set_connection    连接层编码
+    
 SET 变量名 = 变量值
     set character_set_client = gbk;
     set character_set_results = gbk;
     set character_set_connection = gbk;
+    
 SET NAMES GBK;    -- 相当于完成以上三个设置
+
+
 -- 校对集
     校对集用以排序
     SHOW CHARACTER SET [LIKE 'pattern']/SHOW CHARSET [LIKE 'pattern']    查看所有字符集
     SHOW COLLATION [LIKE 'pattern']        查看所有校对集
     charset 字符集编码        设置字符集编码
     collate 校对集编码        设置校对集编码
+```
 
-/* 数据类型（列类型） */ ------------------
+### 数据类型（列类型）
+```
 1. 数值类型
 -- a. 整型 ----------
     类型            字节        范围（有符号位）
@@ -203,6 +246,7 @@ SET NAMES GBK;    -- 相当于完成以上三个设置
     保存一个精确的数值，不会发生数据的改变，不同于浮点数的四舍五入。
     将浮点数转换为字符串来保存，每9位数字保存为4个字节。
 
+
 2. 字符串类型
 -- a. char, varchar ----------
     char    定长字符串，速度快，但浪费空间
@@ -229,6 +273,7 @@ SET NAMES GBK;    -- 相当于完成以上三个设置
 -- c. binary, varbinary ----------
     类似于char和varchar，用于保存二进制字符串，也就是保存字节字符串而非字符字符串。
     char, varchar, text 对应 binary, varbinary, blob.
+
 
 3. 日期时间类型
     一般用整型保存时间戳，因为PHP可以很方便的将时间戳进行格式化。
@@ -258,6 +303,7 @@ year        “YYYY”
             YYYY
             YY
 
+
 4. 枚举和集合
 -- 枚举(enum) ----------
 enum(val1, val2, val3...)
@@ -273,8 +319,10 @@ set(val1, val2, val3...)
     insert into tab values ('男, 女');
     最多可以有64个不同的成员。以bigint存储，共8个字节。采取位运算的形式。
     当创建表时，SET成员值的尾部空格将自动被删除。
+```
 
-/* 选择类型 */
+### 选择类型
+```
 -- PHP角度
 1. 功能满足
 2. 存储空间尽量小，处理效率更高
@@ -291,11 +339,10 @@ set(val1, val2, val3...)
     2) MySQL函数转换(无符号整型，UNSIGNED)
         INET_ATON('127.0.0.1') 将IP转为整型
         INET_NTOA(2130706433) 将整型转为IP
-        
+```
 
-
-
-/* 列属性（列约束） */ ------------------
+### 列属性（列约束）
+```
 1. 主键
     - 能唯一标识记录的字段，可以作为主键。
     - 一个表只能有一个主键。
@@ -355,9 +402,10 @@ set(val1, val2, val3...)
     3. restrict，拒绝父表删除和更新。
 
     注意，外键只被InnoDB存储引擎所支持。其他引擎是不支持的。
+```
 
-
-/* 建表规范 */ ------------------
+### 建表规范
+```
     -- Normal Format, NF
         - 每个表保存一个实体信息
         - 每个具有一个ID字段作为主键
@@ -371,10 +419,10 @@ set(val1, val2, val3...)
         满足第二范式的前提下，不能出现传递依赖。
         某个字段依赖于主键，而有其他字段依赖于该字段。这就是传递依赖。
         将一个实体信息的数据放在一个表内实现。
+```
 
-
-/* select */ ------------------
-
+### select
+```
 select [all|distinct] select_expr from -> where -> group by [合计函数] -> having -> order by -> limit
 
 a. select_expr
@@ -439,9 +487,11 @@ g. limit 子句，限制结果数量子句
 h. distinct, all 选项
     distinct 去除重复记录
     默认为 all, 全部记录
+```
 
 
-/* UNION */ ------------------
+### UNION
+```
     将多个select查询的结果组合成一个结果集合。
     SELECT ... UNION [ALL|DISTINCT] SELECT ...
     默认 DISTINCT 方式，即所有返回的行都是唯一的
@@ -449,16 +499,19 @@ h. distinct, all 选项
     ORDER BY 排序时，需加上 LIMIT 进行结合。
     需要各select查询的字段数量一样。
     每个select查询的字段列表(数量、类型)应一致，因为结果中的字段名以第一条select语句为准。
+```
 
-
-/* 子查询 */ ------------------
-    - 子查询需用括号包裹。
+### 子查询
+> 子查询需用括号包裹。
+ 
+```  
 -- from型
     from后要求是一个表，必须给子查询结果取个别名。
     - 简化每个查询内的条件。
     - from型需将结果生成一个临时表格，可用以原表的锁定的释放。
     - 子查询返回一个表，表型子查询。
     select * from (select * from tb where id>0) as subfrom where id>1;
+    
 -- where型
     - 子查询返回一个值，标量子查询。
     - 不需要给子查询取别名。
@@ -481,10 +534,13 @@ h. distinct, all 选项
     = some()    相当于 in。any 是 some 的别名
     != some()    不等同于 not in，不等于其中某一个。
     all, some 可以配合其他运算符一起使用。
+``` 
 
 
-/* 连接查询(join) */ ------------------
-    将多个表的字段进行连接，可以指定连接条件。
+### 连接查询(join)
+> 将多个表的字段进行连接，可以指定连接条件。
+    
+```
 -- 内连接(inner join)
     - 默认就是内连接，可省略inner。
     - 只有数据存在时才能发送连接。即连接结果不能出现空行。
@@ -495,12 +551,14 @@ h. distinct, all 选项
     -- 交叉连接 cross join
         即，没有条件的内连接。
         select * from tb1 cross join tb2;
+        
 -- 外连接(outer join)
     - 如果数据不存在，也会出现在连接结果中。
     -- 左外连接 left join
         如果数据不存在，左表记录会出现，而右表为null填充
     -- 右外连接 right join
         如果数据不存在，右表记录会出现，而左表为null填充
+        
 -- 自然连接(natural join)
     自动判断连接条件完成连接。
     相当于省略了using，会自动查找相同字段名。
@@ -509,14 +567,18 @@ h. distinct, all 选项
     natural right join
 
 select info.id, info.name, info.stu_num, extra_info.hobby, extra_info.sex from info, extra_info where info.stu_num = extra_info.stu_id;
+```
 
-/* 导入导出 */ ------------------
+### 导入导出
+```
 select * into outfile 文件地址 [控制格式] from 表名;    -- 导出表数据
 load data [local] infile 文件地址 [replace|ignore] into table 表名 [控制格式];    -- 导入数据
     生成的数据默认的分隔符是制表符
     local未指定，则数据文件必须在服务器上
     replace 和 ignore 关键词控制对现有的唯一键记录的重复的处理
+    
 -- 控制格式
+
 fields    控制字段格式
 默认：fields terminated by '\t' enclosed by '' escaped by '\\'
     terminated by 'string'    -- 终止
@@ -527,13 +589,16 @@ fields    控制字段格式
         FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
         LINES TERMINATED BY '\n'
         FROM test_table;
+        
 lines    控制行格式
 默认：lines terminated by '\n'
     terminated by 'string'    -- 终止
-    
-/* insert */ ------------------
-select语句获得的数据可以用insert插入。
+```
 
+### insert
+> select语句获得的数据可以用insert插入。
+
+```
 可以省略对列的指定，要求 values () 括号内，提供给了按照列顺序出现的所有字段的值。
     或者使用set语法。
     insert into tbl_name set field=value,...；
@@ -551,8 +616,10 @@ select语句获得的数据可以用insert插入。
 
 可以指定在插入的值出现主键（或唯一索引）冲突时，更新其他非主键列的信息。
     insert into tbl_name values/set/select on duplicate key update 字段=值, …;
+```
 
-/* delete */ ------------------
+### delete
+```
 DELETE FROM tbl_name [WHERE where_definition] [ORDER BY ...] [LIMIT row_count]
 
 按照条件删除
@@ -563,8 +630,10 @@ DELETE FROM tbl_name [WHERE where_definition] [ORDER BY ...] [LIMIT row_count]
 
 支持多表删除，使用类似连接语法。
 delete from 需要删除数据多表1，表2 using 表连接操作 条件。
+```
 
-/* truncate */ ------------------
+### truncate
+```
 TRUNCATE [TABLE] tbl_name
 清空数据
 删除重建表
@@ -574,19 +643,24 @@ TRUNCATE [TABLE] tbl_name
 2，truncate 重置auto_increment的值。而delete不会
 3，truncate 不知道删除了几条，而delete知道。
 4，当被用于带分区的表时，truncate 会保留分区
+```
 
+### 备份与还原
+> 备份，将数据的结构与表内数据保存起来。
 
-/* 备份与还原 */ ------------------
-备份，将数据的结构与表内数据保存起来。
+```
 利用 mysqldump 指令完成。
 
 -- 导出
 1. 导出一张表
 　　mysqldump -u用户名 -p密码 库名 表名 > 文件名(D:/a.sql)
+
 2. 导出多张表
 　　mysqldump -u用户名 -p密码 库名 表1 表2 表3 > 文件名(D:/a.sql)
+
 3. 导出所有表
 　　mysqldump -u用户名 -p密码 库名 > 文件名(D:/a.sql)
+
 4. 导出一个库 
 　　mysqldump -u用户名 -p密码 -B 库名 > 文件名(D:/a.sql)
 
@@ -595,17 +669,22 @@ TRUNCATE [TABLE] tbl_name
 -- 导入
 1. 在登录mysql的情况下：
 　　source  备份文件
+
 2. 在不登录的情况下
 　　mysql -u用户名 -p密码 库名 < 备份文件
 
+```
 
-/* 视图 */ ------------------
-什么是视图：
-    视图是一个虚拟表，其内容由查询定义。同真实的表一样，视图包含一系列带有名称的列和行数据。但是，视图并不在数据库中以存储的数据值集形式存在。行和列数据来自由定义视图的查询所引用的表，并且在引用视图时动态生成。
-    视图具有表结构文件，但不存在数据文件。
-    对其中所引用的基础表来说，视图的作用类似于筛选。定义视图的筛选可以来自当前或其它数据库的一个或多个表，或者其它视图。通过视图进行查询没有任何限制，通过它们进行数据修改时的限制也很少。
-    视图是存储在数据库中的查询的sql语句，它主要出于两种原因：安全原因，视图可以隐藏一些数据，如：社会保险基金表，可以用视图只显示姓名，地址，而不显示社会保险号和工资数等，另一原因是可使复杂的查询易于理解和使用。
+### 视图
+> 什么是视图： 视图是一个虚拟表，其内容由查询定义。同真实的表一样，视图包含一系列带有名称的列和行数据。
+> 但是，视图并不在数据库中以存储的数据值集形式存在。行和列数据来自由定义视图的查询所引用的表，并且在引用视图时动态生成。 
+> 视图具有表结构文件，但不存在数据文件。
+> 对其中所引用的基础表来说，视图的作用类似于筛选。定义视图的筛选可以来自当前或其它数据库的一个或多个表，或者其它视图。
+> 通过视图进行查询没有任何限制，通过它们进行数据修改时的限制也很少。
+> 视图是存储在数据库中的查询的sql语句，它主要出于两种原因：安全原因，视图可以隐藏一些数据，
+> 如：社会保险基金表，可以用视图只显示姓名，地址，而不显示社会保险号和工资数等，另一原因是可使复杂的查询易于理解和使用。
 
+```
 -- 创建视图
 CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name [(column_list)] AS select_statement
     - 视图名必须唯一，同时不能与表重名。
@@ -635,16 +714,18 @@ CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name
     TEMPTABLE    临时表
         将视图执行完毕后，形成临时表，再做外层查询！
     UNDEFINED    未定义(默认)，指的是MySQL自主去选择相应的算法。
+```
 
 
+### 事务(transaction)
+> 事务是指逻辑上的一组操作，组成这组操作的各个单元，要不全成功要不全失败。 
 
-/* 事务(transaction) */ ------------------
-事务是指逻辑上的一组操作，组成这组操作的各个单元，要不全成功要不全失败。 
-    - 支持连续SQL的集体成功或集体撤销。
-    - 事务是数据库在数据晚自习方面的一个功能。
-    - 需要利用 InnoDB 或 BDB 存储引擎，对自动提交的特性支持完成。
-    - InnoDB被称为事务安全型引擎。
+- 支持连续SQL的集体成功或集体撤销。
+- 事务是数据库在数据晚自习方面的一个功能。
+- 需要利用 InnoDB 或 BDB 存储引擎，对自动提交的特性支持完成。
+- InnoDB被称为事务安全型引擎。
 
+```
 -- 事务开启
     START TRANSACTION; 或者 BEGIN;
     开启事务后，所有被执行的SQL语句均被认作当前事务内的SQL语句。
@@ -691,21 +772,24 @@ CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name
     - 也可以关闭自动提交来开启事务。但与START TRANSACTION不同的是，
         SET autocommit是永久改变服务器的设置，直到下次再次修改该设置。(针对当前连接)
         而START TRANSACTION记录开启前的状态，而一旦事务提交或回滚后就需要再次开启事务。(针对当前事务)
+```
 
+### 锁表
+> 表锁定只用于防止其它客户端进行不正当地读取和写入
+> MyISAM 支持表锁，InnoDB 支持行锁
 
-/* 锁表 */
-表锁定只用于防止其它客户端进行不正当地读取和写入
-MyISAM 支持表锁，InnoDB 支持行锁
+```
 -- 锁定
     LOCK TABLES tbl_name [AS alias]
 -- 解锁
     UNLOCK TABLES
+```
 
+### 触发器
+> 触发程序是与表有关的命名数据库对象，当该表出现特定事件时，将激活该对象
+> 监听：记录的增加、修改、删除。
 
-/* 触发器 */ ------------------
-    触发程序是与表有关的命名数据库对象，当该表出现特定事件时，将激活该对象
-    监听：记录的增加、修改、删除。
-
+```
 -- 创建触发器
 CREATE TRIGGER trigger_name trigger_time trigger_event ON tbl_name FOR EACH ROW trigger_stmt
     参数：
@@ -760,10 +844,11 @@ end
     如果有重复记录并更新，会触发 before insert, before update, after update;
     如果有重复记录但是没有发生更新，则触发 before insert, before update
 3. Replace 语法 如果有记录，则执行 before insert, before delete, after delete, after insert
+```
 
+### SQL编程
 
-/* SQL编程 */ ------------------
-
+```
 --// 局部变量 ----------
 -- 变量声明
     declare var_name[,...] type [default value] 
@@ -925,10 +1010,12 @@ OUT，表示输出型
 INOUT，表示混合型
 
 注意，没有返回值。
+```
 
+### 存储过程
+> 存储过程是一段可执行性代码的集合。相比函数，更偏向于业务逻辑。
 
-/* 存储过程 */ ------------------
-存储过程是一段可执行性代码的集合。相比函数，更偏向于业务逻辑。
+```
 调用：CALL 过程名
 -- 注意
 - 没有返回值。
@@ -945,10 +1032,12 @@ CREATE PROCEDURE 过程名 (参数列表)
 BEGIN
     过程体
 END
+```
 
+### 用户和权限管理
+> 用户信息表：mysql.user
 
-/* 用户和权限管理 */ ------------------
-用户信息表：mysql.user
+```
 -- 刷新权限
 FLUSH PRIVILEGES
 -- 增加用户
@@ -1016,9 +1105,10 @@ SUPER    -- 允许使用CHANGE MASTER, KILL, PURGE MASTER LOGS和SET GLOBAL语�
 UPDATE    -- 允许使用UPDATE
 USAGE    -- “无权限”的同义词
 GRANT OPTION    -- 允许授予权限
+```
 
-
-/* 表维护 */
+### 表维护
+```
 -- 分析和存储表的关键字分布
 ANALYZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE 表名 ...
 -- 检查一个或多个表是否有错误
@@ -1026,9 +1116,10 @@ CHECK TABLE tbl_name [, tbl_name] ... [option] ...
 option = {QUICK | FAST | MEDIUM | EXTENDED | CHANGED}
 -- 整理数据文件的碎片
 OPTIMIZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
+```
 
-
-/* 杂项 */ ------------------
+### 杂项
+```
 1. 可用反引号（`）为标识符（库名、表名、字段名、索引、别名）包裹，以避免与关键字重名！中文也可以作为标识符！
 2. 每个库目录存在一个保存当前数据库的选项文件db.opt。
 3. 注释：
@@ -1042,5 +1133,4 @@ OPTIMIZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
 5. CMD命令行内的语句结束符可以为 ";", "\G", "\g"，仅影响显示结果。其他地方还是用分号结束。delimiter 可修改当前对话的语句结束符。
 6. SQL对大小写不敏感
 7. 清除已有语句：\c
-
 ```
