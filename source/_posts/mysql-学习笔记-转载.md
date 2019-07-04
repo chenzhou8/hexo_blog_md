@@ -511,17 +511,13 @@ from后要求是一个表，必须给子查询结果取个别名。
   - from型需将结果生成一个临时表格，可用以原表的锁定的释放。
   - 子查询返回一个表，表型子查询。
 select * from (select * from tb where id>0) as subfrom where id>1;
-```
 
-``` 
 -- where型
   - 子查询返回一个值，标量子查询。
   - 不需要给子查询取别名。
   - where子查询内的表，不能直接用以更新。
   select * from tb where money = (select max(money) from tb);
-```
 
-``` 
 -- 列子查询
   如果子查询结果返回的是一列。
   使用 in 或 not in 完成查询
