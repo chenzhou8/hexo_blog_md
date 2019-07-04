@@ -27,7 +27,7 @@ mysql -h 地址 -P 端口 -u 用户名 -p 密码
 ```
 mysqld --skip-grant-tables
 ```
-#### 修改root密码
+### 修改root密码
 
 密码加密函数`password()`
 ```
