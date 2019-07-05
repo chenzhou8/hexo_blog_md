@@ -11,7 +11,6 @@ categories:
 
 ![cover_img]()
 
-> 转载自: 微信公众号，[架构师之路]()
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
+> 转载自: 知乎专栏，[动力节点Java教程视频库](https://zhuanlan.zhihu.com/p/63377684)
 
 
