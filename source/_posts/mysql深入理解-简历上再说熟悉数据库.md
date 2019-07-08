@@ -1,10 +1,10 @@
 ---
 title: mysql深入理解-简历上再说熟悉数据库
-cover_img: 'http://qiniucdn.timilong.com/1551520937256.jpg'
+cover_img: http://qiniucdn.timilong.com/1551520937256.jpg
 date: 2019-07-05 11:22:28
 tags: MySQL
-feature_img: 面试中常问的关于MySQL的面试题
-description: 
+feature_img: 
+description: 面试中常问的关于MySQL的面试题
 keywords: MySQL
 categories: MySQL
 ---
