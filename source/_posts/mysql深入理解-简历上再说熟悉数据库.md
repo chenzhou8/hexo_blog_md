@@ -255,6 +255,7 @@ order_no = '201912102322' 这条记录不存在的情况下，如果order_no 是
 ![011](http://qiniucdn.timilong.com/20190706_011.jpg)
 
 如果没有索引，则对扫描到的所有记录和间隙都加锁，如果不匹配行锁将会释放只剩下间隙锁。回忆一下上面讲的数据页的结果中又一个最大记录和最小记录，Infimum 和 Supremum Record，这两个记录在加间隙锁的时候就会用到。
+
 ![012](http://qiniucdn.timilong.com/20190706_012.png)
 
 
