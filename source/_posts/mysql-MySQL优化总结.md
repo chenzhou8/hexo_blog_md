@@ -2,16 +2,14 @@
 title: MySQL优化总结
 cover_img: 'http://qiniucdn.timilong.com/ChMkJlwhnwaIJ0Y-AAL4x4oByVsAAt-BwK3fvoAAvjf984.jpg'
 date: 2019-08-13 22:00:39
-tags:
+tags: MySQL
 feature_img:
-description:
-keywords:
-categories:
+description: MySQL优化的一些总结.
+keywords: MySQL
+categories: MySQL
 ---
 
-![cover_img]('http://qiniucdn.timilong.com/ChMkJlwhnwaIJ0Y-AAL4x4oByVsAAt-BwK3fvoAAvjf984.jpg')
-
-
+![cover_img](http://qiniucdn.timilong.com/ChMkJlwhnwaIJ0Y-AAL4x4oByVsAAt-BwK3fvoAAvjf984.jpg)
 
 ## 存储引擎的选择(MyISAM和Innodb)
 存储引擎：MySQL中的数据、索引以及其他对象是如何存储的，是一套文件系统的实现。
