@@ -88,6 +88,7 @@ if __name__ == "__main__":
 ```
 
 ## 高级多进程同步Server
+> 注意一定要关闭debug功能！！！否则：Cannot run in multiple processes: IOLoop instance
 ```python
 #coding:utf-8
  
