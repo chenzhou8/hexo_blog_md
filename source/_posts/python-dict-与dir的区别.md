@@ -128,6 +128,6 @@ print set(dir(a)) == set(a_dict + A_dict + object_dict)  # True
  
 ## 结论
 
-dir()函数会自动寻找一个对象的所有属性，包括__dict__中的属性。
+`dir()`函数会自动寻找一个对象的所有属性，包括`__dict__`中的属性。
 
-__dict__是dir()的子集，dir()包含__dict__中的属性。
+`__dict__`是`dir()`的子集，`dir()`包含`__dict__`中的属性。
