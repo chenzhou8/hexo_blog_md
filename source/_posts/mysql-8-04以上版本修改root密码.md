@@ -52,3 +52,17 @@ mysql -uroot -p123456
 ```
 mysqladmin -u用户名 -p旧密码 password 新密码 
 ```
+
+# 进入mysql_client修改密码
+```
+mysql> set password for root@localhost = password('root');
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+mysql> set password for root@'%' = password('root');
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> exit
+```
