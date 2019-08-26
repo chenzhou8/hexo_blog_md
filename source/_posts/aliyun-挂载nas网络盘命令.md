@@ -12,6 +12,6 @@ categories: 运维
 ![cover_img](http://qiniucdn.timilong.com/1551520931257.jpg)
 
 ## 命令如下
-```
+```python
 mount -t nfs -o vers=4 xxxxxx.nas.aliyuncs.com:/ /root/nas
 ```
