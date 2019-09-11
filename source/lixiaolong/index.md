@@ -1,9 +1,16 @@
 ---
 title: 写给自己
 date: 2019-09-01 10:00:00
-cover_img: http://qiniucdn.timilong.com/ChMkJlbKy1yIQUFmAIIDtePW2RYAALIpwHrt4MAggPN948.jpg
-description: To Myself
+description: 人生25载，奋然起笔，书写精彩华章!
 ---
+
+### 2019.09.10
+
+教师节
+1. 阿里巴巴集团董事局主席马云退休，阿里集团提出《新六脉神剑》作为公司文化愿景。
+2. 欢欢上线新的版本，加班到23:00过，零点到家，欢欢辛苦！
+
+
 
 
 
