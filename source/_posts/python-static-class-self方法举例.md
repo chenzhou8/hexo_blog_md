@@ -11,7 +11,6 @@ categories: Python
 
 ![cover_img](http://qiniucdn.timilong.com/ChMkJ1bKy1uIPW3MABfM2owFPrIAALIpwESAgYAF8zy703.jpg)
 
-> 转载自: 微信公众号，[架构师之路]()
 > 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
 ## 距离如下
