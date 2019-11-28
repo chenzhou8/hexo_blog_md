@@ -1,19 +1,18 @@
 ---
 title: Linux-服务器找大文件
-cover_img: 'http://qiniucdn.timilong.com/'
+cover_img: 'http://qiniucdn.timilong.com/ChMkJlbKy12IJ_pXAJZzzEwzzAAAALIpwLcLQ0AlnPk872.jpg'
 date: 2019-10-29 17:39:16
-tags:
+tags: Linux
 feature_img:
-description:
-keywords:
-categories:
+description: 通过系统命令，来查找最大文件列表
+keywords: Linux
+categories: Linux
 ---
 
-![cover_img]()
+![cover_img](http://qiniucdn.timilong.com/ChMkJlbKy12IJ_pXAJZzzEwzzAAAALIpwLcLQ0AlnPk872.jpg)
 
-> 转载自: 微信公众号，[架构师之路]()
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
 
+## 命令
 ```
 du -h --max-depth=1
 ```

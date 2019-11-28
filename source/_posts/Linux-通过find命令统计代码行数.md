@@ -1,18 +1,15 @@
 ---
 title: Linux-通过find命令统计代码行数
-cover_img: 'http://qiniucdn.timilong.com/'
+cover_img: 'http://qiniucdn.timilong.com/ChMkJ1bKy12ITWlmAG4KdpMDEKsAALIpwJtu1AAbgqO112.jpg'
 date: 2019-11-28 18:56:16
-tags:
+tags: Linux
 feature_img:
-description:
-keywords:
-categories:
+description: 通过Linux系统命令，统计代码行数
+keywords: Linux
+categories: Linux
 ---
 
-![cover_img]()
-
-> 转载自: 微信公众号，[架构师之路]()
-> 本文系原创, 转载请联系作者 [Timilong](http://blog.timilong.com/about)
+![cover_img](http://qiniucdn.timilong.com/ChMkJ1bKy12ITWlmAG4KdpMDEKsAALIpwJtu1AAbgqO112.jpg)
 
 ## 命令
 ```
